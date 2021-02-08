@@ -27,7 +27,8 @@ public class 判断数字与字母字符 {
      */
     public static boolean isAlphanumeric(char c) {
         // write your code here
-        return false;
+        boolean value = Character.isDigit(c) || Character.isLowerCase(c) || Character.isUpperCase(c);
+        return value;
     }
 
 }
