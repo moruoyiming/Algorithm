@@ -16,9 +16,9 @@ public class 比较字符串 {
 
     public static void main(String[] args) {
         String a = "ABCD";
-        String b = "ACD";
-        boolean value = compareStrings(a,b);
-        System.out.println("  "+value);
+        String b = "AABC";
+        boolean value = compareStrings(a, b);
+        System.out.println("  " + value);
     }
 
     /**
@@ -28,6 +28,22 @@ public class 比较字符串 {
      */
     public static boolean compareStrings(String A, String B) {
         // write your code here
-        return false;
+        char[] Aarray = A.toCharArray();
+        char[] Barray = B.toCharArray();
+        int nums = B.length();
+        for (int i = 0; i < B.length(); i++) {
+            for (int j = 0; j < A.length(); j++) {
+                if (Aarray[j] == Barray[i]) {
+                    Aarray[j] = 1;
+                    nums--;
+                    break;
+                }
+            }
+        }
+        if (nums == 0) {
+            return true;
+        } else {
+            return false;
+        }
     }
 }
