@@ -14,11 +14,21 @@ import java.util.Arrays;
  */
 public class 插入排序 {
 
-    public static void main(String[] args) {
-
+    public static void main(String[] args) throws Exception {
+        int[] arr = {3, 5, 2, 4, 3, 7, 32, 12};
+        System.out.println("排序前顺序是");
+        for (int x : arr) {
+            System.out.print(x + "  ");
+        }
+        arr = sort(arr);
+        System.out.println("");
+        System.out.println("排序后顺序是");
+        for (int x : arr) {
+            System.out.print(x + "  ");
+        }
     }
 
-    public int[] sort(int[] sourceArray) throws Exception {
+    public static int[] sort(int[] sourceArray) throws Exception {
         // 对 arr 进行拷贝，不改变参数内容
         int[] arr = Arrays.copyOf(sourceArray, sourceArray.length);
 

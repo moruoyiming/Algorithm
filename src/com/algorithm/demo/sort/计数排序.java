@@ -1,5 +1,7 @@
 package com.algorithm.demo.sort;
 
+import java.util.Arrays;
+
 /**
  * 计数排序的核心在于将输入的数据值转化为键存储在额外开辟的数组空间中。作为一种线性时间复杂度的排序，计数排序要求输入的数据必须是有确定范围的整数。
  * <p>
@@ -18,4 +20,95 @@ package com.algorithm.demo.sort;
  * （4）反向填充目标数组：将每个元素i放在新数组的第C(i)项，每放一个元素就将C(i)减去1
  */
 public class 计数排序 {
+
+    public static void main(String[] args) {
+        int[] arr = {3, 5, 2, 4, 3, 7, 32, 12};
+        System.out.println("排序前顺序是");
+        for (int x : arr) {
+            System.out.print(x + "  ");
+        }
+        try {
+            arr = sort(arr);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        System.out.println("");
+        System.out.println("排序后顺序是");
+        for (int x : arr) {
+            System.out.print(x + "  ");
+        }
+    }
+
+    public static int[] sort(int[] sourceArray) throws Exception {
+        // 对 arr 进行拷贝，不改变参数内容
+        int[] arr = Arrays.copyOf(sourceArray, sourceArray.length);
+
+        int maxDigit = getMaxDigit(arr);
+        return radixSort(arr, maxDigit);
+    }
+
+    /**
+     * 获取最高位数
+     */
+    private static int getMaxDigit(int[] arr) {
+        int maxValue = getMaxValue(arr);
+        return getNumLenght(maxValue);
+    }
+
+    private static int getMaxValue(int[] arr) {
+        int maxValue = arr[0];
+        for (int value : arr) {
+            if (maxValue < value) {
+                maxValue = value;
+            }
+        }
+        return maxValue;
+    }
+
+    protected static int getNumLenght(long num) {
+        if (num == 0) {
+            return 1;
+        }
+        int lenght = 0;
+        for (long temp = num; temp != 0; temp /= 10) {
+            lenght++;
+        }
+        return lenght;
+    }
+
+    private static int[] radixSort(int[] arr, int maxDigit) {
+        int mod = 10;
+        int dev = 1;
+
+        for (int i = 0; i < maxDigit; i++, dev *= 10, mod *= 10) {
+            // 考虑负数的情况，这里扩展一倍队列数，其中 [0-9]对应负数，[10-19]对应正数 (bucket + 10)
+            int[][] counter = new int[mod * 2][0];
+
+            for (int j = 0; j < arr.length; j++) {
+                int bucket = ((arr[j] % mod) / dev) + mod;
+                counter[bucket] = arrayAppend(counter[bucket], arr[j]);
+            }
+
+            int pos = 0;
+            for (int[] bucket : counter) {
+                for (int value : bucket) {
+                    arr[pos++] = value;
+                }
+            }
+        }
+
+        return arr;
+    }
+
+    /**
+     * 自动扩容，并保存数据
+     *
+     * @param arr
+     * @param value
+     */
+    private static int[] arrayAppend(int[] arr, int value) {
+        arr = Arrays.copyOf(arr, arr.length + 1);
+        arr[arr.length - 1] = value;
+        return arr;
+    }
 }

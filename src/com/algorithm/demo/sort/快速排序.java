@@ -1,5 +1,7 @@
 package com.algorithm.demo.sort;
 
+import java.util.Arrays;
+
 /**
  * 快速排序是由东尼·霍尔所发展的一种排序算法。在平均状况下，排序 n 个项目要 Ο(nlogn) 次比较。在最坏状况下则需要 Ο(n2) 次比较，但这种状况并不常见。事实上，快速排序通常明显比其他 Ο(nlogn) 算法更快，因为它的内部循环（inner loop）可以在大部分的架构上很有效率地被实现出来。
  * <p>
@@ -19,4 +21,58 @@ package com.algorithm.demo.sort;
  * 递归地（recursive）把小于基准值元素的子数列和大于基准值元素的子数列排序；
  */
 public class 快速排序 {
+
+    public static void main(String[] args) {
+        int[] arr = {3, 5, 2, 4, 3, 7, 32, 12};
+        System.out.println("排序前顺序是");
+        for (int x : arr) {
+            System.out.print(x + "  ");
+        }
+        try {
+            arr = sort(arr);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        System.out.println("");
+        System.out.println("排序后顺序是");
+        for (int x : arr) {
+            System.out.print(x + "  ");
+        }
+    }
+
+    public static int[] sort(int[] sourceArray) throws Exception {
+        // 对 arr 进行拷贝，不改变参数内容
+        int[] arr = Arrays.copyOf(sourceArray, sourceArray.length);
+
+        return quickSort(arr, 0, arr.length - 1);
+    }
+
+    private static int[] quickSort(int[] arr, int left, int right) {
+        if (left < right) {
+            int partitionIndex = partition(arr, left, right);
+            quickSort(arr, left, partitionIndex - 1);
+            quickSort(arr, partitionIndex + 1, right);
+        }
+        return arr;
+    }
+
+    private static int partition(int[] arr, int left, int right) {
+        // 设定基准值（pivot）
+        int pivot = left;
+        int index = pivot + 1;
+        for (int i = index; i <= right; i++) {
+            if (arr[i] < arr[pivot]) {
+                swap(arr, i, index);
+                index++;
+            }
+        }
+        swap(arr, pivot, index - 1);
+        return index - 1;
+    }
+
+    private static void swap(int[] arr, int i, int j) {
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+    }
 }

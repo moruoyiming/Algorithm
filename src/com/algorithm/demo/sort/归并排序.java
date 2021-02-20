@@ -1,5 +1,7 @@
 package com.algorithm.demo.sort;
 
+import java.util.Arrays;
+
 /**
  * 归并排序（Merge sort）是建立在归并操作上的一种有效的排序算法。该算法是采用分治法（Divide and Conquer）的一个非常典型的应用。
  * <p>
@@ -29,4 +31,65 @@ package com.algorithm.demo.sort;
  * 将另一序列剩下的所有元素直接复制到合并序列尾。
  */
 public class 归并排序 {
+
+    public static void main(String[] args) {
+        int[] arr = {3, 5, 2, 4, 3, 7, 32, 12};
+        System.out.println("排序前顺序是");
+        for (int x : arr) {
+            System.out.print(x + "  ");
+        }
+        try {
+            arr = sort(arr);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        System.out.println("");
+        System.out.println("排序后顺序是");
+        for (int x : arr) {
+            System.out.print(x + "  ");
+        }
+    }
+
+    public static int[] sort(int[] sourceArray) throws Exception {
+        // 对 arr 进行拷贝，不改变参数内容
+        int[] arr = Arrays.copyOf(sourceArray, sourceArray.length);
+
+        if (arr.length < 2) {
+            return arr;
+        }
+        int middle = (int) Math.floor(arr.length / 2);
+
+        int[] left = Arrays.copyOfRange(arr, 0, middle);
+        int[] right = Arrays.copyOfRange(arr, middle, arr.length);
+
+        return merge(sort(left), sort(right));
+    }
+
+    protected static int[] merge(int[] left, int[] right) {
+        int[] result = new int[left.length + right.length];
+        int i = 0;
+        while (left.length > 0 && right.length > 0) {
+            if (left[0] <= right[0]) {
+                result[i++] = left[0];
+                left = Arrays.copyOfRange(left, 1, left.length);
+            } else {
+                result[i++] = right[0];
+                right = Arrays.copyOfRange(right, 1, right.length);
+            }
+        }
+
+        while (left.length > 0) {
+            result[i++] = left[0];
+            left = Arrays.copyOfRange(left, 1, left.length);
+        }
+
+        while (right.length > 0) {
+            result[i++] = right[0];
+            right = Arrays.copyOfRange(right, 1, right.length);
+        }
+
+        return result;
+    }
+
+
 }
