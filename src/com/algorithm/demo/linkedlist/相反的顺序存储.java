@@ -38,6 +38,7 @@ public class 相反的顺序存储 {
             return null;
         }
         Stack<Integer> s = new Stack<Integer>();
+        s.size();
         while (head != null) {
             s.push(head.val);
             head = head.next;

@@ -28,7 +28,7 @@ public class 插入排序 {
             // 记录要插入的数据
             int tmp = arr[i];
 
-            // 从已经排序的序列最右边的开始比较，找到比其小的数
+            // 从已经排序的序列最右边的开始比较，找到比其小的数Stack
             int j = i;
             while (j > 0 && tmp < arr[j - 1]) {
                 arr[j] = arr[j - 1];

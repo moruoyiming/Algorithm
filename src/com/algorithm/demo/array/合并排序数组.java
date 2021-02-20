@@ -27,43 +27,33 @@ public class 合并排序数组 {
 
     public static void main(String[] args) {
         int[] a = {1, 2, 3};
-        int[] b = {4,5};
+        int[] b = {4, 5};
 //        int[] a = {2, 5, 8};
 //        int[] b = {3,6};
-        int[] size = mergeSortedArray(a, 3, b, 2);
-        System.out.println("\n排序:");
-        log(size);
+        mergeSortedArray(a, 3, b, 2);
     }
 
 
-    public static int[] mergeSortedArray(int[] nums1, int m, int[] nums2, int n) {
-//        int temp[] = new int[m + n];
-//        int i = 0, j = 0, k = 0;
-//        while (k < m + n) {
-//            if (i >= m || j < n && nums1[i] > nums2[j]) {
-//                temp[k] = nums2[j];
-//                j++;
-//            } else if (j >= n || i < m && nums1[i] <= nums2[j]) {
-//                temp[k] = nums1[i];
-//                i++;
-//            }
-//            k++;
-//        }
-        int[] temp = new int[m + n];
-        int i = 0, j = 0, k = 0;
-        while (k < m + n) {
-            if (i >= m || j < n && nums1[i] > nums2[j]) {
-                temp[k] = nums2[j];
-                log(temp);
-                j++;
-            } else if (j >= n || i < m && nums1[i] <= nums2[j]) {
-                temp[k] = nums1[i];
-                log2(temp);
-                i++;
+    public static void mergeSortedArray(int[] A, int m, int[] B, int n) {
+        int pa = 0, pb = 0;
+        int[] sorted = new int[m + n];
+        int cur;
+        while (pa < m || pb < n) {
+            if (pa == m) {
+                cur = B[pb++];
+            } else if (pb == n) {
+                cur = A[pa++];
+            } else if (A[pa] < B[pb]) {
+                cur = A[pa++];
+            } else {
+                cur = B[pb++];
             }
-            k++;
+            sorted[pa + pb - 1] = cur;
         }
-        return temp;
+        for (int i = 0; i != m + n; ++i) {
+            A[i] = sorted[i];
+        }
+
     }
 
 }
