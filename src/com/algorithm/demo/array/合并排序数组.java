@@ -1,7 +1,5 @@
 package com.algorithm.demo.array;
 
-import static com.algorithm.demo.LogUtils.log;
-import static com.algorithm.demo.LogUtils.log2;
 
 /**
  * 合并排序数组
@@ -53,7 +51,6 @@ public class 合并排序数组 {
         for (int i = 0; i != m + n; ++i) {
             A[i] = sorted[i];
         }
-
     }
 
 }
