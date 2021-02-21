@@ -1,4 +1,4 @@
-package com.algorithm.demo.array;
+package com.algorithm.demo.string;
 
 /**
  * 1283. 翻转字符串
