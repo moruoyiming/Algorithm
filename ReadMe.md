@@ -4,7 +4,7 @@
 ## 数据结构
 ### 集合
 
-- [三个数的最大乘积](com/algorithm/demo/array/三个数的最大乘积.java)
+- [三个数的最大乘积](src/com/algorithm/demo/array/三个数的最大乘积.java)
 - [不同的路径](source/cover.c)
 - [不同的路径2](source/cover.c)
 
