@@ -57,7 +57,7 @@
 
 - [冒泡排序](src/com/algorithm/demo/sort/冒泡排序.java)
 - [快速排序](src/com/algorithm/demo/sort/快速排序.java)
-- [选择排序](src/com/algorithm/demo/sort/选择排序.java))
+- [选择排序](src/com/algorithm/demo/sort/选择排序.java)
 - [快速排序](src/com/algorithm/demo/sort/快速排序.java)
 - [归并排序](src/com/algorithm/demo/sort/归并排序.java)
 - [计数排序](src/com/algorithm/demo/sort/计数排序.java)
