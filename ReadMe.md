@@ -36,6 +36,7 @@
 - [第三最大的数](src/com/algorithm/demo/array/第三最大的数.java)
 - [第二最大的数](src/com/algorithm/demo/array/第二最大的数.java)
 - [翻转数组](src/com/algorithm/demo/array/翻转数组.java)
+- [寻找最大值](src/com/algorithm/demo/array/寻找最大值.java)
 
 
 ### 链表
@@ -52,6 +53,24 @@
 - [链表划分](src/com/algorithm/demo/linkedlist/链表划分.java)
 - [链表插入排序](src/com/algorithm/demo/linkedlist/链表插入排序.java)
 - [链表求和](src/com/algorithm/demo/linkedlist/链表求和.java)
+
+### 树
+- [AVLTree](src/com/algorithm/demo/tree/AVLTree.java)
+- [HuffmanTree](src/com/algorithm/demo/tree/HuffmanTree.java)
+- [RBTree](src/com/algorithm/demo/tree/RBTree.java)
+
+
+### 字符串
+- [反转字符串中的单词](src/com/algorithm/demo/string/反转字符串中的单词.java)
+- [字符串去重](src/com/algorithm/demo/string/字符串去重.java)
+- [字符串反转](src/com/algorithm/demo/string/字符串反转.java)
+- [字符串查找](src/com/algorithm/demo/string/字符串查找.java)
+- [字符串置换](src/com/algorithm/demo/string/字符串置换.java)
+- [旋转字符串](src/com/algorithm/demo/string/旋转字符串.java)
+- [最长单词](src/com/algorithm/demo/string/最长单词.java)
+- [比较字符串](src/com/algorithm/demo/string/比较字符串.java)
+- [第一个只出现一次的字符](src/com/algorithm/demo/string/第一个只出现一次的字符.java)
+
 
 ### 十大排序
 
