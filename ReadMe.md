@@ -67,5 +67,5 @@
 - [桶排序](src/com/algorithm/demo/sort/桶排序.java)
 
 ### 搜索
-- [二分查找](src/com/algorithm/demo/sort/二分查找.java)
+- [二分查找](src/com/algorithm/demo/search/二分查找.java)
 
