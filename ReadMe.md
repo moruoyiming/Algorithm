@@ -1,94 +1,71 @@
 # Java 版 LeetCode刷题记录
 
 
-## 数据结构
+## 算法
 ### 集合
 
 - [三个数的最大乘积](src/com/algorithm/demo/array/三个数的最大乘积.java)
-- [不同的路径](source/cover.c)
-- [不同的路径2](source/cover.c)
+- [不同的路径](src/com/algorithm/demo/array/不同的路径.java)
+- [不同的路径2](src/com/algorithm/demo/array/不同的路径2.java)
+- [两个大数相加](src/com/algorithm/demo/array/两个大数相加.java)
+- [两个数组的交集](src/com/algorithm/demo/array/两个数组的交集.java)
+- [两数之和](src/com/algorithm/demo/array/两数之和.java)
+- [中位数](src/com/algorithm/demo/array/中位数.java)
+- [交换数组两个元素](src/com/algorithm/demo/array/交换数组两个元素.java)
+- [删除排序数组中的重复数字](src/com/algorithm/demo/array/删除排序数组中的重复数字.java)
+- [删除排序数组中的重复数字2](src/com/algorithm/demo/array/删除排序数组中的重复数字2.java)
+- [删除排序数组中的重复项](src/com/algorithm/demo/array/删除排序数组中的重复项.java)
+- [判断字符串是否没有重复字符](src/com/algorithm/demo/array/判断字符串是否没有重复字符.java)
+- [加一](src/com/algorithm/demo/array/加一.java)
+- [包含重复值](src/com/algorithm/demo/array/包含重复值.java)
+- [合并区间](src/com/algorithm/demo/array/合并区间.java)
+- [合并排序数组](src/com/algorithm/demo/array/合并排序数组.java)
+- [合并排序数组2](src/com/algorithm/demo/array/合并排序数组2.java)
+- [奇偶分割数组](src/com/algorithm/demo/array/奇偶分割数组.java)
+- [子数组和为K](src/com/algorithm/demo/array/子数组和为K.java)
+- [恢复旋转排序数组](src/com/algorithm/demo/array/恢复旋转排序数组.java)
+- [搜索插入位置](src/com/algorithm/demo/array/搜索插入位置.java)
+- [数组去重](src/com/algorithm/demo/array/数组去重.java)
+- [最大子数组](src/com/algorithm/demo/array/最大子数组.java)
+- [最小子数组](src/com/algorithm/demo/array/最小子数组.java)
+- [最长上升连续子序列](src/com/algorithm/demo/array/最长上升连续子序列.java)
+- [百钱买百鸡](src/com/algorithm/demo/array/百钱买百鸡.java)
+- [矩阵斜线上元素相同](src/com/algorithm/demo/array/矩阵斜线上元素相同.java)
+- [移动零](src/com/algorithm/demo/array/移动零.java)
+- [移除元素](src/com/algorithm/demo/array/移除元素.java)
+- [第三最大的数](src/com/algorithm/demo/array/第三最大的数.java)
+- [第二最大的数](src/com/algorithm/demo/array/第二最大的数.java)
+- [翻转数组](src/com/algorithm/demo/array/翻转数组.java)
+
 
 ### 链表
 
-- [单链表](source/list.c)
-- [页帧管理](source/frames.c)
-- [双向链表](source/dlist.c)
-- [循环链表](source/clist.c)
-- [第二次机会页面置换](source/page.c)
+- [LruLinkedList](src/com/algorithm/demo/linkedlist/LruLinkedList.java)
+- [删除排序链表中的重复元素](src/com/algorithm/demo/linkedlist/删除排序链表中的重复元素.java)
+- [删除链表中倒数第n个节点](src/com/algorithm/demo/linkedlist/删除链表中倒数第n个节点.java)
+- [删除链表中的元素](src/com/algorithm/demo/linkedlist/删除链表中的元素.java)
+- [合并两个排序链表](src/com/algorithm/demo/linkedlist/合并两个排序链表.java)
+- [在O1时间复杂度删除链表节点](src/com/algorithm/demo/linkedlist/在O1时间复杂度删除链表节点.java)
+- [在排序链表中插入一个节点](src/com/algorithm/demo/linkedlist/在排序链表中插入一个节点.java)
+- [相反的顺序存储](src/com/algorithm/demo/linkedlist/相反的顺序存储.java)
+- [翻转链表](src/com/algorithm/demo/linkedlist/翻转链表.java)
+- [链表划分](src/com/algorithm/demo/linkedlist/链表划分.java)
+- [链表插入排序](src/com/algorithm/demo/linkedlist/链表插入排序.java)
+- [链表求和](src/com/algorithm/demo/linkedlist/链表求和.java)
 
-### 栈和队列
+### 十大排序
 
-- [栈](source/stack.c)
-- [队列](source/queue.c)
-- [事件处理](source/events.c)
+- [冒泡排序](src/com/algorithm/demo/sort/冒泡排序.java)
+- [快速排序](src/com/algorithm/demo/sort/快速排序.java)
+- [选择排序](src/com/algorithm/demo/sort/选择排序.java))
+- [快速排序](src/com/algorithm/demo/sort/快速排序.java)
+- [归并排序](src/com/algorithm/demo/sort/归并排序.java)
+- [计数排序](src/com/algorithm/demo/sort/计数排序.java)
+- [希尔排序](src/com/algorithm/demo/sort/希尔排序.java)
+- [基数排序](src/com/algorithm/demo/sort/基数排序.java)
+- [堆排序](src/com/algorithm/demo/sort/堆排序.java)
+- [桶排序](src/com/algorithm/demo/sort/桶排序.java)
 
+### 搜索
+- [二分查找](src/com/algorithm/demo/sort/二分查找.java)
 
-### 哈希表
-
-- [链式哈希表](source/chtbl.c)
-- [符号表](source/lex.c)
-- [开地址哈希表](source/ohtbl.c)
-
-### 树
-
-- [二叉树](source/bitree.c)
-- [二叉树遍历](source/traverse.c)
-- [二叉搜索树](source/bistree.c)
-
-### 堆和优先队列
-
-- [堆](source/heap.c)
-- [优先队列](include/pqueue.h)
-- [包裹分拣](source/parcels.c)
-
-### 图
-
-- [图](source/graph.c)
-- [图的深度搜索](source/dfs.c)
-- [图的广度搜索](source/bfs.c)
-
-## 算法
-
-### 排序和搜索
-
-- [插入排序](source/issort.c)
-- [快速排序](source/qksort.c) 
-- [目录列表](source/directls.c)
-- [归并排序](source/mgsort.c)
-- [计数排序](source/ctsort.c)
-- [基数排序](source/rxsort.c)
-- [二分查找](source/bisearch.c)
-- [拼写检查器](source/spell.c)
-
-### 数值计算
-
-- [多项式插值法](source/interpol.c)
-- [最小二乘估计法](source/lsqe.c)
-- [方程求解](source/root.c)
-
-### 数据压缩
-
-- [位操作](source/bit.c)
-- [霍夫曼编码](source/huffman.c)
-- [网络传输优化](source/transfer.c)
-- [LZ77](source/lz77.c)
-
-### 数据加密
-
-- [DES算法](source/des.c)
-- [分组加密模式](source/cbc.c)
-- [RSA算法](source/rsa.c)
-
-### 图算法
-
-- [最小生成树](source/mst.c) 
-- [最短路径](source/shortest.c)
-- [最短距离路由](source/route.c)
-- [旅行商问题](source/tsp.c)
-
-### 几何算法
-
-- [测试线段是否相交](source/lint.c)
-- [凸包计算](source/cvxhull.c)
-- [球面弧长](source/arclen.c)
-- [地球上两点之间的近似距离](source/geodist.c)

@@ -1,4 +1,4 @@
-package com.algorithm.demo.array;
+package com.algorithm.demo.search;
 
 public class 二分查找 {
 
