@@ -1,11 +1,6 @@
 package com.algorithm.demo.array;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Set;
-import java.util.TreeSet;
+import java.util.*;
 
 import static com.algorithm.demo.LogUtils.log;
 
@@ -41,8 +36,20 @@ public class 数组去重 {
      * @return: return the unique array
      */
     public static int[] getUniqueArray(int[] arr) {
-        // write your code here
-
-        return arr;
+        //HashMap
+        Map isVisited = new HashMap();
+        //数组长度
+        int n = arr.length;
+        //答案数组
+        ArrayList<Integer>uniqueArray = new ArrayList<Integer>();
+        //遍历整个数组，通过isVisited这个Map判断这个数有没有出现过
+        //如果出现了则跳过，没有跳过，就把这个数压入答案数组
+        for(int i = 0; i < n; i++) {
+            if(!isVisited.containsKey(arr[i])) {
+                isVisited.put(arr[i], true);
+                uniqueArray.add(arr[i]);
+            }
+        }
+        return uniqueArray.stream().mapToInt(Integer::valueOf).toArray();
     }
 }
