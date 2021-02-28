@@ -38,6 +38,8 @@
 - [翻转数组](src/com/algorithm/demo/array/翻转数组.java)
 - [寻找最大值](src/com/algorithm/demo/array/寻找最大值.java)
 - [交叉数组](src/com/algorithm/demo/array/交叉数组.java)
+- [最大连续1的个数](src/com/algorithm/demo/array/最大连续1的个数.java)
+
 
 ### 链表
 
