@@ -40,6 +40,7 @@
 - [交叉数组](src/com/algorithm/demo/array/交叉数组.java)
 - [最大连续1的个数](src/com/algorithm/demo/array/最大连续1的个数.java)
 - [最短无序数组](src/com/algorithm/demo/array/最短无序数组.java)
+- [数组划分I](src/com/algorithm/demo/array/数组划分I.java)
 
 
 ### 链表
