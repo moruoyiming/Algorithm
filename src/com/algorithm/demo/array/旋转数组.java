@@ -41,16 +41,20 @@ public class 旋转数组 {
      * @return: rotate the array to the right by k steps
      */
     public static int[] rotate(int[] nums, int k) {
-        // Write your code here
+        if (nums == null || nums.length == 0) {
+            return nums;
+        }
+        int length = nums.length;
+        if (k % length == 0) {
+            return nums;
+        }
         int[] temp = new int[nums.length];
-        int position =k;
-//        1, 2, 3, 4, 5, 6, 7
+        k %= length;
         for (int i = 0; i < nums.length; i++) {//3 5
             if (i < k) {
-                temp[i] = nums[nums.length - position];//2 6
-                position--;                            //1 7
+                temp[i] = nums[nums.length - k + i];//2 6
             } else {
-                temp[i] = nums[i-k];//2 6
+                temp[i] = nums[i - k];//2 6
             }
         }
         return temp;
