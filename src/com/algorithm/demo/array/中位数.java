@@ -1,7 +1,7 @@
 package com.algorithm.demo.array;
 
-import static com.algorithm.demo.LogUtils.log;
-import static com.algorithm.demo.LogUtils.log2;
+
+import com.algorithm.demo.PrintArray;
 
 /**
  * 80.中位数
@@ -78,11 +78,11 @@ public class 中位数 {
             temp = nums[i];
             while (pos >= 0 && temp < nums[pos]) {
                 nums[pos + 1] = nums[pos];
-                log(nums);
+                PrintArray.print(nums);
                 pos--;
             }
             nums[pos + 1] = temp;
-            log2(nums);
+            PrintArray.print(nums);
         }
         if (nums.length % 2 == 0) {
             return nums[nums.length / 2 - 1];

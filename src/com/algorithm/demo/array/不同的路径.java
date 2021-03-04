@@ -1,7 +1,7 @@
 package com.algorithm.demo.array;
 
-import static com.algorithm.demo.LogUtils.log;
-import static com.algorithm.demo.LogUtils.log2;
+
+import com.algorithm.demo.PrintArray;
 
 /**
  * 114. 不同的路径
@@ -54,9 +54,9 @@ public class 不同的路径 {
         for (int i = 0; i < m; i++) {
             for (int j = 1; j < n; j++) {
                 dp[j] = dp[j - 1] + dp[j];
-                log(dp);
+                PrintArray.print(dp);
             }
-            log2(dp);
+            PrintArray.print(dp);
         }
         return dp[n - 1];
     }

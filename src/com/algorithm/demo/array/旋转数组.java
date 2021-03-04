@@ -1,6 +1,6 @@
 package com.algorithm.demo.array;
 
-import com.algorithm.demo.LogUtils;
+import com.algorithm.demo.PrintArray;
 
 /**
  * 1334. 旋转数组
@@ -31,7 +31,7 @@ public class 旋转数组 {
     public static void main(String[] args) {
         int[] nums = new int[]{1, 2, 3, 4, 5, 6, 7};
         int[] temp = rotate(nums, 3);
-        LogUtils.log(temp);
+        PrintArray.print(temp);
 
     }
 

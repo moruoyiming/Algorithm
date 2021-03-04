@@ -1,7 +1,5 @@
 package com.algorithm.demo.array;
 
-import static com.algorithm.demo.LogUtils.log;
-
 import java.util.ArrayList;
 import java.util.List;
 

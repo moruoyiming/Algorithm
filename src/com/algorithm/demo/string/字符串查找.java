@@ -1,7 +1,7 @@
 package com.algorithm.demo.string;
 
-import static com.algorithm.demo.LogUtils.log;
-import static jdk.nashorn.internal.runtime.regexp.joni.Config.log;
+
+import com.algorithm.demo.PrintArray;
 
 /**
  * 13. 字符串查找
@@ -76,7 +76,7 @@ public class 字符串查找 {
 //            i=2  d != b  next[0] = -1  next[1] = -1; next[2] = -1;
             System.out.println(" i = "+i+" boolean = "+(s.charAt(i) == s.charAt(j + 1)));
             next[i] = j;// 将j（前缀的长度）赋给next[i]
-            log(next);
+            PrintArray.print(next);
         }
     }
 }

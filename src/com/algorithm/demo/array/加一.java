@@ -1,6 +1,7 @@
 package com.algorithm.demo.array;
 
-import static com.algorithm.demo.LogUtils.log;
+
+import com.algorithm.demo.PrintArray;
 
 /**
  * 407. 加一
@@ -28,7 +29,7 @@ public class 加一 {
 //        int[] nums = {1, 2, 3};
         int[] nums = {9, 9, 9};
         int[] values = plusOne(nums);
-        log(values);
+        PrintArray.print(values);
     }
 
     /**

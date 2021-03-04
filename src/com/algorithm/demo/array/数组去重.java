@@ -2,8 +2,6 @@ package com.algorithm.demo.array;
 
 import java.util.*;
 
-import static com.algorithm.demo.LogUtils.log;
-
 /**
  * 296. 数组去重
  * 给定一个长度为NN的整数数组arrarr，返回去掉重复元素之后的数组（去掉重复元素前后数组元素相对次序不变）

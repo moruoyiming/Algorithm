@@ -1,5 +1,7 @@
 package com.algorithm.demo.sort;
 
+import com.algorithm.demo.PrintArray;
+
 /**
  * 希尔排序，也称递减增量排序算法，是插入排序的一种更高效的改进版本。但希尔排序是非稳定排序算法。
  * <p>
@@ -20,33 +22,50 @@ public class 希尔排序 {
 
     public static void main(String[] args) {
         int[] arr = {3, 5, 2, 4, 3, 7, 32, 12};
-        System.out.println("排序前顺序是");
-        for (int x : arr) {
-            System.out.print(x + "  ");
-        }
-        arr = shellSort(arr);
-        System.out.println("");
-        System.out.println("排序后顺序是");
-        for (int x : arr) {
-            System.out.print(x + "  ");
-        }
+        PrintArray.printBefore(arr);
+        arr = shellSort2(arr);
+        PrintArray.printAfter(arr);
     }
 
     public static int[] shellSort(int[] arr) {
         int length = arr.length;
-        int temp;
+        //组内待排序的数据
+        int currentValue;
         for (int step = length / 2; step >= 1; step /= 2) {
             for (int i = step; i < length; i++) {
-                temp = arr[i];
-                int j = i - step;
-                while (j >= 0 && arr[j] > temp) {
-                    arr[j + step] = arr[j];
-                    j -= step;
+                currentValue = arr[i];
+                int currentIndex = i - step;
+                while (currentIndex >= 0 && arr[currentIndex] > currentValue) {
+                    arr[currentIndex + step] = arr[currentIndex];
+                    currentIndex -= step;
                 }
-                arr[j + step] = temp;
+                arr[currentIndex + step] = currentValue;
             }
         }
         return arr;
+    }
+
+    public static int[] shellSort2(int[] array) {
+        if (array.length == 0) {
+            return array;
+        }
+        int len = array.length;
+        int gap = len / 2;
+        //组内待排序的数据
+        int currentValue;
+        while (gap > 0) {
+            for (int i = gap; i < len; i++) {
+                currentValue = array[i];
+                int preIndex = i - gap;
+                while (preIndex >= 0 && array[preIndex] > currentValue) {
+                    array[preIndex + gap] = array[preIndex];
+                    preIndex-=gap;
+                }
+                array[preIndex + gap] = currentValue;
+            }
+            gap = gap / 2;
+        }
+        return array;
     }
 
 }

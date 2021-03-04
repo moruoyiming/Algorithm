@@ -1,5 +1,7 @@
 package com.algorithm.demo.sort;
 
+import com.algorithm.demo.PrintArray;
+
 import java.util.Arrays;
 
 /**
@@ -18,20 +20,13 @@ public class 基数排序 {
 
     public static void main(String[] args) {
         int[] arr = {3, 5, 2, 4, 3, 7, 32, 12};
-        System.out.println("排序前顺序是");
-        for (int x : arr) {
-            System.out.print(x + "  ");
-        }
+        PrintArray.printBefore(arr);
         try {
             arr = sort(arr);
         } catch (Exception e) {
             e.printStackTrace();
         }
-        System.out.println("");
-        System.out.println("排序后顺序是");
-        for (int x : arr) {
-            System.out.print(x + "  ");
-        }
+        PrintArray.printAfter(arr);
     }
 
 

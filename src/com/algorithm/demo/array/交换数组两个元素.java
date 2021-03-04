@@ -1,6 +1,7 @@
 package com.algorithm.demo.array;
 
-import static com.algorithm.demo.LogUtils.log;
+import com.algorithm.demo.PrintArray;
+
 
 /**
  * 484. 交换数组两个元素
@@ -38,6 +39,6 @@ public class 交换数组两个元素 {
         int temp = A[index1];
         A[index1] = A[index2];
         A[index2] = temp;
-        log(A);
+        PrintArray.print(A);
     }
 }

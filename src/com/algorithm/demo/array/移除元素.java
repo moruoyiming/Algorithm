@@ -1,7 +1,7 @@
 package com.algorithm.demo.array;
 
-import static com.algorithm.demo.LogUtils.log;
-import static com.algorithm.demo.LogUtils.log2;
+
+import com.algorithm.demo.PrintArray;
 
 /**
  * 172. 删除元素
@@ -49,7 +49,7 @@ public class 移除元素 {
                 i++;
             }
         }
-        log(A);
+        PrintArray.print(A);
         return i;
     }
 
@@ -72,9 +72,9 @@ public class 移除元素 {
             } else {
                 i++;
             }
-            log(A);
+            PrintArray.print(A);
         }
-        log2(A);
+        PrintArray.print(A);
         return i;
     }
 

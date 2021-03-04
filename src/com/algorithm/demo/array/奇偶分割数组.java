@@ -1,6 +1,7 @@
 package com.algorithm.demo.array;
 
-import static com.algorithm.demo.LogUtils.log;
+
+import com.algorithm.demo.PrintArray;
 
 /**
  * 373. 奇偶分割数组
@@ -50,7 +51,7 @@ public class 奇偶分割数组 {
                 nums[right] = nums[left] - nums[right];
                 nums[left] = nums[left] - nums[right];
             }
-            log(nums);
+            PrintArray.print(nums);
         }
 
     }

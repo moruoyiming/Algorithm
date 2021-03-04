@@ -12,6 +12,7 @@ public class 大小写转换 {
      */
     public char lowercaseToUppercase(char character) {
         // write your code here
+        return 'c';
     }
 
 }

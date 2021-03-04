@@ -1,6 +1,7 @@
 package com.algorithm.demo.array;
 
-import static com.algorithm.demo.LogUtils.log;
+
+import com.algorithm.demo.PrintArray;
 
 /**
  * 767. 翻转数组
@@ -37,7 +38,7 @@ public class 翻转数组 {
             left++;
             right--;
         }
-        log(nums);
+        PrintArray.print(nums);
 
     }
 

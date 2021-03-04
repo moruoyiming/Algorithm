@@ -1,6 +1,7 @@
 package com.algorithm.demo.array;
 
-import static com.algorithm.demo.LogUtils.log;
+
+import com.algorithm.demo.PrintArray;
 
 /**
  * 100.删除排序数组中的重复数字
@@ -43,7 +44,7 @@ public class 删除排序数组中的重复数字 {
                 nums[i] = nums[j];
             }
         }
-        log(nums);
+        PrintArray.print(nums);
         return i + 1;
 
     }

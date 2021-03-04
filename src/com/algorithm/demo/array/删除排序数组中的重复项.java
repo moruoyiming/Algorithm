@@ -1,6 +1,6 @@
 package com.algorithm.demo.array;
 
-import com.algorithm.demo.LogUtils;
+import com.algorithm.demo.PrintArray;
 
 
 /**
@@ -48,9 +48,9 @@ public class 删除排序数组中的重复项 {
                 System.out.println("xxxxxx");
                 for (int j = i; j < len; j++) {
                     System.out.println("yyyyyy");
-                    LogUtils.log(array);
+                    PrintArray.print(array);
                     array[j - 1] = array[j];
-                    LogUtils.log2(array);
+                    PrintArray.print(array);
                 }
                 len--;
             } else {
@@ -77,7 +77,7 @@ public class 删除排序数组中的重复项 {
                 array[count++] = array[i];
             }
         }
-        LogUtils.log(array);
+        PrintArray.print(array);
         return count;
     }
 

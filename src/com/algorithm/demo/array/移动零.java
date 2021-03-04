@@ -1,6 +1,6 @@
 package com.algorithm.demo.array;
 
-import static com.algorithm.demo.LogUtils.log;
+import com.algorithm.demo.PrintArray;
 
 /**
  * 539. 移动零
@@ -42,7 +42,7 @@ public class 移动零 {
         for (int i = count; i < nums.length; i++) {//数组后方补0
             nums[i] = 0;
         }
-        log(nums);
+        PrintArray.print(nums);
     }
 
 }

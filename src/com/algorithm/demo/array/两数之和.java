@@ -1,8 +1,9 @@
 package com.algorithm.demo.array;
 
+import com.algorithm.demo.PrintArray;
+
 import java.util.HashMap;
 
-import static com.algorithm.demo.LogUtils.log;
 
 /**
  * 56. 两数之和
@@ -30,7 +31,7 @@ public class 两数之和 {
 //        int[] data = {15, 2, 7, 11};
 
         int[] result = sum2(data, 9);
-        log(result);
+        PrintArray.print(result);
     }
 
     /**
