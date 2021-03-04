@@ -75,12 +75,12 @@
 ### 十大排序
 
 - [冒泡排序](src/com/algorithm/demo/sort/冒泡排序.java)
-- [快速排序](src/com/algorithm/demo/sort/快速排序.java)
 - [选择排序](src/com/algorithm/demo/sort/选择排序.java)
+- [插入排序](src/com/algorithm/demo/sort/插入排序.java)
+- [希尔排序](src/com/algorithm/demo/sort/希尔排序.java)
 - [快速排序](src/com/algorithm/demo/sort/快速排序.java)
 - [归并排序](src/com/algorithm/demo/sort/归并排序.java)
 - [计数排序](src/com/algorithm/demo/sort/计数排序.java)
-- [希尔排序](src/com/algorithm/demo/sort/希尔排序.java)
 - [基数排序](src/com/algorithm/demo/sort/基数排序.java)
 - [堆排序](src/com/algorithm/demo/sort/堆排序.java)
 - [桶排序](src/com/algorithm/demo/sort/桶排序.java)
