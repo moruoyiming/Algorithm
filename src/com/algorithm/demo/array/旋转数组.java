@@ -50,11 +50,11 @@ public class 旋转数组 {
         }
         int[] temp = new int[nums.length];
         k %= length;
-        for (int i = 0; i < nums.length; i++) {//3 5
+        for (int i = 0; i < nums.length; i++) {
             if (i < k) {
-                temp[i] = nums[nums.length - k + i];//2 6
+                temp[i] = nums[nums.length - k + i];
             } else {
-                temp[i] = nums[i - k];//2 6
+                temp[i] = nums[i - k];
             }
         }
         return temp;

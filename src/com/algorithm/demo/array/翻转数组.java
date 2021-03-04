@@ -18,9 +18,8 @@ import com.algorithm.demo.PrintArray;
 public class 翻转数组 {
 
     public static void main(String[] args) {
-
-        int[] nums = {1, 2, 5};
-        reverseArray(nums);
+        PrintArray.printBefore(PrintArray.SRC);
+        reverseArray(PrintArray.SRC);
     }
 
     /**
@@ -38,7 +37,7 @@ public class 翻转数组 {
             left++;
             right--;
         }
-        PrintArray.print(nums);
+        PrintArray.printAfter(nums);
 
     }
 

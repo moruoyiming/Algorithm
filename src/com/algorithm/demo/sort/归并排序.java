@@ -54,7 +54,7 @@ public class 归并排序 {
         }
         int middle = (int) Math.floor(arr.length / 2);
 
-        int[] left = Arrays.copyOfRange(arr, 0, middle);
+        int[] left = Arrays.copyOfRange(arr, 0, middle);//排除middle元素
         int[] right = Arrays.copyOfRange(arr, middle, arr.length);
 
         return merge(sort(left), sort(right));

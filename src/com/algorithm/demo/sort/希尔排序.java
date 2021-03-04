@@ -50,6 +50,7 @@ public class 希尔排序 {
             return array;
         }
         int len = array.length;
+        //增量序列
         int gap = len / 2;
         //组内待排序的数据
         int currentValue;
