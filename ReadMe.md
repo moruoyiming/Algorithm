@@ -37,7 +37,11 @@
 - [第二最大的数](src/com/algorithm/demo/array/第二最大的数.java)
 - [翻转数组](src/com/algorithm/demo/array/翻转数组.java)
 - [寻找最大值](src/com/algorithm/demo/array/寻找最大值.java)
-
+- [交叉数组](src/com/algorithm/demo/array/交叉数组.java)
+- [最大连续1的个数](src/com/algorithm/demo/array/最大连续1的个数.java)
+- [最短无序数组](src/com/algorithm/demo/array/最短无序数组.java)
+- [数组划分I](src/com/algorithm/demo/array/数组划分I.java)
+- [旋转数组](src/com/algorithm/demo/array/旋转数组.java)
 
 ### 链表
 
@@ -70,7 +74,7 @@
 - [最长单词](src/com/algorithm/demo/string/最长单词.java)
 - [比较字符串](src/com/algorithm/demo/string/比较字符串.java)
 - [第一个只出现一次的字符](src/com/algorithm/demo/string/第一个只出现一次的字符.java)
-
+- [字符串压缩](src/com/algorithm/demo/string/字符串压缩.java)
 
 ### 十大排序
 
