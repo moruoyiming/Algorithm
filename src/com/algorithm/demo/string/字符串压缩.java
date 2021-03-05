@@ -31,7 +31,29 @@ public class 字符串压缩 {
      * @return: a compressed string
      */
     public static String compress(String originalString) {
-        // write your code here
-        return null;
+        if (originalString == null || originalString.length() == 0) {
+            return originalString;
+        }
+        char[] arrays = originalString.toCharArray();
+        char temp = arrays[0];
+        int count = 1;
+        StringBuffer sb = new StringBuffer();
+        for (int i = 1; i < arrays.length; i++) {
+            if (temp == arrays[i]) {
+                count++;
+            } else {
+                sb.append(temp);
+                sb.append(count);
+                temp = arrays[i];
+                count = 1;
+            }
+        }
+        sb.append(temp);
+        sb.append(count);
+        //長度沒有優化的話返回原值
+        if (sb.length() >= originalString.length()) {
+            return originalString;
+        }
+        return sb.toString();
     }
 }

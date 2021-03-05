@@ -75,6 +75,7 @@
 - [比较字符串](src/com/algorithm/demo/string/比较字符串.java)
 - [第一个只出现一次的字符](src/com/algorithm/demo/string/第一个只出现一次的字符.java)
 - [字符串压缩](src/com/algorithm/demo/string/字符串压缩.java)
+- [大小写转换](src/com/algorithm/demo/string/大小写转换.java)
 
 ### 十大排序
 
