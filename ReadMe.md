@@ -95,4 +95,4 @@
 
 
 ### 线程
-- [顺序打印  A 1 B 2 C 3 ... Z 26](src/com/algorithm/demo/search/A1B2C3.java)
+- [顺序打印  A 1 B 2 C 3 ... Z 26](src/com/algorithm/demo/thread/A1B2C3.java)
