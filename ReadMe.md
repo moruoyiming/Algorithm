@@ -96,4 +96,10 @@
 
 ### 线程
 - [顺序打印  A 1 B 2 C 3 ... Z 26](src/com/algorithm/demo/thread/A1B2C3.java)
+- [两个线程交替打印输出a1b2c3d4](src/com/algorithm/demo/thread/两个线程交替打印输出a1b2c3d4.java)
+- [顺序打印字母A到Z](src/com/algorithm/demo/thread/顺序打印字母A到Z.java)
+- [顺序打印数字1到无穷大](src/com/algorithm/demo/thread/顺序打印数字1到无穷大.java)
 - [写两个线程，一个线程打印1-52，另一个线程打印字母A-Z。打印 顺序为12A34B56C……5152Z](src/com/algorithm/demo/thread/ThreadDemo.java)
+- [实现一个容器，提供两个方法add、size 写两个线程](src/com/algorithm/demo/thread/ThreadDemo2.java)
+- [10个窗口卖票](src/com/algorithm/demo/thread/TicketSeller.java)
+- [死锁测试](src/com/algorithm/demo/thread/LockTest.java)
