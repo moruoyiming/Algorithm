@@ -1,0 +1,17 @@
+Index: src/com/algorithm/demo/string/大小写转换.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.algorithm.demo.string;\r\n\r\npublic class 大小写转换 {\r\n\r\n    public static void main(String[] args) {\r\n\r\n    }\r\n\r\n    /**\r\n     * @param character: a character\r\n     * @return: a character\r\n     */\r\n    public char lowercaseToUppercase(char character) {\r\n        // write your code here\r\n    }\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/com/algorithm/demo/string/大小写转换.java	(revision fd37c1f3b5bdfbf3c3eafd1d0fb1097b4e865004)
++++ src/com/algorithm/demo/string/大小写转换.java	(date 1615988644631)
+@@ -12,6 +12,7 @@
+      */
+     public char lowercaseToUppercase(char character) {
+         // write your code here
++        return 's';
+     }
+ 
+ }
