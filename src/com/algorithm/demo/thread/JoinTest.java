@@ -11,7 +11,7 @@ public class JoinTest {
                 System.out.println("thread1 start");
                 try {
                     // 休眠一分钟，模拟耗时任务。
-//                    Thread.sleep(1000);
+                    Thread.sleep(1000);
                     thread2.join();
                 } catch (Exception e) {
                     e.printStackTrace();
@@ -28,8 +28,8 @@ public class JoinTest {
                 System.out.println("thread2 start");
                 try {
                     // 休眠一分钟，模拟耗时任务。
-//                    Thread.sleep(1000);
-//                    thread1.join();
+                    Thread.sleep(1000);
+                    thread1.join();
                 } catch (Exception e) {
                     e.printStackTrace();
                 }

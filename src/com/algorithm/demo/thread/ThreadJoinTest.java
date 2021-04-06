@@ -30,7 +30,6 @@ public class ThreadJoinTest {
                 // 线程释放锁对象'lock1'。
             }
         };
-		
         Thread thread2 = new Thread() {
             @Override
             public void run() {
