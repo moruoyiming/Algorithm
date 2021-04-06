@@ -106,6 +106,6 @@
 - [写出这段程序的最后输出结果，考察Thread中join方法与死锁](src/com/algorithm/demo/thread/ThreadJoinTest.java)
 - [死锁测试](src/com/algorithm/demo/thread/LockTest.java)
 - [线程池](src/com/algorithm/demo/thread/ExecutorsTest.java)
-- [Join方法测试](src/com/algorithm/demo/thread/JoinTest.java)
+- [现在有 T1、T2、T3 三个线程，你怎样保证 T2 在 T1 执行完后执行，T3 在 T2 执行完后执行?](src/com/algorithm/demo/thread/JoinTest.java)
 - [ThreadLocalTest](src/com/algorithm/demo/thread/ThreadLocalTest.java)
 - [BlockingQueueTest](src/com/algorithm/demo/thread/BlockingQueueTest.java)
