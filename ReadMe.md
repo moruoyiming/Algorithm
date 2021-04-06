@@ -109,3 +109,5 @@
 - [现在有 T1、T2、T3 三个线程，你怎样保证 T2 在 T1 执行完后执行，T3 在 T2 执行完后执行?](src/com/algorithm/demo/thread/JoinTest.java)
 - [ThreadLocalTest](src/com/algorithm/demo/thread/ThreadLocalTest.java)
 - [BlockingQueueTest](src/com/algorithm/demo/thread/BlockingQueueTest.java)
+- [ReadWriteTest](src/com/algorithm/demo/thread/ReadWriteTest.java)
+- [StampedTest](src/com/algorithm/demo/thread/StampedTest.java)
