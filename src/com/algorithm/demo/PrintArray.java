@@ -44,4 +44,19 @@ public class PrintArray {
         }
         System.out.println("");
     }
+
+    public static void printStringArrayAfter(String[] array){
+        System.out.println("排序后顺序是");
+        for(String i :array){
+            System.out.print(i+"  ");
+        }
+        System.out.println("");
+    }
+    public static void printStringArrayBefore(String[] array){
+        System.out.println("排序前顺序是");
+        for(String i :array){
+            System.out.print(i+"  ");
+        }
+        System.out.println("");
+    }
 }

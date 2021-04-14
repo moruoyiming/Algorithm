@@ -45,32 +45,20 @@ public class 旋转字符串 {
 
     public static void main(String[] args) {
         String str = "abcdefg"; // fgabcde
-//        rotateString(str.toCharArray(), 2);
-        String str2 = rotateString2(str.toCharArray(), 3);
-        str2.toCharArray();
-        System.out.println(" " + str2);
+        char[] what = rotateString(str.toCharArray(), 2);
+        for (int i = 0; i < what.length; i++) {
+            System.out.print(" " + what[i]);
+        }
     }
 
     /*
      * param A: A string
      * param offset: Rotate string with offset.
      * return: Rotated string.
-     */
-    public static String rotateString2(char[] A, int offset) {
-        StringBuilder sb = new StringBuilder();
-        for (int i = A.length - offset; i < A.length; i++) {
-            sb.append(A[i]);
-        }
-        for (int i = 0; i < A.length - offset; i++) {
-            sb.append(A[i]);
-        }
-        return sb.toString();
-    }
-
-    /*
-     * param A: A string
-     * param offset: Rotate string with offset.
-     * return: Rotated string.
+     * 三步反转
+     * 事件复杂度 O(n)
+     * 空间复杂度 O(1)
+     *
      */
     public static char[] rotateString(char[] A, int offset) {
         if (A == null || A.length == 0) {
@@ -92,11 +80,12 @@ public class 旋转字符串 {
         System.out.println("reverse " + " start=" + start + " end=" + end);
         while (start < end) {
             char temp = str[start];
-            str[start] = str[end];
-            str[end] = temp;
-            start++;
-            end--;
+            str[start++] = str[end];
+            str[end--] = temp;
         }
     }
+
+
+
 
 }
