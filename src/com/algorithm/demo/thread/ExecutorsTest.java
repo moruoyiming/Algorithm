@@ -1,6 +1,5 @@
 package com.algorithm.demo.thread;
 
-import com.sun.tools.javac.util.Abort;
 
 import java.util.concurrent.*;
 
@@ -20,13 +19,16 @@ public class ExecutorsTest {
      * @param args
      */
     public static void main(String[] args) {
-        ExecutorService ex = new ThreadPoolExecutor(3, 5, 5000, TimeUnit.MILLISECONDS, new LinkedBlockingQueue<Runnable>(10), new ThreadPoolExecutor.AbortPolicy() {
-            @Override
-            public void rejectedExecution(Runnable r, ThreadPoolExecutor e) {
-                super.rejectedExecution(r, e);
-                System.out.println("rejected Execution");
-            }
-        }
+        ExecutorService ex = new ThreadPoolExecutor(3, 5,
+                5000, TimeUnit.MILLISECONDS,
+                new LinkedBlockingQueue<Runnable>(10),
+                new ThreadPoolExecutor.AbortPolicy() {
+                    @Override
+                    public void rejectedExecution(Runnable r, ThreadPoolExecutor e) {
+                        super.rejectedExecution(r, e);
+                        System.out.println("rejected Execution");
+                    }
+                }
         );
 
 
