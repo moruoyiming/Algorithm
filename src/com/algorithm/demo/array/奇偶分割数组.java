@@ -39,16 +39,19 @@ public class 奇偶分割数组 {
         int right = nums.length - 1;
         while (left < right) {
             while (nums[left] % 2 == 1) {
-                System.out.println("xxxx"+nums[left]);
+                System.out.println("xxxx" + nums[left]);
                 left++;
             }
             while (nums[right] % 2 == 0) {
-                System.out.println("yyyy"+nums[right]);
+                System.out.println("yyyy" + nums[right]);
                 right--;
             }
             if (left < right) {
+                //9=4+5;
                 nums[left] = nums[left] + nums[right];
+                //4=9-5;
                 nums[right] = nums[left] - nums[right];
+                //5=9-4;
                 nums[left] = nums[left] - nums[right];
             }
             PrintArray.print(nums);
