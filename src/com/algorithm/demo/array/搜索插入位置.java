@@ -28,24 +28,24 @@ public class 搜索插入位置 {
     }
 
     /**
-     * @param A: an integer sorted array
+     * @param A:      an integer sorted array
      * @param target: an integer to be inserted
      * @return: An integer
      */
     public static int searchInsert(int[] A, int target) {
-        if(A == null) return 0;
-        int low = 0;
-        int high = A.length-1;
-        while(low <= high){
-            int mid = (low + high) / 2;
-            if(A[mid] == target)
+        if (A == null) return 0;
+        int left = 0;
+        int right = A.length - 1;
+        while (left <= right) {
+            int mid = (left + right) / 2;
+            if (A[mid] == target)
                 return mid;
-            else if(A[mid] < target)
-                low = mid + 1;
+            else if (A[mid] < target)
+                left = mid + 1;
             else
-                high = mid - 1;
+                right = mid - 1;
         }
-        return low;
+        return left;
     }
 
 }

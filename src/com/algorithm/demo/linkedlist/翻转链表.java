@@ -38,7 +38,6 @@ public class 翻转链表 {
      * @return: The new head of reversed linked list.
      */
     public static ListNode reverse(ListNode head) {
-        // write your code here
         ListNode pre = null;
         ListNode cur = null;
         while (head != null) {//1  2  3  4

@@ -31,8 +31,6 @@ public class 在O1时间复杂度删除链表节点 {
      * @return: nothing
      */
     public static ListNode deleteNode(ListNode head,ListNode tobeDelete) {
-        // write your code here
-
         if (head == null || tobeDelete == null){
             return null;
         }
@@ -50,8 +48,6 @@ public class 在O1时间复杂度删除链表节点 {
             cur.next = null;
         }
         return head;
-
-
     }
 
 }

@@ -26,12 +26,9 @@ public class 在排序链表中插入一个节点 {
      * @return: The head of new linked list.
      */
     public ListNode insertNode(ListNode head, int val) {
-        // write your code here
         ListNode sentinel = new ListNode(0);
         sentinel.next = head;
-
         ListNode pre = sentinel;
-
         while (pre != null) {
             ListNode curr = pre.next;
             if (curr != null && curr.val < val) {

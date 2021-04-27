@@ -49,12 +49,12 @@ public class 恢复旋转排序数组 {
             }
         }
         if (i != nums.size()) {
-            for (int j = 0; j <i; j++) {
+            for (int j = 0; j < i; j++) {
                 nums.add(nums.get(j));// 将4,5追加到数组后 4,5,1,2,3,4,5
             }
             nums.subList(0, i).clear();// 清除4,5  剩余 1,2,3,4,5
             for (int m = 0; m < nums.size(); m++) {
-                System.out.print(nums.get(m)+" ");
+                System.out.print(nums.get(m) + " ");
             }
 
         }

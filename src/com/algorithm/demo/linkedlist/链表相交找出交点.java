@@ -7,7 +7,6 @@ public class 链表相交找出交点 {
      * @return: a ListNode
      */
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
-
         if (headA == null || headB == null) {
             return null;
         }

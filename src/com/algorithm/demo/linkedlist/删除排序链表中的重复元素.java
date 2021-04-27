@@ -56,7 +56,6 @@ public class 删除排序链表中的重复元素 {
             head = head.next;
         }
         return head;
-
     }
 
 }

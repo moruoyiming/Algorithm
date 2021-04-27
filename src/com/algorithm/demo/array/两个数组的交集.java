@@ -16,7 +16,7 @@ public class 两个数组的交集 {
     }
 
     public static void method(int[] a, int[] b) {
-        Set<Integer> set = new HashSet<>();
+        HashSet<Integer> set = new HashSet<>();
         for (int i = 0; i < a.length; i++) {
             for (int j = 0; j < b.length; j++) {
                 if (a[i] == b[j]) {

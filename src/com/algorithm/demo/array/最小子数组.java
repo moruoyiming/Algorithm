@@ -20,7 +20,6 @@ public class 最小子数组 {
             } else {
                 currentsum += nums[i];
             }
-
             if (currentsum < greateminsum) {
                 greateminsum = currentsum;
             }

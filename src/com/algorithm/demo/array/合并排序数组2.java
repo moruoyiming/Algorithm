@@ -33,12 +33,10 @@ public class 合并排序数组2 {
             } else {
                 list[size++] = B[j++];
             }
-
         }
         while (i < A.length) {
             list[size++] = A[i++];
         }
-
         while (j < B.length) {
             list[size++] = B[j++];
         }

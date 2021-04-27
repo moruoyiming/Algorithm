@@ -34,7 +34,6 @@ public class 最大子数组 {
             System.out.println("第" + (i + 1) + "步：累加子数组和：" + currentsum + "，最大子数组和：" + greatsetsum);
         }
         return greatsetsum;
-
     }
 
     public static int FindGreatestSumOfSubArray(int[] array) {

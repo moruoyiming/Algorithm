@@ -32,7 +32,6 @@ public class 相反的顺序存储 {
      * @return: the array that store the values in reverse order
      */
     public List<Integer> reverseStore2(ListNode head) {
-        // write your code here
         List<Integer> ls = new ArrayList<Integer>();
         while (head == null) {
             return null;
@@ -48,7 +47,6 @@ public class 相反的顺序存储 {
             ls.add(tmp);
         }
         return ls;
-
     }
 
     /**
@@ -56,7 +54,6 @@ public class 相反的顺序存储 {
      * @return: the array that store the values in reverse order
      */
     public List<Integer> reverseStore(ListNode head) {
-        // write your code here
         List<Integer> integers = new ArrayList<>();
         List<Integer> temp = new ArrayList<>();
         ListNode curr = head;

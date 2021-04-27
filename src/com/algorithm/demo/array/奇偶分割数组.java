@@ -56,6 +56,5 @@ public class 奇偶分割数组 {
             }
             PrintArray.print(nums);
         }
-
     }
 }

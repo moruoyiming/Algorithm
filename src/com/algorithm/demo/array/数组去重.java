@@ -35,15 +35,15 @@ public class 数组去重 {
      */
     public static int[] getUniqueArray(int[] arr) {
         //HashMap
-        Map isVisited = new HashMap();
+        Map<Integer, Boolean> isVisited = new HashMap<>();
         //数组长度
         int n = arr.length;
         //答案数组
-        ArrayList<Integer>uniqueArray = new ArrayList<Integer>();
+        ArrayList<Integer> uniqueArray = new ArrayList<>();
         //遍历整个数组，通过isVisited这个Map判断这个数有没有出现过
         //如果出现了则跳过，没有跳过，就把这个数压入答案数组
-        for(int i = 0; i < n; i++) {
-            if(!isVisited.containsKey(arr[i])) {
+        for (int i = 0; i < n; i++) {
+            if (!isVisited.containsKey(arr[i])) {
                 isVisited.put(arr[i], true);
                 uniqueArray.add(arr[i]);
             }
