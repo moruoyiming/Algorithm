@@ -38,7 +38,6 @@ public class 字符串反转 {
      * @return: return a string
      */
     public static String reverseString(String string) {
-        // write your code here
         if (string == null || string.length() == 0) return string;
         int length = string.length();
         char[] temp = string.toCharArray();

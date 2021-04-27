@@ -64,14 +64,10 @@ public class 旋转字符串 {
         if (A == null || A.length == 0) {
             return A;
         }
-
         int len = A.length;
         offset %= len;
-        System.out.println(" len1=" + len + " offset=" + offset + " " + (len - offset - 1));
         reverse(A, 0, len - offset - 1);
-        System.out.println(" len2=" + len + " offset=" + offset + " (len - offset)" + (len - offset) + " (len - 1)" + (len - 1));
         reverse(A, len - offset, len - 1);
-        System.out.println(" len3=" + len + " offset=" + offset + " (len - 1)" + (len - 1));
         reverse(A, 0, len - 1);
         return A;
     }
