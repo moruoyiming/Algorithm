@@ -10,9 +10,8 @@ public class 判断链表是否有环 {
         if (head == null || head.next == null) {
             return false;
         }
-        ListNode fast, slow;
-        fast = head.next;
-        slow = head;
+        ListNode fast = head.next;
+        ListNode slow = head;
         while (fast != slow) {
             if(fast==null || fast.next==null)
                 return false;
