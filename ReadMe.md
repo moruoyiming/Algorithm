@@ -42,7 +42,8 @@
 - [最短无序数组](src/com/algorithm/demo/array/最短无序数组.java)
 - [数组划分I](src/com/algorithm/demo/array/数组划分I.java)
 - [旋转数组](src/com/algorithm/demo/array/旋转数组.java)
-
+- [搜索旋转排序数组](src/com/algorithm/demo/array/搜索旋转排序数组.java)
+  
 ### 链表
 
 - [LruLinkedList](src/com/algorithm/demo/linkedlist/LruLinkedList.java)
