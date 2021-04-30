@@ -57,6 +57,8 @@
 - [链表划分](src/com/algorithm/demo/linkedlist/链表划分.java)
 - [链表插入排序](src/com/algorithm/demo/linkedlist/链表插入排序.java)
 - [链表求和](src/com/algorithm/demo/linkedlist/链表求和.java)
+- [判断链表是否有环](src/com/algorithm/demo/linkedlist/判断链表是否有环.java)
+- [链表相交找出交点](src/com/algorithm/demo/linkedlist/链表相交找出交点.java)
 
 ### 树
 - [AVLTree](src/com/algorithm/demo/tree/AVLTree.java)
