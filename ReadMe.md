@@ -43,6 +43,8 @@
 - [数组划分I](src/com/algorithm/demo/array/数组划分I.java)
 - [旋转数组](src/com/algorithm/demo/array/旋转数组.java)
 - [搜索旋转排序数组](src/com/algorithm/demo/array/搜索旋转排序数组.java)
+- [反转整数](src/com/algorithm/demo/array/反转整数.java)
+- [尾部的零](src/com/algorithm/demo/array/尾部的零.java)
   
 ### 链表
 

@@ -1,0 +1,257 @@
+Index: 字符串_面试题.patch
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- 字符串_面试题.patch	(date 1620223624923)
++++ 字符串_面试题.patch	(date 1620223624923)
+@@ -0,0 +1,249 @@
++Index: src/com/algorithm/demo/array/第二最大的数.java
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++--- src/com/algorithm/demo/array/第二最大的数.java	(revision 09ef87e5cdba1ecb9b14b8516a64d017cb8cacc3)
+++++ src/com/algorithm/demo/array/第二最大的数.java	(revision 09ef87e5cdba1ecb9b14b8516a64d017cb8cacc3)
++@@ -1,41 +0,0 @@
++-package com.algorithm.demo.array;
++-
++-/**
++- * 479. 数组第二大数
++- * 在数组中找到第二大的数。
++- * <p>
++- * 样例
++- * 例1：
++- * <p>
++- * 输入：[1,3,2,4]
++- * 输出：3
++- * 例2：
++- * <p>
++- * 输入：[1,1,2,2]
++- * 输出：2
++- * 注意事项
++- * 你可以假定至少有两个数字。
++- * 第二大的数是指降序数组中第二个数字。
++- */
++-public class 第二最大的数 {
++-
++-    public static void main(String[] args) {
++-        int[] numbs = {1, 3, 2, 4};
++-        int value = secondMax(numbs);
++-        System.out.println(" " + value);
++-    }
++-
++-    /**
++-     * @param nums: An integer array
++-     * @return: The second max number in the array.
++-     */
++-    public static int secondMax(int[] nums) {
++-        // write your code here
++-       int sec_Max = nums[0];
++-        for (int i = 0; i < nums.length - 1; i++) {
++-
++-        }
++-        return sec_Max;
++-    }
++-
++-}
++Index: src/com/algorithm/demo/array/反转整数.java
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++--- src/com/algorithm/demo/array/反转整数.java	(date 0)
+++++ src/com/algorithm/demo/array/反转整数.java	(date 0)
++@@ -0,0 +1,47 @@
+++package com.algorithm.demo.array;
+++
+++/**
+++ * 给定一个 32 位有符号整数，将整数中的数字进行反转。
+++ * 示例 1:
+++ * <p>
+++ * 输入: 1234
+++ * 输出: 4321
+++ * 示例 2:
+++ * <p>
+++ * 输入: -123
+++ * 输出: -321
+++ * 示例 3:
+++ * <p>
+++ * 输入: 120
+++ * 输出: 21
+++ */
+++public class 反转整数 {
+++
+++    public static void main(String[] args) {
+++        int what = reverse(656334);
+++        System.out.println(" " + what);
+++    }
+++
+++    /**
+++     * 复杂度分析：
+++     * 时间复杂度：O(1)。
+++     * 空间复杂度：O(1)。
+++     *
+++     * @param x
+++     * @return
+++     */
+++    public static int reverse(int x) {
+++        int sum = 0;
+++        while (x != 0) {//656334
+++            int y = x % 10;
+++            if (sum < Integer.MIN_VALUE / 10 || sum > Integer.MAX_VALUE / 10) {
+++                return 0;
+++            }
+++            sum = y + sum * 10; // 4  3  3   6   5  6
+++            System.out.println(" sum= "+sum);
+++            x = x / 10;// 65633  6563  656  65  6
+++            System.out.println(" x= "+x);
+++        }
+++        return sum;
+++    }
+++}
++\ No newline at end of file
++Index: ReadMe.md
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++--- ReadMe.md	(revision 09ef87e5cdba1ecb9b14b8516a64d017cb8cacc3)
+++++ ReadMe.md	(date 1620223603105)
++@@ -43,6 +43,8 @@
++ - [数组划分I](src/com/algorithm/demo/array/数组划分I.java)
++ - [旋转数组](src/com/algorithm/demo/array/旋转数组.java)
++ - [搜索旋转排序数组](src/com/algorithm/demo/array/搜索旋转排序数组.java)
+++- [反转整数](src/com/algorithm/demo/array/反转整数.java)
+++
++   
++ ### 链表
++ 
++Index: src/com/algorithm/demo/string/字符串反转.java
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++--- src/com/algorithm/demo/string/字符串反转.java	(revision 09ef87e5cdba1ecb9b14b8516a64d017cb8cacc3)
+++++ src/com/algorithm/demo/string/字符串反转.java	(date 1620223603130)
++@@ -28,8 +28,8 @@
++  */
++ public class 字符串反转 {
++     public static void main(String[] args) {
++-        String before = "hello world";
++-        String after = reverseString2(before);
+++        String before = "helloworld";
+++        String after = reverseString3(before);
++         System.out.println(" " + after);
++     }
++ 
++@@ -42,7 +42,7 @@
++         int length = string.length();
++         char[] temp = string.toCharArray();
++         for (int i = 0; i < length; i++) {
++-            temp[i] = string.charAt(length-i-1);
+++            temp[i] = string.charAt(length - i - 1);
++         }
++         return new String(temp);
++     }
++@@ -56,10 +56,28 @@
++         if (string == null || string.length() == 0) return string;
++         int length = string.length();
++         char[] temp = string.toCharArray();
++-        for (int i = 0; i < length/2; i++) {
++-            temp[i] = string.charAt(length-i-1);
++-            temp[length-i-1] = string.charAt(i);
+++        for (int i = 0; i < length / 2; i++) {
+++            temp[i] = string.charAt(length - i - 1);
+++            temp[length - i - 1] = string.charAt(i);
++         }
++         return new String(temp);
++     }
+++
+++    /**
+++     * 递归，分而治之。
+++     * 时间复杂度：O(n)。
+++     * 空间复杂度：O(1)。
+++     * @param s
+++     * @return
+++     */
+++    public static String reverseString3(String s) {
+++        int length = s.length();
+++        if (length <= 1) {
+++            return s;
+++        }
+++        String left = s.substring(0, length / 2);
+++        String right = s.substring(length / 2, length);
+++        return reverseString3(right) + reverseString3(left);
+++
+++    }
++ }
++Index: src/com/algorithm/demo/array/第三最大的数.java
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++--- src/com/algorithm/demo/array/第三最大的数.java	(revision 09ef87e5cdba1ecb9b14b8516a64d017cb8cacc3)
+++++ src/com/algorithm/demo/array/第三最大的数.java	(date 1620223603129)
++@@ -57,5 +57,31 @@
++         return set.size() < 3 ? set.last() : set.first();
++     }
++ 
++-
+++    /**
+++     * @param nums: the array
+++     * @return: the third maximum number in this array
+++     */
+++    public int thirdMax2(int[] nums) {
+++        // Write your code here.
+++        long memory[] = {Long.MIN_VALUE, Long.MIN_VALUE, Long.MIN_VALUE};
+++        for (int i = 0; i < nums.length; ++i) {
+++            if (nums[i] == memory[0] || nums[i] == memory[1] || nums[i] == memory[2])
+++                continue;
+++            if (nums[i] > memory[2]) {
+++                memory[0] = memory[1];
+++                memory[1] = memory[2];
+++                memory[2] = nums[i];
+++            } else if (nums[i] > memory[1]) {
+++                memory[0] = memory[1];
+++                memory[1] = nums[i];
+++            } else if (nums[i] > memory[0]) {
+++                memory[0] = nums[i];
+++            }
+++        }
+++        for (int i = 0; i < memory.length; i++) {
+++            if (memory[i] == Long.MIN_VALUE)
+++                return (int) memory[2];
+++        }
+++        return (int) memory[0];
+++    }
++ }
++diff --git out/production/Algorithm/com/algorithm/demo/array/第二最大的数.class out/production/Algorithm/com/algorithm/demo/array/第二最大的数.class
++deleted file mode 100644
++index f7f6bb68ab09e524423a529dc1f2fe4437ec1ed3..0000000000000000000000000000000000000000
++GIT binary patch
++literal 0
++Hc$@<O00001
++
++diff --git out/production/Algorithm/com/algorithm/demo/string/字符串反转.class out/production/Algorithm/com/algorithm/demo/string/字符串反转.class
++index 914421e6bbcf17ea5ee8096d0617fe78d038d83c..914421e6bbcf17ea5ee8096d0617fe78d038d83c
++GIT binary patch
++literal 1491
++zc$|$?%Wl&^6g`ud)5L8deefuOv^<)mY0Vo-N_hk*g_I%{Dxt32#54vcjvN=no-JaD
++z#F7PU00D~>fk3QS@DZ#)u;2?=0B4*~XbFf!zB6;@&OPVcJNCP8FJ1%Ki|Gi~VmOSE
++z2-ZMr!%pl{usedFbncPkUTOA4upb8^=)gf~Mx{BVAS=f)1&0-k3xvkZis^FVPo`!C
++z0y(>A2z2Jnig9kSJa0G`^m&V(Sl%w^)~xQBa@}+W+>%)n7|IvyvZh-Lwqv@bvQ{+8
++zwpMc;v$CLle01m2!}}keKl^z5*5_9bvpiJR&5A&8axQ;Gzou)J&afFTI_pu;odqWC
++zYOzha^TuV{@%XgZ4eFO&!x3nAjBAEdGa4HLJCZG+S|t!BpGm^hnkPe+QCV<HQmRp|
++z3i#%7Oh4o5g{xC~)hmO7L4l4Hh`R+MGxnlWFix4WPTi}jFe0H<#Ly)WEg6<&C$8I$
++zRaB8izk(wwj^dcWy44JiFPc_S3KR(y$B|QU0w)!mQZa$kDz;-%#TlGck;jz4n$^c8
++z;yHoTe|Kv|j_LU;M!{W~_C}3m;oY$pxzW?8sA+5Gnam}op_gUP^lH_p6a|L=s|`(&
++zJQ#NEpB?N@w(M6|3q%2>DpwXSSx+m(S?{v5%Td?Pm2~Hr<LEco;bclSH&l==SFR^h
++zTnCeLxzsHB`Kqmj`~@In=V-gR(l`o^!SoWuQ%-#7p$&P?IC^Q-MgZ1fJ;yd|z{cib
++z3x58AftW8p^c?=FX9&DR@X``OF{O@hhEE-Bbwqw;j*$Sch366olU6?lJd{Ku6Z)`;
++zqn{CRY$i^aXj?e*5jnx=2J&O_k$FbbZxKn?5xq+VPvm5bMxFAH$NTP~ClgQi#fyPr
++z9qkuy`o)9qUtXf)Qf3LAPdpGwXfqVr6xw-tV;G{$41L2~W%y;%JaTD*ZQ#xTwt6&2
++zv5hfO%ph;=R+5r?JGk;8Nq;8-QSl8?p&%u`GDVwwGn(ArG`UawgL}}rhyLH$XS`WD
++zzO3Z^pGpQ;EZ`uOjFQ<Qa>}w~W7Kh&-Ymv(<To|jm(@%xtJ$}#X6N74Y-7NX*U!uk
++Dc7#RU
++

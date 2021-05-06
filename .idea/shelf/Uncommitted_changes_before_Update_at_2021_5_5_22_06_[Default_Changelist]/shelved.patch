@@ -1,0 +1,223 @@
+Index: ReadMe.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># Java 版 LintCode刷题记录\r\n\r\n\r\n## 算法\r\n### 集合\r\n\r\n- [三个数的最大乘积](src/com/algorithm/demo/array/三个数的最大乘积.java)\r\n- [不同的路径](src/com/algorithm/demo/array/不同的路径.java)\r\n- [不同的路径2](src/com/algorithm/demo/array/不同的路径2.java)\r\n- [两个大数相加](src/com/algorithm/demo/array/两个大数相加.java)\r\n- [两个数组的交集](src/com/algorithm/demo/array/两个数组的交集.java)\r\n- [两数之和](src/com/algorithm/demo/array/两数之和.java)\r\n- [中位数](src/com/algorithm/demo/array/中位数.java)\r\n- [交换数组两个元素](src/com/algorithm/demo/array/交换数组两个元素.java)\r\n- [删除排序数组中的重复数字](src/com/algorithm/demo/array/删除排序数组中的重复数字.java)\r\n- [删除排序数组中的重复数字2](src/com/algorithm/demo/array/删除排序数组中的重复数字2.java)\r\n- [删除排序数组中的重复项](src/com/algorithm/demo/array/删除排序数组中的重复项.java)\r\n- [判断字符串是否没有重复字符](src/com/algorithm/demo/array/判断字符串是否没有重复字符.java)\r\n- [加一](src/com/algorithm/demo/array/加一.java)\r\n- [包含重复值](src/com/algorithm/demo/array/包含重复值.java)\r\n- [合并区间](src/com/algorithm/demo/array/合并区间.java)\r\n- [合并排序数组](src/com/algorithm/demo/array/合并排序数组.java)\r\n- [合并排序数组2](src/com/algorithm/demo/array/合并排序数组2.java)\r\n- [奇偶分割数组](src/com/algorithm/demo/array/奇偶分割数组.java)\r\n- [子数组和为K](src/com/algorithm/demo/array/子数组和为K.java)\r\n- [恢复旋转排序数组](src/com/algorithm/demo/array/恢复旋转排序数组.java)\r\n- [搜索插入位置](src/com/algorithm/demo/array/搜索插入位置.java)\r\n- [数组去重](src/com/algorithm/demo/array/数组去重.java)\r\n- [最大子数组](src/com/algorithm/demo/array/最大子数组.java)\r\n- [最小子数组](src/com/algorithm/demo/array/最小子数组.java)\r\n- [最长上升连续子序列](src/com/algorithm/demo/array/最长上升连续子序列.java)\r\n- [百钱买百鸡](src/com/algorithm/demo/array/百钱买百鸡.java)\r\n- [矩阵斜线上元素相同](src/com/algorithm/demo/array/矩阵斜线上元素相同.java)\r\n- [移动零](src/com/algorithm/demo/array/移动零.java)\r\n- [移除元素](src/com/algorithm/demo/array/移除元素.java)\r\n- [第三最大的数](src/com/algorithm/demo/array/第三最大的数.java)\r\n- [第二最大的数](src/com/algorithm/demo/array/第二最大的数.java)\r\n- [翻转数组](src/com/algorithm/demo/array/翻转数组.java)\r\n- [寻找最大值](src/com/algorithm/demo/array/寻找最大值.java)\r\n- [交叉数组](src/com/algorithm/demo/array/交叉数组.java)\r\n- [最大连续1的个数](src/com/algorithm/demo/array/最大连续1的个数.java)\r\n- [最短无序数组](src/com/algorithm/demo/array/最短无序数组.java)\r\n- [数组划分I](src/com/algorithm/demo/array/数组划分I.java)\r\n- [旋转数组](src/com/algorithm/demo/array/旋转数组.java)\r\n- [搜索旋转排序数组](src/com/algorithm/demo/array/搜索旋转排序数组.java)\r\n  \r\n### 链表\r\n\r\n- [LruLinkedList](src/com/algorithm/demo/linkedlist/LruLinkedList.java)\r\n- [删除排序链表中的重复元素](src/com/algorithm/demo/linkedlist/删除排序链表中的重复元素.java)\r\n- [删除链表中倒数第n个节点](src/com/algorithm/demo/linkedlist/删除链表中倒数第n个节点.java)\r\n- [删除链表中的元素](src/com/algorithm/demo/linkedlist/删除链表中的元素.java)\r\n- [合并两个排序链表](src/com/algorithm/demo/linkedlist/合并两个排序链表.java)\r\n- [在O1时间复杂度删除链表节点](src/com/algorithm/demo/linkedlist/在O1时间复杂度删除链表节点.java)\r\n- [在排序链表中插入一个节点](src/com/algorithm/demo/linkedlist/在排序链表中插入一个节点.java)\r\n- [相反的顺序存储](src/com/algorithm/demo/linkedlist/相反的顺序存储.java)\r\n- [翻转链表](src/com/algorithm/demo/linkedlist/翻转链表.java)\r\n- [链表划分](src/com/algorithm/demo/linkedlist/链表划分.java)\r\n- [链表插入排序](src/com/algorithm/demo/linkedlist/链表插入排序.java)\r\n- [链表求和](src/com/algorithm/demo/linkedlist/链表求和.java)\r\n- [判断链表是否有环](src/com/algorithm/demo/linkedlist/判断链表是否有环.java)\r\n- [链表相交找出交点](src/com/algorithm/demo/linkedlist/链表相交找出交点.java)\r\n- [链表倒数第n个节点](src/com/algorithm/demo/linkedlist/链表倒数第n个节点.java)\r\n\r\n### 树\r\n- [AVLTree](src/com/algorithm/demo/tree/AVLTree.java)\r\n- [HuffmanTree](src/com/algorithm/demo/tree/HuffmanTree.java)\r\n- [RBTree](src/com/algorithm/demo/tree/RBTree.java)\r\n\r\n\r\n### 字符串\r\n- [反转字符串中的单词](src/com/algorithm/demo/string/反转字符串中的单词.java)\r\n- [字符串去重](src/com/algorithm/demo/string/字符串去重.java)\r\n- [字符串反转](src/com/algorithm/demo/string/字符串反转.java)\r\n- [字符串查找](src/com/algorithm/demo/string/字符串查找.java)\r\n- [字符串置换](src/com/algorithm/demo/string/字符串置换.java)\r\n- [旋转字符串](src/com/algorithm/demo/string/旋转字符串.java)\r\n- [最长单词](src/com/algorithm/demo/string/最长单词.java)\r\n- [比较字符串](src/com/algorithm/demo/string/比较字符串.java)\r\n- [第一个只出现一次的字符](src/com/algorithm/demo/string/第一个只出现一次的字符.java)\r\n- [字符串压缩](src/com/algorithm/demo/string/字符串压缩.java)\r\n- [大小写转换](src/com/algorithm/demo/string/大小写转换.java)\r\n\r\n### 十大排序\r\n\r\n- [冒泡排序](src/com/algorithm/demo/sort/冒泡排序.java)\r\n- [选择排序](src/com/algorithm/demo/sort/选择排序.java)\r\n- [插入排序](src/com/algorithm/demo/sort/插入排序.java)\r\n- [希尔排序](src/com/algorithm/demo/sort/希尔排序.java)\r\n- [归并排序](src/com/algorithm/demo/sort/归并排序.java)\r\n- [快速排序](src/com/algorithm/demo/sort/快速排序.java)\r\n- [计数排序](src/com/algorithm/demo/sort/计数排序.java)\r\n- [基数排序](src/com/algorithm/demo/sort/基数排序.java)\r\n- [堆排序](src/com/algorithm/demo/sort/堆排序.java)\r\n- [桶排序](src/com/algorithm/demo/sort/桶排序.java)\r\n\r\n### 搜索\r\n- [二分查找](src/com/algorithm/demo/search/二分查找.java)\r\n\r\n\r\n### 线程\r\n- [顺序打印  A 1 B 2 C 3 ... Z 26](src/com/algorithm/demo/thread/A1B2C3.java)\r\n- [两个线程交替打印输出a1b2c3d4](src/com/algorithm/demo/thread/两个线程交替打印输出a1b2c3d4.java)\r\n- [顺序打印字母A到Z](src/com/algorithm/demo/thread/顺序打印字母A到Z.java)\r\n- [顺序打印数字1到无穷大](src/com/algorithm/demo/thread/顺序打印数字1到无穷大.java)\r\n- [写两个线程，一个线程打印1-52，另一个线程打印字母A-Z。打印 顺序为12A34B56C……5152Z](src/com/algorithm/demo/thread/ThreadDemo.java)\r\n- [实现一个容器，提供两个方法add、size 写两个线程](src/com/algorithm/demo/thread/ThreadDemo2.java)\r\n- [10个窗口卖票](src/com/algorithm/demo/thread/TicketSeller.java)\r\n- [写一个固定容量同步器，拥有put和get方法，以及getCount方法，能够支持2个胜场这线程及10个消费者线程的阻塞调用](src/com/algorithm/demo/thread/CustomContainer.java)\r\n- [写出这段程序的最后输出结果，考察Thread中join方法与死锁](src/com/algorithm/demo/thread/ThreadJoinTest.java)\r\n- [死锁测试](src/com/algorithm/demo/thread/LockTest.java)\r\n- [线程池](src/com/algorithm/demo/thread/ExecutorsTest.java)\r\n- [现在有 T1、T2、T3 三个线程，你怎样保证 T2 在 T1 执行完后执行，T3 在 T2 执行完后执行?](src/com/algorithm/demo/thread/JoinTest.java)\r\n- [ThreadLocalTest](src/com/algorithm/demo/thread/ThreadLocalTest.java)\r\n- [BlockingQueueTest](src/com/algorithm/demo/thread/BlockingQueueTest.java)\r\n- [ReadWriteTest](src/com/algorithm/demo/thread/ReadWriteTest.java)\r\n- [StampedTest](src/com/algorithm/demo/thread/StampedTest.java)\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- ReadMe.md	(revision 09ef87e5cdba1ecb9b14b8516a64d017cb8cacc3)
++++ ReadMe.md	(date 1620223526712)
+@@ -43,6 +43,8 @@
+ - [数组划分I](src/com/algorithm/demo/array/数组划分I.java)
+ - [旋转数组](src/com/algorithm/demo/array/旋转数组.java)
+ - [搜索旋转排序数组](src/com/algorithm/demo/array/搜索旋转排序数组.java)
++- [反转整数](src/com/algorithm/demo/array/反转整数.java)
++
+   
+ ### 链表
+ 
+Index: src/com/algorithm/demo/array/第二最大的数.java
+===================================================================
+--- src/com/algorithm/demo/array/第二最大的数.java	(revision 09ef87e5cdba1ecb9b14b8516a64d017cb8cacc3)
++++ src/com/algorithm/demo/array/第二最大的数.java	(revision 09ef87e5cdba1ecb9b14b8516a64d017cb8cacc3)
+@@ -1,41 +0,0 @@
+-package com.algorithm.demo.array;
+-
+-/**
+- * 479. 数组第二大数
+- * 在数组中找到第二大的数。
+- * <p>
+- * 样例
+- * 例1：
+- * <p>
+- * 输入：[1,3,2,4]
+- * 输出：3
+- * 例2：
+- * <p>
+- * 输入：[1,1,2,2]
+- * 输出：2
+- * 注意事项
+- * 你可以假定至少有两个数字。
+- * 第二大的数是指降序数组中第二个数字。
+- */
+-public class 第二最大的数 {
+-
+-    public static void main(String[] args) {
+-        int[] numbs = {1, 3, 2, 4};
+-        int value = secondMax(numbs);
+-        System.out.println(" " + value);
+-    }
+-
+-    /**
+-     * @param nums: An integer array
+-     * @return: The second max number in the array.
+-     */
+-    public static int secondMax(int[] nums) {
+-        // write your code here
+-       int sec_Max = nums[0];
+-        for (int i = 0; i < nums.length - 1; i++) {
+-
+-        }
+-        return sec_Max;
+-    }
+-
+-}
+Index: src/com/algorithm/demo/array/反转整数.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/com/algorithm/demo/array/反转整数.java	(date 1620222641137)
++++ src/com/algorithm/demo/array/反转整数.java	(date 1620222641137)
+@@ -0,0 +1,47 @@
++package com.algorithm.demo.array;
++
++/**
++ * 给定一个 32 位有符号整数，将整数中的数字进行反转。
++ * 示例 1:
++ * <p>
++ * 输入: 1234
++ * 输出: 4321
++ * 示例 2:
++ * <p>
++ * 输入: -123
++ * 输出: -321
++ * 示例 3:
++ * <p>
++ * 输入: 120
++ * 输出: 21
++ */
++public class 反转整数 {
++
++    public static void main(String[] args) {
++        int what = reverse(656334);
++        System.out.println(" " + what);
++    }
++
++    /**
++     * 复杂度分析：
++     * 时间复杂度：O(1)。
++     * 空间复杂度：O(1)。
++     *
++     * @param x
++     * @return
++     */
++    public static int reverse(int x) {
++        int sum = 0;
++        while (x != 0) {//656334
++            int y = x % 10;
++            if (sum < Integer.MIN_VALUE / 10 || sum > Integer.MAX_VALUE / 10) {
++                return 0;
++            }
++            sum = y + sum * 10; // 4  3  3   6   5  6
++            System.out.println(" sum= "+sum);
++            x = x / 10;// 65633  6563  656  65  6
++            System.out.println(" x= "+x);
++        }
++        return sum;
++    }
++}
+\ No newline at end of file
+Index: src/com/algorithm/demo/string/字符串反转.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.algorithm.demo.string;\r\n\r\n/**\r\n * 1283. 翻转字符串\r\n * 写一个方法，接受给定字符串作为输入，返回将这个字符串逐个字符翻转后的新字符串。\r\n * <p>\r\n * 样例\r\n * 样例 1：\r\n * <p>\r\n * 输入：\"hello\"\r\n * 输出：\"olleh\"\r\n * 样例 2：\r\n * <p>\r\n * 输入：\"hello world\"\r\n * 输出：\"dlrow olleh\"\r\n * <p>\r\n * string:  Hello\r\n * length:  5\r\n * <p>\r\n * 0 1 2 3 4\r\n * before: H e l l o\r\n * after:  o l l e H\r\n * <p>\r\n * index             sum\r\n * 0: H--->o  0-->4  4\r\n * 1: e--->l  1-->3  4\r\n * 2: l--->l  2-->2  4\r\n */\r\npublic class 字符串反转 {\r\n    public static void main(String[] args) {\r\n        String before = \"hello world\";\r\n        String after = reverseString2(before);\r\n        System.out.println(\" \" + after);\r\n    }\r\n\r\n    /**\r\n     * @param string: a string\r\n     * @return: return a string\r\n     */\r\n    public static String reverseString(String string) {\r\n        if (string == null || string.length() == 0) return string;\r\n        int length = string.length();\r\n        char[] temp = string.toCharArray();\r\n        for (int i = 0; i < length; i++) {\r\n            temp[i] = string.charAt(length-i-1);\r\n        }\r\n        return new String(temp);\r\n    }\r\n\r\n    /**\r\n     * @param string: a string\r\n     * @return: return a string\r\n     */\r\n    public static String reverseString2(String string) {\r\n        // write your code here\r\n        if (string == null || string.length() == 0) return string;\r\n        int length = string.length();\r\n        char[] temp = string.toCharArray();\r\n        for (int i = 0; i < length/2; i++) {\r\n            temp[i] = string.charAt(length-i-1);\r\n            temp[length-i-1] = string.charAt(i);\r\n        }\r\n        return new String(temp);\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/com/algorithm/demo/string/字符串反转.java	(revision 09ef87e5cdba1ecb9b14b8516a64d017cb8cacc3)
++++ src/com/algorithm/demo/string/字符串反转.java	(date 1620223379064)
+@@ -28,8 +28,8 @@
+  */
+ public class 字符串反转 {
+     public static void main(String[] args) {
+-        String before = "hello world";
+-        String after = reverseString2(before);
++        String before = "helloworld";
++        String after = reverseString3(before);
+         System.out.println(" " + after);
+     }
+ 
+@@ -42,7 +42,7 @@
+         int length = string.length();
+         char[] temp = string.toCharArray();
+         for (int i = 0; i < length; i++) {
+-            temp[i] = string.charAt(length-i-1);
++            temp[i] = string.charAt(length - i - 1);
+         }
+         return new String(temp);
+     }
+@@ -56,10 +56,28 @@
+         if (string == null || string.length() == 0) return string;
+         int length = string.length();
+         char[] temp = string.toCharArray();
+-        for (int i = 0; i < length/2; i++) {
+-            temp[i] = string.charAt(length-i-1);
+-            temp[length-i-1] = string.charAt(i);
++        for (int i = 0; i < length / 2; i++) {
++            temp[i] = string.charAt(length - i - 1);
++            temp[length - i - 1] = string.charAt(i);
+         }
+         return new String(temp);
+     }
++
++    /**
++     * 递归，分而治之。
++     * 时间复杂度：O(n)。
++     * 空间复杂度：O(1)。
++     * @param s
++     * @return
++     */
++    public static String reverseString3(String s) {
++        int length = s.length();
++        if (length <= 1) {
++            return s;
++        }
++        String left = s.substring(0, length / 2);
++        String right = s.substring(length / 2, length);
++        return reverseString3(right) + reverseString3(left);
++
++    }
+ }
+Index: src/com/algorithm/demo/array/第三最大的数.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.algorithm.demo.array;\r\n\r\nimport java.util.TreeSet;\r\n\r\n/**\r\n * 1250. 第三大的数\r\n * 给定一个非空数组，返回此数组中第三大的数。如果不存在，则返回数组中最大的数。要求算法时间复杂度必须是O(n)。\r\n * <p>\r\n * 样例\r\n * 样例 1:\r\n * <p>\r\n * 输入: num = [3, 2, 1]\r\n * 输出: 1\r\n * 解释: 第三大的数是 1.\r\n * 样例 2:\r\n * <p>\r\n * 输入: num = [1, 2]\r\n * 输出: 2\r\n * 解释: 第三大的数不存在, 所以返回最大的数 2 .\r\n * 样例 3:\r\n * <p>\r\n * 输入: num = [2, 2, 3, 1]\r\n * 输出: 1\r\n * 解释: 注意，要求返回第三大的数，是指第三大且唯一出现的数。\r\n * 存在两个值为2的数，它们都排第二。\r\n */\r\npublic class 第三最大的数 {\r\n\r\n    public static void main(String[] args) {\r\n//        int[] nums = {3, 2, 1};\r\n//        int[] nums = {1, 2};\r\n        int[] nums = {2, 2, 3, 1};\r\n        int value = thirdMax(nums);\r\n        System.out.println(\" \" + value);\r\n    }\r\n\r\n    /**\r\n     * @param nums: the array\r\n     * @return: the third maximum number in this array\r\n     * 思路一：\r\n     * <p>\r\n     * 维护一个只有3个元素的TreeSet，如果大于三个元素就就把Set中的最小最小值remove掉。\r\n     * 最后如果Set中元素小于3就返回Set最大值，否则返回最小值。\r\n     */\r\n    public static int thirdMax(int[] nums) {\r\n        // Write your code here.\r\n        if (nums == null || nums.length == 0) {\r\n            return 0;\r\n        }\r\n        TreeSet<Integer> set = new TreeSet<>();\r\n        for (Integer elem : nums) {\r\n            set.add(elem);\r\n            if (set.size() > 3) {\r\n                set.remove(set.first());\r\n            }\r\n        }\r\n        return set.size() < 3 ? set.last() : set.first();\r\n    }\r\n\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/com/algorithm/demo/array/第三最大的数.java	(revision 09ef87e5cdba1ecb9b14b8516a64d017cb8cacc3)
++++ src/com/algorithm/demo/array/第三最大的数.java	(date 1620196895908)
+@@ -57,5 +57,31 @@
+         return set.size() < 3 ? set.last() : set.first();
+     }
+ 
+-
++    /**
++     * @param nums: the array
++     * @return: the third maximum number in this array
++     */
++    public int thirdMax2(int[] nums) {
++        // Write your code here.
++        long memory[] = {Long.MIN_VALUE, Long.MIN_VALUE, Long.MIN_VALUE};
++        for (int i = 0; i < nums.length; ++i) {
++            if (nums[i] == memory[0] || nums[i] == memory[1] || nums[i] == memory[2])
++                continue;
++            if (nums[i] > memory[2]) {
++                memory[0] = memory[1];
++                memory[1] = memory[2];
++                memory[2] = nums[i];
++            } else if (nums[i] > memory[1]) {
++                memory[0] = memory[1];
++                memory[1] = nums[i];
++            } else if (nums[i] > memory[0]) {
++                memory[0] = nums[i];
++            }
++        }
++        for (int i = 0; i < memory.length; i++) {
++            if (memory[i] == Long.MIN_VALUE)
++                return (int) memory[2];
++        }
++        return (int) memory[0];
++    }
+ }
