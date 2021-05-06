@@ -45,7 +45,8 @@
 - [搜索旋转排序数组](src/com/algorithm/demo/array/搜索旋转排序数组.java)
 - [反转整数](src/com/algorithm/demo/array/反转整数.java)
 - [尾部的零](src/com/algorithm/demo/array/尾部的零.java)
-  
+- [统计数字](src/com/algorithm/demo/array/统计数字.java)
+
 ### 链表
 
 - [LruLinkedList](src/com/algorithm/demo/linkedlist/LruLinkedList.java)
