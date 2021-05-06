@@ -66,7 +66,7 @@
 - [AVLTree](src/com/algorithm/demo/tree/AVLTree.java)
 - [HuffmanTree](src/com/algorithm/demo/tree/HuffmanTree.java)
 - [RBTree](src/com/algorithm/demo/tree/RBTree.java)
-
+- [BinaryTree](src/com/algorithm/demo/tree/BinaryTree.java)
 
 ### 字符串
 - [反转字符串中的单词](src/com/algorithm/demo/string/反转字符串中的单词.java)
