@@ -15,7 +15,7 @@ package com.algorithm.demo.array;
 public class 尾部的零 {
 
     public static void main(String[] args) {
-        long result = trailingZeros(2);
+        long result = trailingZeros(11);
         System.out.println("result = " + result);
     }
 
@@ -31,7 +31,9 @@ public class 尾部的零 {
         long sum = 0;
         while (n != 0) {
             sum += n / 5;
+            System.out.println("sum="+sum);
             n /= 5;
+            System.out.println("sum="+sum+", n="+n);
         }
         return sum;
     }
