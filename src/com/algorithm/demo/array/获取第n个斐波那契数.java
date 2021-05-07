@@ -10,7 +10,7 @@ package com.algorithm.demo.array;
 public class 获取第n个斐波那契数 {
 
     public static void main(String[] args) {
-        int result = getFibo(5);
+        int result = getFibo(30);
         System.out.println("result="+result);
 
     }
@@ -28,10 +28,13 @@ public class 获取第n个斐波那契数 {
         if (n == 1 || n == 2)
             return 1;
         int[] array = new int[n];
-        array[0] = 1; // 第1个斐波那契数是1
-        array[1] = 1; // 第2个斐波那契数也是1
+        array[0] = 0; // 第0个斐波那契数是0
+        array[1] = 1; // 第1个斐波那契数是1
+        System.out.println(" "+array[0]);
+        System.out.println(" "+array[1]);
         for (int i = 2; i < array.length; i++) {
             array[i] = array[i - 1] + array[i - 2];
+            System.out.println(" "+array[i]);
         }
         return array[n - 1];
     }
