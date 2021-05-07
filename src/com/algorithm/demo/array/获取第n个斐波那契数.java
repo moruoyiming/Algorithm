@@ -1,4 +1,4 @@
-package com.algorithm.demo.other;
+package com.algorithm.demo.array;
 
 /**
  * 获取第n个斐波那契数

@@ -46,6 +46,8 @@
 - [反转整数](src/com/algorithm/demo/array/反转整数.java)
 - [尾部的零](src/com/algorithm/demo/array/尾部的零.java)
 - [统计数字](src/com/algorithm/demo/array/统计数字.java)
+- [打印斐波那契数列](src/com/algorithm/demo/array/打印斐波那契数列.java)
+- [获取第n个斐波那契数](src/com/algorithm/demo/array/获取第n个斐波那契数.java)
 
 ### 链表
 

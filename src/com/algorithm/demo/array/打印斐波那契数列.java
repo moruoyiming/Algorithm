@@ -1,4 +1,4 @@
-package com.algorithm.demo.other;
+package com.algorithm.demo.array;
 
 public class 打印斐波那契数列 {
 
