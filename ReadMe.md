@@ -70,6 +70,9 @@
 - [HuffmanTree](src/com/algorithm/demo/tree/HuffmanTree.java)
 - [RBTree](src/com/algorithm/demo/tree/RBTree.java)
 - [BinaryTree](src/com/algorithm/demo/tree/BinaryTree.java)
+- [二叉树的前序遍历](src/com/algorithm/demo/tree/二叉树的前序遍历.java)
+- [二叉树的中序遍历](src/com/algorithm/demo/tree/二叉树的中序遍历.java)
+- [二叉树的后序遍历](src/com/algorithm/demo/tree/二叉树的后序遍历.java)
 
 ### 字符串
 - [反转字符串中的单词](src/com/algorithm/demo/string/反转字符串中的单词.java)
