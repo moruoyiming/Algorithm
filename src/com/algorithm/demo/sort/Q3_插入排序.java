@@ -14,7 +14,7 @@ import java.util.Arrays;
  * <p>
  * 从头到尾依次扫描未排序序列，将扫描到的每个元素插入有序序列的适当位置。（如果待插入的元素与有序序列中的某个元素相等，则将待插入元素插入到相等元素的后面。）
  */
-public class 插入排序 {
+public class Q3_插入排序 {
 
     public static void main(String[] args) throws Exception {
         int[] arr = {3, 5, 2, 4, 3, 7, 32, 12};

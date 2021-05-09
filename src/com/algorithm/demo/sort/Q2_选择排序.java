@@ -12,7 +12,7 @@ import com.algorithm.demo.PrintArray;
  * <p>
  * 重复第二步，直到所有元素均排序完毕。
  */
-public class 选择排序 {
+public class Q2_选择排序 {
 
     public static int[] selectSort(int[] arr) {
         if (arr == null || arr.length == 0)

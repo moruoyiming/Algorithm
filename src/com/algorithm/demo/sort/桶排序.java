@@ -19,7 +19,7 @@ import java.util.Arrays;
  */
 public class 桶排序 {
 
-    private static final 插入排序 insertSort = new 插入排序();
+    private static final Q3_插入排序 insertSort = new Q3_插入排序();
 
     public static void main(String[] args) {
         int[] arr = {3, 5, 2, 4, 3, 7, 32, 12};

@@ -17,7 +17,7 @@ import com.algorithm.demo.PrintArray;
  * <p>
  * 持续每次对越来越少的元素重复上面的步骤，直到没有任何一对数字需要比较。
  */
-public class 冒泡排序 {
+public class Q1_冒泡排序 {
 
     public static void main(String[] args) {
 
