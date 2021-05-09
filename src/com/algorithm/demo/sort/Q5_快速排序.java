@@ -55,6 +55,7 @@ public class Q5_快速排序 {
     private static int partition(int[] arr, int start, int end) {
         // 设定基准值（pivot）
         int pivot = start;
+        // 分区指示器
         int index = pivot + 1;
         for (int i = index; i <= end; i++) {
             //如果当前值小于基准值，交换大值到数组右侧。实现升序排序
