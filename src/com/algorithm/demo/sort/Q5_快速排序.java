@@ -22,7 +22,7 @@ import java.util.Arrays;
  * <p>
  * 递归地（recursive）把小于基准值元素的子数列和大于基准值元素的子数列排序；
  */
-public class 快速排序 {
+public class Q5_快速排序 {
 
     public static void main(String[] args) {
         int[] arr = {3, 5, 2, 4, 3, 7, 32, 12};
@@ -42,20 +42,22 @@ public class 快速排序 {
         return quickSort(arr, 0, arr.length - 1);
     }
 
-    private static int[] quickSort(int[] arr, int left, int right) {
-        if (left < right) {
-            int partitionIndex = partition(arr, left, right);
-            quickSort(arr, left, partitionIndex - 1);
-            quickSort(arr, partitionIndex + 1, right);
+    private static int[] quickSort(int[] arr, int start, int end) {
+        if (start < end) {
+            //分区(割)指示器
+            int partitionIndex = partition(arr, start, end);
+            quickSort(arr, start, partitionIndex - 1);
+            quickSort(arr, partitionIndex + 1, end);
         }
         return arr;
     }
 
-    private static int partition(int[] arr, int left, int right) {
+    private static int partition(int[] arr, int start, int end) {
         // 设定基准值（pivot）
-        int pivot = left;
+        int pivot = start;
         int index = pivot + 1;
-        for (int i = index; i <= right; i++) {
+        for (int i = index; i <= end; i++) {
+            //如果当前值小于基准值，交换大值到数组右侧。实现升序排序
             if (arr[i] < arr[pivot]) {
                 swap(arr, i, index);
                 index++;
@@ -65,6 +67,13 @@ public class 快速排序 {
         return index - 1;
     }
 
+    /**
+     * 交换数组内的两个元素
+     *
+     * @param arr
+     * @param i
+     * @param j
+     */
     private static void swap(int[] arr, int i, int j) {
         int temp = arr[i];
         arr[i] = arr[j];
