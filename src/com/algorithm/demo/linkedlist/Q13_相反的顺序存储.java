@@ -21,7 +21,7 @@ import java.util.Stack;
  * 您不能改变原始链表的结构。
  * ListNode 有两个成员变量：ListNode.val 和 ListNode.next
  */
-public class 相反的顺序存储 {
+public class Q13_相反的顺序存储 {
 
     public static void main(String[] args) {
 

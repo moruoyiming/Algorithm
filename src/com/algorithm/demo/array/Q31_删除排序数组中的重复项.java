@@ -18,7 +18,7 @@ import com.algorithm.demo.PrintArray;
  * 函数应该返回新的长度 5, 并且原数组 nums 的前五个元素被修改为 0, 1, 2, 3, 4。
  * 你不需要考虑数组中超出新长度后面的元素。
  */
-public class 删除排序数组中的重复项 {
+public class Q31_删除排序数组中的重复项 {
 
     public static void main(String[] args) {
         // nums 是以“引用”方式传递的。也就是说，不对实参做任何拷贝

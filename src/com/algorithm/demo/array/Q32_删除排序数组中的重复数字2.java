@@ -23,7 +23,7 @@ import com.algorithm.demo.PrintArray;
  * 注意事项
  * 需要在原数组中操作
  */
-public class 删除排序数组中的重复数字2 {
+public class Q32_删除排序数组中的重复数字2 {
 
     public static void main(String[] args) {
         int[] nums = {1, 1, 1, 2, 2, 3};

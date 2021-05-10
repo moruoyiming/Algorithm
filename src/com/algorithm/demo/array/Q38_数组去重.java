@@ -22,7 +22,7 @@ import java.util.*;
  * ​9
  * ​​
  */
-public class 数组去重 {
+public class Q38_数组去重 {
     public static void main(String[] args) {
 //        int[] nums = {3, 4, 3, 6};
         int[] nums = {0, 7, 2, 2, 6, 7, 6, 9, 4};

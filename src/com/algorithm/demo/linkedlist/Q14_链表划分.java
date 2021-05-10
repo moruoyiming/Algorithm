@@ -20,7 +20,7 @@ package com.algorithm.demo.linkedlist;
  * Output: 1->2->2->4->3->5->null
  * Explanation:  keep the original relative order of the nodes in each of the two partitions.
  */
-public class 链表划分 {
+public class Q14_链表划分 {
 
     public static void main(String[] args) {
 

@@ -21,7 +21,7 @@ import java.util.Arrays;
  * n 是一个正整数，且范围为 [1, 10000].
  * 数组中的元素范围为[-10000, 10000]。
  */
-public class 数组划分I {
+public class Q37_数组划分I {
 
     public static void main(String[] args) {
         int[] nums = new int[]{1, 4, 3, 2};

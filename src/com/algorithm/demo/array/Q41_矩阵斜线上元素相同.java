@@ -29,7 +29,7 @@ package com.algorithm.demo.array;
  * 注意事项
  * n的长度范围是: [1, 500]
  */
-public class 矩阵斜线上元素相同 {
+public class Q41_矩阵斜线上元素相同 {
 
     public static void main(String[] args) {
         int[][] matrix = new int[3][3];

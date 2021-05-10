@@ -16,7 +16,7 @@ package com.algorithm.demo.array;
  * 输出：3
  * 解释：[1,2,1]
  */
-public class 最短无序数组 {
+public class Q39_最短无序数组 {
 
     public static void main(String[] args) {
 

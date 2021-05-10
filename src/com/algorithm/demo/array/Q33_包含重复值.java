@@ -18,7 +18,7 @@ import java.util.Set;
  * 输入：nums = [1, 2, 3]
  * 输出：False
  */
-public class 包含重复值 {
+public class Q33_包含重复值 {
 
     public static void main(String[] args) {
         int[] nums = {1, 2, 3,3};

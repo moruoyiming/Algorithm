@@ -20,7 +20,7 @@ package com.algorithm.demo.array;
  * 挑战
  * 使用 O(n) 时间和 O(1) 额外空间来解决
  */
-public class 最长上升连续子序列 {
+public class Q40_最长上升连续子序列 {
 
     public static void main(String[] args) {
         int[] nums = {5, 4, 2, 1, 3};

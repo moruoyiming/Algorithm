@@ -9,7 +9,7 @@ package com.algorithm.demo.array;
  * 平均、最好、最坏时间复杂度都相同，因此稳定性非常好！
  * 空间复杂度： O(n)
  */
-public class 合并排序数组2 {
+public class Q36_合并排序数组2 {
     public static void main(String[] args) {
         int[] a = {1, 3, 5, 7};
         int[] b = {2, 4, 6, 8};

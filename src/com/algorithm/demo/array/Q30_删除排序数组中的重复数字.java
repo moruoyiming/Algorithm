@@ -20,7 +20,7 @@ import com.algorithm.demo.PrintArray;
  * 输出: 2
  * 解释:  数字只出现一次的数组为: [1,2]
  */
-public class 删除排序数组中的重复数字 {
+public class Q30_删除排序数组中的重复数字 {
 
     public static void main(String[] args) {
         int[] nums = {1, 1, 2};

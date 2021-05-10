@@ -21,7 +21,7 @@ package com.algorithm.demo.array;
  * 注意事项
  * 你可以假设A具有足够的空间（A数组的大小大于或等于m+n）去添加B中的元素。
  */
-public class 合并排序数组 {
+public class Q35_合并排序数组 {
 
     public static void main(String[] args) {
         int[] a = {1, 2, 3};

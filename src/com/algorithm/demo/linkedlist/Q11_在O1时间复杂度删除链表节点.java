@@ -20,7 +20,7 @@ package com.algorithm.demo.linkedlist;
  * 输出：
  * 1->5->null
  */
-public class 在O1时间复杂度删除链表节点 {
+public class Q11_在O1时间复杂度删除链表节点 {
 
     public static void main(String[] args) {
 

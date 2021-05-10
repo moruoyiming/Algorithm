@@ -14,7 +14,7 @@ package com.algorithm.demo.linkedlist;
  * 输入:  1->3->2->0->null
  * 输出 :0->1->2->3->null
  */
-public class 链表插入排序 {
+public class Q15_链表插入排序 {
 
     public static void main(String[] args) {
 

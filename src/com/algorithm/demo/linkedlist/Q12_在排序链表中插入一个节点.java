@@ -14,7 +14,7 @@ package com.algorithm.demo.linkedlist;
  * Input: head = 1->null, val = 2
  * Output: 1->2->null
  */
-public class 在排序链表中插入一个节点 {
+public class Q12_在排序链表中插入一个节点 {
 
     public static void main(String[] args) {
 

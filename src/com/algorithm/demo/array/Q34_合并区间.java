@@ -20,7 +20,7 @@ import java.util.List;
  * 挑战
  * O(n log n) 的时间和 O(1) 的额外空间。
  */
-public class 合并区间 {
+public class Q34_合并区间 {
 
     public static void main(String[] args) {
 //        Interval interval = new Interval(1, 3);

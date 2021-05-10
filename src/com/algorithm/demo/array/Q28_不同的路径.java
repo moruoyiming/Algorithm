@@ -34,7 +34,7 @@ import com.algorithm.demo.PrintArray;
  * n和m均不超过100
  * 且答案保证在32位整数可表示范围内。
  */
-public class 不同的路径 {
+public class Q28_不同的路径 {
 
     public static void main(String[] args) {
         int m = 3;
