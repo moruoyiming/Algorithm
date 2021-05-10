@@ -105,6 +105,7 @@
 
 ### 线程
 - [顺序打印  A 1 B 2 C 3 ... Z 26](src/com/algorithm/demo/thread/A1B2C3.java)
+- [顺序打印 ABCABC](src/com/algorithm/demo/thread/ABCABC.java)
 - [两个线程交替打印输出a1b2c3d4](src/com/algorithm/demo/thread/两个线程交替打印输出a1b2c3d4.java)
 - [顺序打印字母A到Z](src/com/algorithm/demo/thread/顺序打印字母A到Z.java)
 - [顺序打印数字1到无穷大](src/com/algorithm/demo/thread/顺序打印数字1到无穷大.java)
