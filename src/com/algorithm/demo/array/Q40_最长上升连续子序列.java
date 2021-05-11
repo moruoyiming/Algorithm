@@ -1,5 +1,7 @@
 package com.algorithm.demo.array;
 
+import java.util.HashSet;
+
 /**
  * 397. 最长上升连续子序列
  * 给定一个整数数组（下标从 0 到 n-1， n 表示整个数组的规模），请找出该数组中的最长上升连续子序列。（最长上升连续子序列可以定义为从右到左或从左到右的序列。）
@@ -29,12 +31,37 @@ public class Q40_最长上升连续子序列 {
     }
 
     /**
-     * @param A: An array of Integer
+     * @param nums: An array of Integer
      * @return: an integer
      */
-    public static int ContinuousSubsequence(int[] A) {
-        // write your code here
-        return 0;
+    public static int ContinuousSubsequence(int[] nums) {
+        HashSet<Integer> sets = new HashSet<>();
+        //先将每个元素添加到hash集合中
+        for (int i = 0; i < nums.length; i++) {
+            sets.add(nums[i]);
+        }
+        int max = 0;
+        int count;
+        for (int i = 0; i < nums.length; i++) {
+            count = 0;
+            int val = nums[i];
+            int valTmp = val;
+            //然后再遍历每个元素，在遍历每个元素时，分别向两边扩展。当找不到相邻元素时退出。
+            while (sets.contains(valTmp)) {
+                count++;
+                sets.remove(val);
+                valTmp++;
+            }
+            while (sets.contains(val - 1)) {
+                count++;
+                sets.remove(val - 1);
+                val--;
+            }
+            if (count > max) {
+                max = count;
+            }
+        }
+        return max;
     }
 
 }
