@@ -44,9 +44,9 @@
 - [数组去重](src/com/algorithm/demo/array/Q38_数组去重.java)
 - [最短无序数组](src/com/algorithm/demo/array/Q39_最短无序数组.java)
 - [最长上升连续子序列](src/com/algorithm/demo/array/Q40_最长上升连续子序列.java)
-- [百钱买百鸡](src/com/algorithm/demo/array/Q42_百钱买百鸡.java)
 - [矩阵斜线上元素相同](src/com/algorithm/demo/array/Q41_矩阵斜线上元素相同.java)
-
+- [百钱买百鸡](src/com/algorithm/demo/array/Q42_百钱买百鸡.java)
+- [落单的数](src/com/algorithm/demo/array/Q43_落单的数.java)
 
 
 ### 链表
@@ -86,6 +86,7 @@
 - [回文判断](src/com/algorithm/demo/string/Q6_回文判断.java)
 - [字符串置换](src/com/algorithm/demo/string/Q7_字符串置换.java)
 - [字符串查找](src/com/algorithm/demo/string/Q8_字符串查找.java)
+- [大整数相加](src/com/algorithm/demo/string/Q9_大整数相加.java)
 - [反转字符串中的单词](src/com/algorithm/demo/string/反转字符串中的单词.java)
 - [最长单词](src/com/algorithm/demo/string/最长单词.java)
 - [比较字符串](src/com/algorithm/demo/string/比较字符串.java)
