@@ -3,7 +3,7 @@ package com.algorithm.demo.thread;
 /**
  * 写两个线程，一个线程打印1-52，另一个线程打印字母A-Z。打印 顺序为12A34B56C……5152Z
  */
-public class ThreadDemo {
+public class ThreadTest {
     public static void main(String[] args) {
         Object obj = new Object();
         // 启动两个线程

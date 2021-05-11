@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
  *
  */
 
-public class ThreadDemo2 {
+public class ThreadTest2 {
 
 
     volatile List list = new ArrayList<>();
@@ -27,7 +27,7 @@ public class ThreadDemo2 {
 
 
     public static void main(String[] args) {
-        ThreadDemo2 threadDemo2=new ThreadDemo2();
+        ThreadTest2 threadDemo2=new ThreadTest2();
         Object lock = new Object();
 
         new Thread(new Runnable() {
