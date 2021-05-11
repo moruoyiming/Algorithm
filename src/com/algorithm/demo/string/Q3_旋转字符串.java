@@ -41,7 +41,7 @@ package com.algorithm.demo.string;
  * the length of str >= 0
  * Make changes on the original input data
  */
-public class 旋转字符串 {
+public class Q3_旋转字符串 {
 
     public static void main(String[] args) {
         String str = "abcdefg"; // fgabcde

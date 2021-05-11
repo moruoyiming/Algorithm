@@ -21,7 +21,7 @@ import java.util.Arrays;
  * （3）对所有的计数累加（从C中的第一个元素开始，每一项和前一项相加）
  * （4）反向填充目标数组：将每个元素i放在新数组的第C(i)项，每放一个元素就将C(i)减去1
  */
-public class 计数排序 {
+public class Q7_计数排序 {
 
     public static void main(String[] args) {
         int[] arr = {3, 5, 2, 4, 3, 7, 32, 12};

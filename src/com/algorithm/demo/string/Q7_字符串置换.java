@@ -17,7 +17,7 @@ package com.algorithm.demo.string;
  * 输入: "aac", "abc"
  * 输出:  False
  */
-public class 字符串置换 {
+public class Q7_字符串置换 {
 
     public static void main(String[] args) {
         String A = "abcd";

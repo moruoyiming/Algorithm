@@ -21,7 +21,7 @@ import java.util.Arrays;
  * <p>
  * 重复步骤 2，直到堆的尺寸为 1。
  */
-public class 堆排序 {
+public class Q9_堆排序 {
 
     public static void main(String[] args) {
         int[] arr = {3, 5, 2, 4, 3, 7, 32, 12};

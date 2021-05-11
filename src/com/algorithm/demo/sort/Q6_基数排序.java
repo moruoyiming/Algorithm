@@ -16,7 +16,7 @@ import java.util.Arrays;
  * 计数排序：每个桶只存储单一键值；
  * 桶排序：每个桶存储一定范围的数值；
  */
-public class 基数排序 {
+public class Q6_基数排序 {
 
     public static void main(String[] args) {
         int[] arr = {3, 5, 2, 4, 3, 7, 32, 12};

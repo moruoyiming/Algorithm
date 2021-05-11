@@ -17,7 +17,7 @@ import java.util.Arrays;
  * 2. 什么时候最慢
  * 当输入的数据被分配到了同一个桶中。
  */
-public class 桶排序 {
+public class Q10_桶排序 {
 
     private static final Q3_插入排序 insertSort = new Q3_插入排序();
 

@@ -32,7 +32,7 @@ import java.util.Arrays;
  * <p>
  * 将另一序列剩下的所有元素直接复制到合并序列尾。
  */
-public class 归并排序 {
+public class Q8_归并排序 {
 
     public static void main(String[] args) {
         int[] arr = {3, 5, 2, 4, 3, 7, 32, 12};

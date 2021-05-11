@@ -6,7 +6,7 @@ import com.algorithm.demo.PrintArray;
  * 输入 I am a student.
  * 输出 student. a am I
  */
-public class 单词反转题 {
+public class Q2_单词反转题 {
 
     public static void main(String[] args) {
 

@@ -18,7 +18,7 @@ package com.algorithm.demo.string;
  * 输入：str = "aabbcc"
  * 输出："aabbcc"
  */
-public class 字符串压缩 {
+public class Q5_字符串压缩 {
 
     public static void main(String[] args) {
         String str = "aabcccccaaa";

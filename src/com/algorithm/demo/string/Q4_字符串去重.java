@@ -2,7 +2,7 @@ package com.algorithm.demo.string;
 
 import java.util.HashSet;
 
-public class 字符串去重 {
+public class Q4_字符串去重 {
     public static void main(String[] args) {
         String s = "ADABEFFFDCBGH发货价啦AFG";
         removeDuplicate(s);

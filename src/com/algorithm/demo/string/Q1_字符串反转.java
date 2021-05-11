@@ -26,7 +26,7 @@ package com.algorithm.demo.string;
  * 1: e--->l  1-->3  4
  * 2: l--->l  2-->2  4
  */
-public class 字符串反转 {
+public class Q1_字符串反转 {
     public static void main(String[] args) {
         String before = "hello world";
         String after = reverseString2(before);
@@ -42,7 +42,7 @@ public class 字符串反转 {
         int length = string.length();
         char[] temp = string.toCharArray();
         for (int i = 0; i < length; i++) {
-            temp[i] = string.charAt(length-i-1);
+            temp[i] = string.charAt(length - i - 1);
         }
         return new String(temp);
     }
@@ -56,9 +56,9 @@ public class 字符串反转 {
         if (string == null || string.length() == 0) return string;
         int length = string.length();
         char[] temp = string.toCharArray();
-        for (int i = 0; i < length/2; i++) {
-            temp[i] = string.charAt(length-i-1);
-            temp[length-i-1] = string.charAt(i);
+        for (int i = 0; i < length / 2; i++) {
+            temp[i] = string.charAt(length - i - 1);
+            temp[length - i - 1] = string.charAt(i);
         }
         return new String(temp);
     }

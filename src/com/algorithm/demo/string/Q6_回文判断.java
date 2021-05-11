@@ -5,7 +5,7 @@ package com.algorithm.demo.string;
  * 输入: "A man, a plan, a canal: Panama"
  * 输出: true
  */
-public class 回文判断 {
+public class Q6_回文判断 {
 
     //第一种思路：反转法加正则剔除，对于大小写问题：
     // 1.使用String类的toLowerCase()方法统一为小写或者toUpperCase()方法统一为大写；

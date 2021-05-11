@@ -26,7 +26,7 @@ import com.algorithm.demo.PrintArray;
  * <p>
  * 不需要，当这种问题出现在面试中时，面试官很可能只是想要测试一下你的基础应用能力。当然你需要先跟面试官确认清楚要怎么实现这个题。
  */
-public class 字符串查找 {
+public class Q8_字符串查找 {
 
     public static void main(String[] args) {
         int value = strStr("abcdabcdefg", "bcd");
