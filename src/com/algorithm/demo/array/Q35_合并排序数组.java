@@ -28,7 +28,7 @@ public class Q35_合并排序数组 {
         int[] b = {4, 5};
 //        int[] a = {2, 5, 8};
 //        int[] b = {3,6};
-        mergeSortedArray(a, 3, b, 2);
+        mergeSortedArray2(a, 3, b, 2);
     }
 
 
@@ -50,6 +50,17 @@ public class Q35_合并排序数组 {
         }
         for (int i = 0; i != m + n; ++i) {
             A[i] = sorted[i];
+        }
+    }
+
+    public static void mergeSortedArray2(int[] A, int m, int[] B, int n) {
+        int i = m - 1, j = n - 1, cur = m + n - 1, temp = 0;
+        while (cur >= 0) {
+            if (i < 0 && j >= 0) temp = B[j--];
+            else if (j < 0 && i >= 0) temp = A[i--];
+            else if (A[i] > B[j]) temp = A[i--];
+            else temp = B[j--];
+            A[cur--] = temp;
         }
     }
 
