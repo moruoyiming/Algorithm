@@ -1,6 +1,7 @@
 package com.algorithm.demo;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class PrintArray {
 
@@ -31,14 +32,14 @@ public class PrintArray {
         System.out.println("");
     }
 
-    public static void printObject(ArrayList<Integer> array){
+    public static void printObject(List<Integer> array){
         for(int i :array){
             System.out.print(i+"  ");
         }
         System.out.println("");
     }
 
-    public static void printObjectIndex(ArrayList<Integer> array,int begin ,int end){
+    public static void printObjectIndex(List<Integer> array,int begin ,int end){
         for(int i=begin;i<=end;i++){
             System.out.print(array.get(i)+"  ");
         }
