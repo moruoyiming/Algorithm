@@ -47,6 +47,9 @@
 - [矩阵斜线上元素相同](src/com/algorithm/demo/array/Q41_矩阵斜线上元素相同.java)
 - [百钱买百鸡](src/com/algorithm/demo/array/Q42_百钱买百鸡.java)
 - [落单的数](src/com/algorithm/demo/array/Q43_落单的数.java)
+- [三数之和](src/com/algorithm/demo/array/Q44_三数之和.java)
+- [数组第二大数](src/com/algorithm/demo/array/Q45_数组第二大数.java)
+- [子数字之和为零](src/com/algorithm/demo/array/Q46_子数字之和为零.java)
 
 
 ### 链表

@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-public class Q44_子数字之和为零 {
+public class Q46_子数字之和为零 {
 
     public static void main(String[] args) {
         int[] what = {-3, 1, 2, -3, 4};
