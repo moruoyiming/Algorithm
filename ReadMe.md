@@ -128,3 +128,8 @@
 - [BlockingQueueTest](src/com/algorithm/demo/thread/BlockingQueueTest.java)
 - [ReadWriteTest](src/com/algorithm/demo/thread/ReadWriteTest.java)
 - [StampedTest](src/com/algorithm/demo/thread/StampedTest.java)
+- [CountDownLatchTest](src/com/algorithm/demo/thread/CountDownLatchTest.java)
+- [CyclicBarrierTest](src/com/algorithm/demo/thread/CyclicBarrierTest.java)
+- [JoinTest](src/com/algorithm/demo/thread/JoinTest.java)
+- [LockTest](src/com/algorithm/demo/thread/LockTest.java)
+- [CallableTest](src/com/algorithm/demo/thread/CallableTest.java)
