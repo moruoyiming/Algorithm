@@ -42,18 +42,17 @@ public class Q5_删除排序链表中的重复元素 {
      * @return: head of linked list
      */
     public static ListNode deleteDuplicates(ListNode head) {
-        // write your code here
-        ListNode current = head;
-        while (current != null && current.next != null) {
-            if (current.val == current.next.val) {
-                current.next = current.next.next;
-            } else {
-                current = current.next;
-            }
+        if (head == null) {
+            return null;
         }
-        while (head != null) {
-            System.out.println(head.val);
-            head = head.next;
+        ListNode node = head;
+        while (node.next != null) {
+            if (node.val == node.next.val) {
+                node.next = node.next.next;
+            } else {
+                node = node.next;
+            }
+            System.out.println("sdfasdf="+node.val);
         }
         return head;
     }
