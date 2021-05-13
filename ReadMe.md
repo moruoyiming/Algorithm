@@ -50,7 +50,7 @@
 - [三数之和](src/com/algorithm/demo/array/Q44_三数之和.java)
 - [数组第二大数](src/com/algorithm/demo/array/Q45_数组第二大数.java)
 - [子数字之和为零](src/com/algorithm/demo/array/Q46_子数字之和为零.java)
-
+- [两数组的交集](src/com/algorithm/demo/array/Q47_两数组的交集.java)
 
 ### 链表
 
