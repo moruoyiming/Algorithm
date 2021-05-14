@@ -113,6 +113,9 @@
 ### 搜索
 - [二分查找](src/com/algorithm/demo/search/二分查找.java)
 
+### 数学题
+- [反转一个三位整数](src/com/algorithm/demo/math/Q1_反转一个三位整数.java)
+
 
 ### 线程
 - [顺序打印  A 1 B 2 C 3 ... Z 26](src/com/algorithm/demo/thread/A1B2C3.java)
