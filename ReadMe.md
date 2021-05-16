@@ -51,6 +51,10 @@
 - [数组第二大数](src/com/algorithm/demo/array/Q45_数组第二大数.java)
 - [子数字之和为零](src/com/algorithm/demo/array/Q46_子数组之和为零.java)
 - [两数组的交集](src/com/algorithm/demo/array/Q47_两数组的交集.java)
+- [两数组的交集](src/com/algorithm/demo/array/Q47_两数组的交集.java)
+- [寻找素数](src/com/algorithm/demo/array/Q48_寻找素数.java)
+- [数组中出现次数最多的值](src/com/algorithm/demo/array/Q49_数组中出现次数最多的值.java)
+- [FizzBuzz问题](src/com/algorithm/demo/array/Q50_FizzBuzz问题.java)
 
 ### 链表
 
