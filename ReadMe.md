@@ -57,6 +57,7 @@
 - [FizzBuzz问题](src/com/algorithm/demo/array/Q50_FizzBuzz问题.java)
 - [主元素](src/com/algorithm/demo/array/Q51_主元素.java)
 - [列表扁平化](src/com/algorithm/demo/array/Q52_列表扁平化.java)
+- [接雨水](src/com/algorithm/demo/array/Q53_接雨水.java)
 
 ### 链表
 
