@@ -55,6 +55,8 @@
 - [寻找素数](src/com/algorithm/demo/array/Q48_寻找素数.java)
 - [数组中出现次数最多的值](src/com/algorithm/demo/array/Q49_数组中出现次数最多的值.java)
 - [FizzBuzz问题](src/com/algorithm/demo/array/Q50_FizzBuzz问题.java)
+- [主元素](src/com/algorithm/demo/array/Q51_主元素.java)
+- [列表扁平化](src/com/algorithm/demo/array/Q52_列表扁平化.java)
 
 ### 链表
 
