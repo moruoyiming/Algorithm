@@ -78,6 +78,7 @@
 - [链表划分](src/com/algorithm/demo/linkedlist/Q14_链表划分.java)
 - [链表插入排序](src/com/algorithm/demo/linkedlist/Q15_链表插入排序.java)
 - [链表的中点](src/com/algorithm/demo/linkedlist/Q16_链表的中点.java)
+- [链表的中心节点](src/com/algorithm/demo/linkedlist/Q17_链表的中心节点.java)
 
 ### 树
 - [AVLTree](src/com/algorithm/demo/tree/AVLTree.java)
@@ -104,6 +105,7 @@
 - [第一个只出现一次的字符](src/com/algorithm/demo/string/第一个只出现一次的字符.java)
 - [大小写转换](src/com/algorithm/demo/string/大小写转换.java)
 - [判断字符串是否没有重复字符](src/com/algorithm/demo/string/判断字符串是否没有重复字符.java)
+
 ### 十大排序
 
 - [冒泡排序](src/com/algorithm/demo/sort/Q1_冒泡排序.java)
@@ -122,7 +124,8 @@
 
 ### 数学题
 - [反转一个三位整数](src/com/algorithm/demo/math/Q1_反转一个三位整数.java)
-
+- [各位相加](src/com/algorithm/demo/math/Q2_各位相加.java)
+- [最大公约数](src/com/algorithm/demo/math/Q3_最大公约数.java)
 
 ### 线程
 - [顺序打印  A 1 B 2 C 3 ... Z 26](src/com/algorithm/demo/thread/A1B2C3.java)
