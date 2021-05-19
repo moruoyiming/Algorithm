@@ -9,6 +9,16 @@ public class Q2_链表相交找出交点 {
      * @return: a ListNode
      */
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
-        return null;
+        if (headA == null || headB == null) {
+            return null;
+        }
+        ListNode a = headA;
+        ListNode b = headB;
+
+        while (a != b) {
+            a = a == null ? headB : a.next;
+            b = b == null ? headA : b.next;
+        }
+        return b;
     }
 }
