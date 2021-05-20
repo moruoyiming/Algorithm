@@ -59,6 +59,7 @@
 - [列表扁平化](src/com/algorithm/demo/array/Q52_列表扁平化.java)
 - [接雨水](src/com/algorithm/demo/array/Q53_接雨水.java)
 - [爬楼梯](src/com/algorithm/demo/array/Q54_爬楼梯.java)
+- [各位相加](src/com/algorithm/demo/array/Q55_各位相加.java)
 
 ### 链表
 

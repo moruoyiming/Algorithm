@@ -33,6 +33,12 @@ public class Q10_交换数组两个元素 {
      */
     public static void swapIntegers(int[] A, int index1, int index2) {
         // write your code here
+        if (A == null || A.length == 0 || index1 > A.length || index2 > A.length) {
+            return;
+        }
+        int temp = A[index1];
+        A[index1] = A[index2];
+        A[index2] = temp;
 
     }
 }
