@@ -14,8 +14,8 @@ import java.util.Stack;
  * 输出：
  * [2,1,3]
  * 解释：
- *    1
- *   /  \
+ * 1
+ * /  \
  * 2     3
  * 它将被序列化为{1,2,3}中序遍历
  * 样例 2：
@@ -25,9 +25,9 @@ import java.util.Stack;
  * [1,3,2]
  * 解释：
  * 1
- *   \
- *    2
- *   /
+ * \
+ * 2
+ * /
  * 3
  * 它将被序列化为{1,#,2,3}中序遍历
  */
@@ -67,4 +67,23 @@ public class 二叉树的中序遍历 {
         return result;
     }
 
+    /**
+     * @param root: A Tree
+     * @return: Inorder in ArrayList which contains node values.
+     */
+    public List<Integer> inorderTraversal2(TreeNode root) {
+        Stack<TreeNode> stack = new Stack<TreeNode>();
+        ArrayList<Integer> result = new ArrayList<>();
+        TreeNode curt = root;
+        while (curt != null || !stack.empty()) {
+            while (curt != null) {
+                stack.add(curt);
+                curt = curt.left;
+            }
+            curt = stack.pop();
+            result.add(curt.val);
+            curt = curt.right;
+        }
+        return result;
+    }
 }

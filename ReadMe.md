@@ -101,12 +101,15 @@
 - [字符串置换](src/com/algorithm/demo/string/Q7_字符串置换.java)
 - [字符串查找](src/com/algorithm/demo/string/Q8_字符串查找.java)
 - [大整数相加](src/com/algorithm/demo/string/Q9_大整数相加.java)
+- [两字符串和](src/com/algorithm/demo/string/Q10_两字符串和.java)
+- [翻转字符串](src/com/algorithm/demo/string/Q11_翻转字符串.java)
 - [反转字符串中的单词](src/com/algorithm/demo/string/反转字符串中的单词.java)
 - [最长单词](src/com/algorithm/demo/string/最长单词.java)
 - [比较字符串](src/com/algorithm/demo/string/比较字符串.java)
 - [第一个只出现一次的字符](src/com/algorithm/demo/string/第一个只出现一次的字符.java)
 - [大小写转换](src/com/algorithm/demo/string/大小写转换.java)
 - [判断字符串是否没有重复字符](src/com/algorithm/demo/string/判断字符串是否没有重复字符.java)
+
 
 ### 十大排序
 
