@@ -1,6 +1,8 @@
 package com.algorithm.demo.array;
 
 
+import java.util.List;
+
 public class Q25_最小子数组 {
 
     public static void main(String[] args) {
@@ -26,4 +28,25 @@ public class Q25_最小子数组 {
         }
         return greateminsum;
     }
+
+    /*
+     * @param nums: a list of integers
+     * @return: A integer indicate the sum of minimum subarray
+     */
+    public int minSubArray2(List<Integer> nums) {
+        int currentsum = nums.get(0);
+        int greateminsum = nums.get(0);
+        for(int i = 1; i < nums.size(); i++){
+            if(currentsum > 0){
+                currentsum = nums.get(i);
+            }else{
+                currentsum += nums.get(i);
+            }
+            if(currentsum < greateminsum){
+                greateminsum = currentsum;
+            }
+        }
+        return greateminsum;
+    }
+
 }
