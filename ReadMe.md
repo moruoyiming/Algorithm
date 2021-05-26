@@ -155,3 +155,15 @@
 - [JoinTest](src/com/algorithm/demo/thread/JoinTest.java)
 - [LockTest](src/com/algorithm/demo/thread/LockTest.java)
 - [CallableTest](src/com/algorithm/demo/thread/CallableTest.java)
+
+
+
+### 大厂面试算法题
+
+- [随机从数组中取出不重复的元素(百度)](src/com/algorithm/demo/interview/BaiduQuestion1.java)
+- [如何根据年龄给100万用户数据排序(百度)](src/com/algorithm/demo/interview/BaiduQuestion2.java)
+- [大整数相加(百度)](src/com/algorithm/demo/interview/Q9_两个大数相加.java)
+- [两个大数相加(Meta)](src/com/algorithm/demo/interview/Q9_两个大数相加.java)
+- [字符串进行去重(Meta)](src/com/algorithm/demo/interview/Q11_字符串进行去重.java)
+- [顺序打印ABCABC(小米)](src/com/algorithm/demo/interview/ABCABC.java)
+- [打印斐波那契数列(小米)](src/com/algorithm/demo/interview/Q8_打印斐波那契数列.java)
