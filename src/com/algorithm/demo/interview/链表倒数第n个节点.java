@@ -2,7 +2,7 @@ package com.algorithm.demo.interview;
 
 import com.algorithm.demo.linkedlist.ListNode;
 
-public class Q4_链表倒数第n个节点 {
+public class 链表倒数第n个节点 {
 
     /*
      * @param head: The first node of linked list.

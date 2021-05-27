@@ -1,6 +1,6 @@
 package com.algorithm.demo.interview;
 
-public class Q9_两个大数相加 {
+public class 两个大数相加 {
 
     public static void main(String[] args) {
 

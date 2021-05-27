@@ -37,7 +37,7 @@ import java.util.HashMap;
  * ⡿⠟⠋⠁⠄⠄⠄⢸⣿⣿⡯⢓⣴⣾⣿⣿⡟⠄⠄⠄⠄⠄⠄⠄⠄
  * ⠄⠄⠄⠄⠄⠄⠄⣿⡟⣷⠄⠹⣿⣿⣿⡿⠁⠄⠄⠄⠄⠄⠄⠄⠄
  */
-public class Q1_两数之和 {
+public class 两数之和 {
 
     public static void main(String[] args) {
         int[] data = {2, 7, 11, 15};

@@ -5,7 +5,7 @@ import java.util.*;
 /**
  * 一个100大小的数组，里边有人名，随机打印，不重复。
  */
-public class BaiduQuestion1 {
+public class 数组随机打印不重复 {
     public static void main(String[] args) {
         findName();
     }

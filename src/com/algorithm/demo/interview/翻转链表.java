@@ -18,7 +18,7 @@ import com.algorithm.demo.linkedlist.ListNode;
  * 挑战
  * 在原地一次翻转完成
  */
-public class Q3_翻转链表 {
+public class 翻转链表 {
 
     public static void main(String[] args) {
         ListNode cur = null;

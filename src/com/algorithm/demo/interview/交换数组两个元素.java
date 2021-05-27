@@ -19,7 +19,7 @@ import com.algorithm.demo.PrintArray;
  * Output:The array will change to `[2,2,2,1]` after swapping. You don't need return anything, just swap the integers in-place.
  * Explanation: You don't need return anything, just swap the integers in-place.
  */
-public class Q10_交换数组两个元素 {
+public class 交换数组两个元素 {
     public static void main(String[] args) {
         int[] nums = {1, 2, 3, 4};
         swapIntegers(nums, 2, 3);

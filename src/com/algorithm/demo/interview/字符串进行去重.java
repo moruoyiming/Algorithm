@@ -2,7 +2,7 @@ package com.algorithm.demo.interview;
 
 import java.util.HashSet;
 
-public class Q11_字符串进行去重 {
+public class 字符串进行去重 {
 
     /**
      * 对字符串进行去重处理，并且保持原来的输入顺序。举例：
