@@ -60,6 +60,8 @@
 - [接雨水](src/com/algorithm/demo/array/Q53_接雨水.java)
 - [爬楼梯](src/com/algorithm/demo/array/Q54_爬楼梯.java)
 - [各位相加](src/com/algorithm/demo/array/Q55_各位相加.java)
+- [只出现一次的数字](src/com/algorithm/demo/array/Q56_只出现一次的数字.java)
+
 
 ### 链表
 
