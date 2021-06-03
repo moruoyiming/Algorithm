@@ -92,6 +92,8 @@
 - [二叉树的前序遍历](src/com/algorithm/demo/tree/二叉树的前序遍历.java)
 - [二叉树的中序遍历](src/com/algorithm/demo/tree/二叉树的中序遍历.java)
 - [二叉树的后序遍历](src/com/algorithm/demo/tree/二叉树的后序遍历.java)
+- [二叉树的层次遍历](src/com/algorithm/demo/tree/二叉树的层次遍历.java)
+- [平衡二叉树](src/com/algorithm/demo/tree/平衡二叉树.java)
 
 ### 字符串
 - [字符串反转](src/com/algorithm/demo/string/Q1_字符串反转.java)
@@ -162,12 +164,12 @@
 
 ### 大厂面试算法题
 
-- [随机从数组中取出不重复的元素(百度)](src/com/algorithm/demo/interview/数组随机打印不重复.java)
-- [如何根据年龄给100万用户数据排序(百度)](src/com/algorithm/demo/interview/给100万用户数据排序.java)
+- [随机从数组中取出不重复的元素(百度1面)](src/com/algorithm/demo/interview/数组随机打印不重复.java)
+- [如何根据年龄给100万用户数据排序(百度1面)](src/com/algorithm/demo/interview/给100万用户数据排序.java)
+- [x的n次幂(百度2面)](src/com/algorithm/demo/interview/x的n次幂.java)
+- [实现LRU算法(百度2面)](src/com/algorithm/demo/interview/实现LRU算法.java)
 - [大整数相加(百度)](src/com/algorithm/demo/interview/两个大数相加.java)
 - [两个大数相加(Meta)](src/com/algorithm/demo/interview/两个大数相加.java)
 - [字符串进行去重(Meta)](src/com/algorithm/demo/interview/字符串进行去重.java)
 - [顺序打印ABCABC(小米)](src/com/algorithm/demo/interview/ABCABC.java)
 - [打印斐波那契数列(小米)](src/com/algorithm/demo/interview/打印斐波那契数列.java)
-- [x的n次幂(百度2面)](src/com/algorithm/demo/interview/x的n次幂.java)
-- [实现LRU算法(百度2面)](src/com/algorithm/demo/interview/实现LRU算法.java)
