@@ -169,3 +169,5 @@
 - [字符串进行去重(Meta)](src/com/algorithm/demo/interview/字符串进行去重.java)
 - [顺序打印ABCABC(小米)](src/com/algorithm/demo/interview/ABCABC.java)
 - [打印斐波那契数列(小米)](src/com/algorithm/demo/interview/打印斐波那契数列.java)
+- [x的n次幂(百度2面)](src/com/algorithm/demo/interview/x的n次幂.java)
+- [实现LRU算法(百度2面)](src/com/algorithm/demo/interview/实现LRU算法.java)
