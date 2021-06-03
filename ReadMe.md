@@ -83,6 +83,7 @@
 - [链表插入排序](src/com/algorithm/demo/linkedlist/Q15_链表插入排序.java)
 - [链表的中点](src/com/algorithm/demo/linkedlist/Q16_链表的中点.java)
 - [链表的中心节点](src/com/algorithm/demo/linkedlist/Q17_链表的中心节点.java)
+- [两数相乘](src/com/algorithm/demo/linkedlist/Q18_两数相乘.java)
 
 ### 树
 - [AVLTree](src/com/algorithm/demo/tree/AVLTree.java)
@@ -94,6 +95,9 @@
 - [二叉树的后序遍历](src/com/algorithm/demo/tree/二叉树的后序遍历.java)
 - [二叉树的层次遍历](src/com/algorithm/demo/tree/二叉树的层次遍历.java)
 - [平衡二叉树](src/com/algorithm/demo/tree/平衡二叉树.java)
+
+### 栈
+- [小括号匹配](src/com/algorithm/demo/stack/小括号匹配.java)
 
 ### 字符串
 - [字符串反转](src/com/algorithm/demo/string/Q1_字符串反转.java)
