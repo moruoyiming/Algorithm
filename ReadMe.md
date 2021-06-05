@@ -84,6 +84,8 @@
 - [链表的中点](src/com/algorithm/demo/linkedlist/Q16_链表的中点.java)
 - [链表的中心节点](src/com/algorithm/demo/linkedlist/Q17_链表的中心节点.java)
 - [两数相乘](src/com/algorithm/demo/linkedlist/Q18_两数相乘.java)
+- [在链表中找节点](src/com/algorithm/demo/linkedlist/Q19_在链表中找节点.java)
+- [链表转数组](src/com/algorithm/demo/linkedlist/Q20_链表转数组.java)
 
 ### 树
 - [AVLTree](src/com/algorithm/demo/tree/AVLTree.java)
@@ -117,7 +119,7 @@
 - [第一个只出现一次的字符](src/com/algorithm/demo/string/第一个只出现一次的字符.java)
 - [大小写转换](src/com/algorithm/demo/string/大小写转换.java)
 - [判断字符串是否没有重复字符](src/com/algorithm/demo/string/判断字符串是否没有重复字符.java)
-
+- [大小写转换2](src/com/algorithm/demo/string/大小写转换2.java)
 
 ### 十大排序
 
