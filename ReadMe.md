@@ -97,6 +97,10 @@
 - [二叉树的后序遍历](src/com/algorithm/demo/tree/二叉树的后序遍历.java)
 - [二叉树的层次遍历](src/com/algorithm/demo/tree/二叉树的层次遍历.java)
 - [平衡二叉树](src/com/algorithm/demo/tree/平衡二叉树.java)
+- [二叉查找树中插入节点](src/com/algorithm/demo/tree/二叉查找树中插入节点.java)
+- [二叉树的最大深度](src/com/algorithm/demo/tree/二叉树的最大深度.java)
+- [二叉树的最小深度](src/com/algorithm/demo/tree/二叉树的最小深度.java)
+- [翻转二叉树](src/com/algorithm/demo/tree/翻转二叉树.java)
 
 ### 栈
 - [小括号匹配](src/com/algorithm/demo/stack/小括号匹配.java)
