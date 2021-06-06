@@ -86,6 +86,8 @@
 - [两数相乘](src/com/algorithm/demo/linkedlist/Q18_两数相乘.java)
 - [在链表中找节点](src/com/algorithm/demo/linkedlist/Q19_在链表中找节点.java)
 - [链表转数组](src/com/algorithm/demo/linkedlist/Q20_链表转数组.java)
+- [简化链表](src/com/algorithm/demo/linkedlist/Q21_简化链表.java)
+- [无序链表的重复项删除](src/com/algorithm/demo/linkedlist/Q22_无序链表的重复项删除.java)
 
 ### 树
 - [AVLTree](src/com/algorithm/demo/tree/AVLTree.java)
