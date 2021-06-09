@@ -103,6 +103,7 @@
 - [二叉树的最大深度](src/com/algorithm/demo/tree/二叉树的最大深度.java)
 - [二叉树的最小深度](src/com/algorithm/demo/tree/二叉树的最小深度.java)
 - [翻转二叉树](src/com/algorithm/demo/tree/翻转二叉树.java)
+- [把排序数组转换为高度最小的二叉搜索树](src/com/algorithm/demo/tree/把排序数组转换为高度最小的二叉搜索树.java)
 
 ### 栈
 - [小括号匹配](src/com/algorithm/demo/stack/小括号匹配.java)
@@ -126,6 +127,11 @@
 - [大小写转换](src/com/algorithm/demo/string/大小写转换.java)
 - [判断字符串是否没有重复字符](src/com/algorithm/demo/string/判断字符串是否没有重复字符.java)
 - [大小写转换2](src/com/algorithm/demo/string/大小写转换2.java)
+
+### 其他
+- [不同的路径](src/com/algorithm/demo/other/不同的路径.java)
+- [最小路径和](src/com/algorithm/demo/other/最小路径和.java)
+
 
 ### 十大排序
 
