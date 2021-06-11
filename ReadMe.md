@@ -131,7 +131,7 @@
 ### 其他
 - [不同的路径](src/com/algorithm/demo/other/不同的路径.java)
 - [最小路径和](src/com/algorithm/demo/other/最小路径和.java)
-
+- [哈希函数](src/com/algorithm/demo/hash/哈希函数.java)
 
 ### 十大排序
 
@@ -153,6 +153,8 @@
 - [反转一个三位整数](src/com/algorithm/demo/math/Q1_反转一个三位整数.java)
 - [各位相加](src/com/algorithm/demo/math/Q2_各位相加.java)
 - [最大公约数](src/com/algorithm/demo/math/Q3_最大公约数.java)
+- [对x开根](src/com/algorithm/demo/math/Q4_对x开根.java)
+- [将整数A转换成B](src/com/algorithm/demo/math/Q5_将整数A转换成B.java)
 
 ### 线程
 - [顺序打印  A 1 B 2 C 3 ... Z 26](src/com/algorithm/demo/thread/A1B2C3.java)
