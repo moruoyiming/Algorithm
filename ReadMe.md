@@ -61,7 +61,9 @@
 - [爬楼梯](src/com/algorithm/demo/array/Q54_爬楼梯.java)
 - [各位相加](src/com/algorithm/demo/array/Q55_各位相加.java)
 - [只出现一次的数字](src/com/algorithm/demo/array/Q56_只出现一次的数字.java)
-
+- [数组剔除元素后的乘积](src/com/algorithm/demo/array/Q57_数组剔除元素后的乘积.java)
+- [水仙花数](src/com/algorithm/demo/array/Q58_水仙花数.java)
+- [只出现一次的数字](src/com/algorithm/demo/array/Q59_通用子数组个数.java)
 
 ### 链表
 
@@ -132,6 +134,7 @@
 - [不同的路径](src/com/algorithm/demo/other/不同的路径.java)
 - [最小路径和](src/com/algorithm/demo/other/最小路径和.java)
 - [哈希函数](src/com/algorithm/demo/hash/哈希函数.java)
+- [矩阵斜线上元素相同](src/com/algorithm/demo/other/矩阵斜线上元素相同.java)
 
 ### 十大排序
 
