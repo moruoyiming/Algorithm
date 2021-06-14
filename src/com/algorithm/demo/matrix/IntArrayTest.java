@@ -1,4 +1,4 @@
-package com.algorithm.demo.other;
+package com.algorithm.demo.matrix;
 
 public class IntArrayTest {
     public static void main(String args[]) {

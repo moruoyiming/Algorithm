@@ -1,4 +1,4 @@
-package com.algorithm.demo.other;
+package com.algorithm.demo.matrix;
 
 /**
  * 110 · 最小路径和

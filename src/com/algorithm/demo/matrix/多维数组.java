@@ -1,4 +1,4 @@
-package com.algorithm.demo.other;
+package com.algorithm.demo.matrix;
 
 public class 多维数组 {
 

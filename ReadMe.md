@@ -130,11 +130,34 @@
 - [判断字符串是否没有重复字符](src/com/algorithm/demo/string/判断字符串是否没有重复字符.java)
 - [大小写转换2](src/com/algorithm/demo/string/大小写转换2.java)
 
-### 其他
-- [不同的路径](src/com/algorithm/demo/other/不同的路径.java)
-- [最小路径和](src/com/algorithm/demo/other/最小路径和.java)
+
+### 矩阵
+- [矩阵斜线上元素相同](src/com/algorithm/demo/matrix/矩阵斜线上元素相同.java)
+- [最小路径和](src/com/algorithm/demo/matrix/最小路径和.java)
+- [多维数组](src/com/algorithm/demo/matrix/多维数组.java)
+- [最大数和最小数](src/com/algorithm/demo/matrix/最大数和最小数.java)
+- [IntArrayTest](src/com/algorithm/demo/matrix/IntArrayTest.java)
+- [不同的路径](src/com/algorithm/demo/matrix/不同的路径.java)
+
+
+### 哈希表
 - [哈希函数](src/com/algorithm/demo/hash/哈希函数.java)
-- [矩阵斜线上元素相同](src/com/algorithm/demo/other/矩阵斜线上元素相同.java)
+
+### 数学题
+- [反转一个三位整数](src/com/algorithm/demo/math/Q1_反转一个三位整数.java)
+- [各位相加](src/com/algorithm/demo/math/Q2_各位相加.java)
+- [最大公约数](src/com/algorithm/demo/math/Q3_最大公约数.java)
+- [对x开根](src/com/algorithm/demo/math/Q4_对x开根.java)
+- [将整数A转换成B](src/com/algorithm/demo/math/Q5_将整数A转换成B.java)
+- [插入五](src/com/algorithm/demo/math/Q6_插入五.java)
+
+### 其他
+- [BigNumber](src/com/algorithm/demo/other/BigNumber.java)
+- [丢鸡蛋](src/com/algorithm/demo/other/丢鸡蛋.java)
+- [有效的数独](src/com/algorithm/demo/other/有效的数独.java)
+
+### 搜索
+- [二分查找](src/com/algorithm/demo/search/二分查找.java)
 
 ### 十大排序
 
@@ -149,15 +172,7 @@
 - [堆排序](src/com/algorithm/demo/sort/Q9_堆排序.java)
 - [桶排序](src/com/algorithm/demo/sort/Q10_桶排序.java)
 
-### 搜索
-- [二分查找](src/com/algorithm/demo/search/二分查找.java)
 
-### 数学题
-- [反转一个三位整数](src/com/algorithm/demo/math/Q1_反转一个三位整数.java)
-- [各位相加](src/com/algorithm/demo/math/Q2_各位相加.java)
-- [最大公约数](src/com/algorithm/demo/math/Q3_最大公约数.java)
-- [对x开根](src/com/algorithm/demo/math/Q4_对x开根.java)
-- [将整数A转换成B](src/com/algorithm/demo/math/Q5_将整数A转换成B.java)
 
 ### 线程
 - [顺序打印  A 1 B 2 C 3 ... Z 26](src/com/algorithm/demo/thread/A1B2C3.java)

@@ -1,4 +1,4 @@
-package com.algorithm.demo.other;
+package com.algorithm.demo.matrix;
 
 /**
  * 不难发现，机器人从左上角走到右下角，需要向下走m - 1步，向右走n - 1步，那么总步数也是一定的，为m + n - 2步。

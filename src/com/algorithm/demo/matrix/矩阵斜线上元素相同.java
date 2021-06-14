@@ -1,4 +1,4 @@
-package com.algorithm.demo.other;
+package com.algorithm.demo.matrix;
 
 /**
  * 矩阵斜线上元素相同
