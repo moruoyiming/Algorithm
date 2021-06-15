@@ -106,6 +106,7 @@
 - [二叉树的最小深度](src/com/algorithm/demo/tree/二叉树的最小深度.java)
 - [翻转二叉树](src/com/algorithm/demo/tree/翻转二叉树.java)
 - [把排序数组转换为高度最小的二叉搜索树](src/com/algorithm/demo/tree/把排序数组转换为高度最小的二叉搜索树.java)
+- [将二叉树按照层级转化为链表](src/com/algorithm/demo/tree/将二叉树按照层级转化为链表.java)
 
 ### 栈
 - [小括号匹配](src/com/algorithm/demo/stack/小括号匹配.java)
@@ -142,6 +143,7 @@
 
 ### 哈希表
 - [哈希函数](src/com/algorithm/demo/hash/哈希函数.java)
+- [最高频率的IP](src/com/algorithm/demo/hash/最高频率的IP.java)
 
 ### 数学题
 - [反转一个三位整数](src/com/algorithm/demo/math/Q1_反转一个三位整数.java)
