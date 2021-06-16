@@ -200,6 +200,10 @@
 - [LockTest](src/com/algorithm/demo/thread/LockTest.java)
 - [CallableTest](src/com/algorithm/demo/thread/CallableTest.java)
 
+### 智力题
+- [小老鼠试毒药](src/com/algorithm/demo/iq/Q1_小老鼠试毒药.java)
+- [赛马排名](src/com/algorithm/demo/iq/Q2_赛马排名.java)
+- [拿苹果](src/com/algorithm/demo/iq/Q3_拿苹果.java)
 
 
 ### 大厂面试算法题
