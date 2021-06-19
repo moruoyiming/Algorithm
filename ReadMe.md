@@ -107,6 +107,7 @@
 - [翻转二叉树](src/com/algorithm/demo/tree/翻转二叉树.java)
 - [把排序数组转换为高度最小的二叉搜索树](src/com/algorithm/demo/tree/把排序数组转换为高度最小的二叉搜索树.java)
 - [将二叉树按照层级转化为链表](src/com/algorithm/demo/tree/将二叉树按照层级转化为链表.java)
+- [二叉树的镜像](src/com/algorithm/demo/tree/二叉树的镜像.java)
 
 ### 栈
 - [小括号匹配](src/com/algorithm/demo/stack/小括号匹配.java)
@@ -145,6 +146,12 @@
 - [哈希函数](src/com/algorithm/demo/hash/哈希函数.java)
 - [最高频率的IP](src/com/algorithm/demo/hash/最高频率的IP.java)
 
+
+### 剑指Offer
+- [二进制中1的个数](src/com/algorithm/demo/剑指Offer/Q15_二进制中1的个数.java)
+- [二叉树的镜像](src/com/algorithm/demo/剑指Offer/Q27_二叉树的镜像.java)
+
+
 ### 数学题
 - [反转一个三位整数](src/com/algorithm/demo/math/Q1_反转一个三位整数.java)
 - [各位相加](src/com/algorithm/demo/math/Q2_各位相加.java)
@@ -152,6 +159,13 @@
 - [对x开根](src/com/algorithm/demo/math/Q4_对x开根.java)
 - [将整数A转换成B](src/com/algorithm/demo/math/Q5_将整数A转换成B.java)
 - [插入五](src/com/algorithm/demo/math/Q6_插入五.java)
+
+
+### 智力题
+- [小老鼠试毒药](src/com/algorithm/demo/iq/Q1_小老鼠试毒药.java)
+- [赛马排名](src/com/algorithm/demo/iq/Q2_赛马排名.java)
+- [拿苹果](src/com/algorithm/demo/iq/Q3_拿苹果.java)
+
 
 ### 其他
 - [BigNumber](src/com/algorithm/demo/other/BigNumber.java)
@@ -162,7 +176,6 @@
 - [二分查找](src/com/algorithm/demo/search/二分查找.java)
 
 ### 十大排序
-
 - [冒泡排序](src/com/algorithm/demo/sort/Q1_冒泡排序.java)
 - [选择排序](src/com/algorithm/demo/sort/Q2_选择排序.java)
 - [插入排序](src/com/algorithm/demo/sort/Q3_插入排序.java)
@@ -173,7 +186,6 @@
 - [归并排序](src/com/algorithm/demo/sort/Q8_归并排序.java)
 - [堆排序](src/com/algorithm/demo/sort/Q9_堆排序.java)
 - [桶排序](src/com/algorithm/demo/sort/Q10_桶排序.java)
-
 
 
 ### 线程
@@ -199,11 +211,6 @@
 - [JoinTest](src/com/algorithm/demo/thread/JoinTest.java)
 - [LockTest](src/com/algorithm/demo/thread/LockTest.java)
 - [CallableTest](src/com/algorithm/demo/thread/CallableTest.java)
-
-### 智力题
-- [小老鼠试毒药](src/com/algorithm/demo/iq/Q1_小老鼠试毒药.java)
-- [赛马排名](src/com/algorithm/demo/iq/Q2_赛马排名.java)
-- [拿苹果](src/com/algorithm/demo/iq/Q3_拿苹果.java)
 
 
 ### 大厂面试算法题
