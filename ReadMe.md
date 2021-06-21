@@ -148,6 +148,8 @@
 
 
 ### 剑指Offer
+- [矩阵中的距离](src/com/algorithm/demo/剑指Offer/Q12_矩阵中的距离.java)
+- [剪绳子](src/com/algorithm/demo/剑指Offer/Q14_剪绳子.java)
 - [二进制中1的个数](src/com/algorithm/demo/剑指Offer/Q15_二进制中1的个数.java)
 - [二叉树的镜像](src/com/algorithm/demo/剑指Offer/Q27_二叉树的镜像.java)
 
