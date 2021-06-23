@@ -148,9 +148,12 @@
 
 
 ### 剑指Offer
+- [从尾到头打印链表](src/com/algorithm/demo/剑指Offer/Q6_从尾到头打印链表.java)
+- [旋转数组的最小数字](src/com/algorithm/demo/剑指Offer/Q11_旋转数组的最小数字.java)
 - [矩阵中的距离](src/com/algorithm/demo/剑指Offer/Q12_矩阵中的距离.java)
 - [剪绳子](src/com/algorithm/demo/剑指Offer/Q14_剪绳子.java)
 - [二进制中1的个数](src/com/algorithm/demo/剑指Offer/Q15_二进制中1的个数.java)
+- [调整数组顺序使奇数位于偶数前面](src/com/algorithm/demo/剑指Offer/Q21_调整数组顺序使奇数位于偶数前面.java)
 - [二叉树的镜像](src/com/algorithm/demo/剑指Offer/Q27_二叉树的镜像.java)
 
 
