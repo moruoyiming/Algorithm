@@ -169,6 +169,7 @@
 - [将整数A转换成B](src/com/algorithm/demo/math/Q5_将整数A转换成B.java)
 - [插入五](src/com/algorithm/demo/math/Q6_插入五.java)
 - [丑数](src/com/algorithm/demo/math/Q7_丑数.java)
+- [闰年](src/com/algorithm/demo/math/Q8_闰年.java)
 
 ### 智力题
 - [小老鼠试毒药](src/com/algorithm/demo/iq/Q1_小老鼠试毒药.java)
