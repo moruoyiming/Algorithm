@@ -90,6 +90,8 @@
 - [链表转数组](src/com/algorithm/demo/linkedlist/Q20_链表转数组.java)
 - [简化链表](src/com/algorithm/demo/linkedlist/Q21_简化链表.java)
 - [无序链表的重复项删除](src/com/algorithm/demo/linkedlist/Q22_无序链表的重复项删除.java)
+- [链表化数组](src/com/algorithm/demo/linkedlist/Q23_链表化数组.java)
+
 
 ### 树
 - [AVLTree](src/com/algorithm/demo/tree/AVLTree.java)
@@ -108,6 +110,8 @@
 - [把排序数组转换为高度最小的二叉搜索树](src/com/algorithm/demo/tree/把排序数组转换为高度最小的二叉搜索树.java)
 - [将二叉树按照层级转化为链表](src/com/algorithm/demo/tree/将二叉树按照层级转化为链表.java)
 - [二叉树的镜像](src/com/algorithm/demo/tree/二叉树的镜像.java)
+- [等价二叉树](src/com/algorithm/demo/tree/等价二叉树.java)
+- [二叉树的所有路径](src/com/algorithm/demo/tree/二叉树的所有路径.java)
 
 ### 栈
 - [小括号匹配](src/com/algorithm/demo/stack/小括号匹配.java)
@@ -164,7 +168,7 @@
 - [对x开根](src/com/algorithm/demo/math/Q4_对x开根.java)
 - [将整数A转换成B](src/com/algorithm/demo/math/Q5_将整数A转换成B.java)
 - [插入五](src/com/algorithm/demo/math/Q6_插入五.java)
-
+- [丑数](src/com/algorithm/demo/math/Q7_丑数.java)
 
 ### 智力题
 - [小老鼠试毒药](src/com/algorithm/demo/iq/Q1_小老鼠试毒药.java)
