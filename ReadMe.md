@@ -64,6 +64,7 @@
 - [数组剔除元素后的乘积](src/com/algorithm/demo/array/Q57_数组剔除元素后的乘积.java)
 - [水仙花数](src/com/algorithm/demo/array/Q58_水仙花数.java)
 - [只出现一次的数字](src/com/algorithm/demo/array/Q59_通用子数组个数.java)
+- [去除重复元素](src/com/algorithm/demo/array/Q60_去除重复元素.java)
 
 ### 链表
 
@@ -112,6 +113,7 @@
 - [二叉树的镜像](src/com/algorithm/demo/tree/二叉树的镜像.java)
 - [等价二叉树](src/com/algorithm/demo/tree/等价二叉树.java)
 - [二叉树的所有路径](src/com/algorithm/demo/tree/二叉树的所有路径.java)
+- [将二叉树拆成链表](src/com/algorithm/demo/tree/将二叉树拆成链表.java)
 
 ### 栈
 - [小括号匹配](src/com/algorithm/demo/stack/小括号匹配.java)
@@ -170,6 +172,9 @@
 - [插入五](src/com/algorithm/demo/math/Q6_插入五.java)
 - [丑数](src/com/algorithm/demo/math/Q7_丑数.java)
 - [闰年](src/com/algorithm/demo/math/Q8_闰年.java)
+- [数字变形](src/com/algorithm/demo/math/Q9_数字变形.java)
+- [二进制求和](src/com/algorithm/demo/math/Q10_二进制求和.java)
+- [重构回文](src/com/algorithm/demo/math/Q11_重构回文.java)
 
 ### 智力题
 - [小老鼠试毒药](src/com/algorithm/demo/iq/Q1_小老鼠试毒药.java)
