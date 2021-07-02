@@ -161,7 +161,10 @@
 - [二进制中1的个数](src/com/algorithm/demo/剑指Offer/Q15_二进制中1的个数.java)
 - [调整数组顺序使奇数位于偶数前面](src/com/algorithm/demo/剑指Offer/Q21_调整数组顺序使奇数位于偶数前面.java)
 - [二叉树的镜像](src/com/algorithm/demo/剑指Offer/Q27_二叉树的镜像.java)
-
+- [不修改数组找出重复的数字](src/com/algorithm/demo/剑指Offer/不修改数组找出重复的数字.java)
+- [二维数组中的查找](src/com/algorithm/demo/剑指Offer/二维数组中的查找.java)
+- [数组中重复的数字](src/com/algorithm/demo/剑指Offer/数组中重复的数字.java)
+- [替换空格](src/com/algorithm/demo/剑指Offer/替换空格.java)
 
 ### 数学题
 - [反转一个三位整数](src/com/algorithm/demo/math/Q1_反转一个三位整数.java)
