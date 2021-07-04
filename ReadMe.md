@@ -65,6 +65,7 @@
 - [水仙花数](src/com/algorithm/demo/array/Q58_水仙花数.java)
 - [只出现一次的数字](src/com/algorithm/demo/array/Q59_通用子数组个数.java)
 - [去除重复元素](src/com/algorithm/demo/array/Q60_去除重复元素.java)
+- [Q61_两数之和_数据结构设计](src/com/algorithm/demo/array/Q61_两数之和_数据结构设计.java)
 
 ### 链表
 
@@ -165,6 +166,9 @@
 - [二维数组中的查找](src/com/algorithm/demo/剑指Offer/二维数组中的查找.java)
 - [数组中重复的数字](src/com/algorithm/demo/剑指Offer/数组中重复的数字.java)
 - [替换空格](src/com/algorithm/demo/剑指Offer/替换空格.java)
+- [链表中找到第一个含有某值的节点并删除](src/com/algorithm/demo/剑指Offer/链表中找到第一个含有某值的节点并删除.java)
+- [链表尾节点增加元素](src/com/algorithm/demo/剑指Offer/链表尾节点增加元素.java)
+
 
 ### 数学题
 - [反转一个三位整数](src/com/algorithm/demo/math/Q1_反转一个三位整数.java)
