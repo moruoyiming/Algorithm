@@ -156,8 +156,14 @@
 
 ### 剑指Offer
 - [从尾到头打印链表](src/com/algorithm/demo/剑指Offer/Q6_从尾到头打印链表.java)
+- [重建二叉树](src/com/algorithm/demo/剑指Offer/Q7_重建二叉树.java)
+- [二叉树的下一个节点](src/com/algorithm/demo/剑指Offer/Q8_二叉树的下一个节点.java)
+- [用两个栈实现队列](src/com/algorithm/demo/剑指Offer/Q9_用两个栈实现队列.java)
+- [两个队列实现一个栈](src/com/algorithm/demo/剑指Offer/两个队列实现一个栈.java)
+- [斐波那契数列](src/com/algorithm/demo/剑指Offer/Q10_斐波那契数列.java)
 - [旋转数组的最小数字](src/com/algorithm/demo/剑指Offer/Q11_旋转数组的最小数字.java)
 - [矩阵中的距离](src/com/algorithm/demo/剑指Offer/Q12_矩阵中的距离.java)
+- [机器人的运动范围](src/com/algorithm/demo/剑指Offer/Q13_机器人的运动范围.java)
 - [剪绳子](src/com/algorithm/demo/剑指Offer/Q14_剪绳子.java)
 - [二进制中1的个数](src/com/algorithm/demo/剑指Offer/Q15_二进制中1的个数.java)
 - [调整数组顺序使奇数位于偶数前面](src/com/algorithm/demo/剑指Offer/Q21_调整数组顺序使奇数位于偶数前面.java)
@@ -168,6 +174,7 @@
 - [替换空格](src/com/algorithm/demo/剑指Offer/替换空格.java)
 - [链表中找到第一个含有某值的节点并删除](src/com/algorithm/demo/剑指Offer/链表中找到第一个含有某值的节点并删除.java)
 - [链表尾节点增加元素](src/com/algorithm/demo/剑指Offer/链表尾节点增加元素.java)
+
 
 
 ### 数学题
