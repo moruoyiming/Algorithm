@@ -65,7 +65,7 @@
 - [水仙花数](src/com/algorithm/demo/array/Q58_水仙花数.java)
 - [只出现一次的数字](src/com/algorithm/demo/array/Q59_通用子数组个数.java)
 - [去除重复元素](src/com/algorithm/demo/array/Q60_去除重复元素.java)
-- [Q61_两数之和_数据结构设计](src/com/algorithm/demo/array/Q61_两数之和_数据结构设计.java)
+- [两数之和_数据结构设计](src/com/algorithm/demo/array/Q61_两数之和_数据结构设计.java)
 
 ### 链表
 
