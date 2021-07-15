@@ -24,19 +24,19 @@ public class Q23_链表化数组 {
      * @param nums: an integer array
      * @return: the first node of linked list
      */
-    public ListNode toLinkedList(List<Integer> nums) {
+    public LinkNode toLinkedList(List<Integer> nums) {
         // write your code here
         if (nums.size() == 0) {
             return null;
         }
-        ListNode head = null;
-        ListNode p = null;
+        LinkNode head = null;
+        LinkNode p = null;
         for (Integer num : nums) {
             if (head == null) {
-                head = new ListNode(num);
+                head = new LinkNode(num);
                 p = head;
             } else {
-                p.next = new ListNode(num);
+                p.next = new LinkNode(num);
                 p = p.next;
             }
         }

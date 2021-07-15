@@ -32,12 +32,12 @@ public class Q14_链表划分 {
      * @param x:    An integer
      * @return: A ListNode
      */
-    public ListNode partition(ListNode head, int x) {
+    public LinkNode partition(LinkNode head, int x) {
         // write your code here
-        ListNode small = new ListNode(0);
-        ListNode smallHead = small;
-        ListNode large = new ListNode(0);
-        ListNode largeHead = large;
+        LinkNode small = new LinkNode(0);
+        LinkNode smallHead = small;
+        LinkNode large = new LinkNode(0);
+        LinkNode largeHead = large;
         while (head != null) {
             if (head.val < x) {
                 small.next = head;

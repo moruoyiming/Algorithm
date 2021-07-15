@@ -42,12 +42,12 @@ public class Q8_删除链表中倒数第n个节点 {
      * <p>
      * 根据方法一和方法二，如果我们能够得到的是倒数第 nn 个节点的前驱节点而不是倒数第 nn 个节点的话，删除操作会更加方便。因此我们可以考虑在初始时将 \textit{second}second 指向哑节点，其余的操作步骤不变。这样一来，当 \textit{first}first 遍历到链表的末尾时，\textit{second}second 的下一个节点就是我们需要删除的节点。
      */
-    public ListNode removeNthFromEnd(ListNode head, int n) {
+    public LinkNode removeNthFromEnd(LinkNode head, int n) {
         // write your code here
-        ListNode dummy = new ListNode(0);
+        LinkNode dummy = new LinkNode(0);
         dummy.next = head;
-        ListNode first = head;
-        ListNode second = dummy;
+        LinkNode first = head;
+        LinkNode second = dummy;
         for (int i = 0; i < n; i++) {
             first = first.next;
         }

@@ -23,7 +23,7 @@ public class Q20_链表转数组 {
      * @param head: the head of linked list.
      * @return: An integer list
      */
-    public List<Integer> toArrayList(ListNode head) {
+    public List<Integer> toArrayList(LinkNode head) {
         // write your code here
         List<Integer> result = new ArrayList<>();
         while (head != null) {

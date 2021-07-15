@@ -19,10 +19,10 @@ public class Q17_链表的中心节点 {
      * @param head: the head node
      * @return: the middle node
      */
-    public ListNode middleNode(ListNode head) {
+    public LinkNode middleNode(LinkNode head) {
         // write your code here.
-        ListNode fast = head;
-        ListNode slow = head;
+        LinkNode fast = head;
+        LinkNode slow = head;
         while (fast != null && fast.next != null) {
             fast = fast.next.next;
             slow = slow.next;

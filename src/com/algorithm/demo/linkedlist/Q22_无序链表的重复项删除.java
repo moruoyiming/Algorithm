@@ -24,11 +24,11 @@ public class Q22_无序链表的重复项删除 {
      * @param head: The first node of linked list.
      * @return: Head node.
      */
-    public ListNode removeDuplicates(ListNode head) {
+    public LinkNode removeDuplicates(LinkNode head) {
         // write your code here
         HashSet<Integer> hash = new HashSet<>();
 
-        ListNode dummy = new ListNode(0);
+        LinkNode dummy = new LinkNode(0);
         dummy.next = head;
         head = dummy;
         while (head.next != null) {

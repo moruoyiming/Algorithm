@@ -34,20 +34,20 @@ public class Q21_简化链表 {
      * @param head: the linked list to be simplify.
      * @return: return the linked list after simplifiction.
      */
-    public ListNode simplify(ListNode head) {
+    public LinkNode simplify(LinkNode head) {
         // write your code here
-        ListNode last = head;
+        LinkNode last = head;
         int count = -1;
         while (last.next != null) {
             count++;
             last = last.next;
         }
         if (count > 0) {
-            ListNode middleHead = head;
+            LinkNode middleHead = head;
             String s = String.valueOf(count);
             char[] cs = s.toCharArray();
             for (char c : cs) {
-                middleHead.next = new ListNode(c);
+                middleHead.next = new LinkNode(c);
                 middleHead = middleHead.next;
             }
             middleHead.next = last;

@@ -1,6 +1,6 @@
 package com.algorithm.demo.interview;
 
-import com.algorithm.demo.linkedlist.ListNode;
+import com.algorithm.demo.linkedlist.LinkNode;
 
 public class 判断链表是否有环 {
 
@@ -8,12 +8,12 @@ public class 判断链表是否有环 {
 
     }
 
-    public static Boolean hasCycle(ListNode head) {
+    public static Boolean hasCycle(LinkNode head) {
         if(head==null || head.next==null){
             return false;
         }
-        ListNode fast = head.next;
-        ListNode slow = head;
+        LinkNode fast = head.next;
+        LinkNode slow = head;
         while(fast!=slow){
             if(fast ==null || fast.next ==null){
                 return false;

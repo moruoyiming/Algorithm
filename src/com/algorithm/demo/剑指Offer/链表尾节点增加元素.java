@@ -1,16 +1,16 @@
 package com.algorithm.demo.剑指Offer;
 
-import com.algorithm.demo.linkedlist.ListNode;
+import com.algorithm.demo.linkedlist.LinkNode;
 
 public class 链表尾节点增加元素 {
 
 
-    public void AddToTail(ListNode head,int val){
-        ListNode newNode = new ListNode(val);
+    public void AddToTail(LinkNode head, int val){
+        LinkNode newNode = new LinkNode(val);
         if(head == null){
             head = newNode;
         }else{
-            ListNode node = head;
+            LinkNode node = head;
             while(node.next != null){
                 node = node.next;
             }

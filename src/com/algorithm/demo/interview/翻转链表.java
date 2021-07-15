@@ -1,6 +1,6 @@
 package com.algorithm.demo.interview;
 
-import com.algorithm.demo.linkedlist.ListNode;
+import com.algorithm.demo.linkedlist.LinkNode;
 
 /**
  * 35. 翻转链表
@@ -21,10 +21,10 @@ import com.algorithm.demo.linkedlist.ListNode;
 public class 翻转链表 {
 
     public static void main(String[] args) {
-        ListNode cur = null;
-        ListNode next = null;
+        LinkNode cur = null;
+        LinkNode next = null;
         for (int i = 0; i < 10; i++) {
-            cur = new ListNode(i, next);
+            cur = new LinkNode(i, next);
             next = cur;
             System.out.println(cur.val);
         }
@@ -40,9 +40,9 @@ public class 翻转链表 {
      * @param head: n
      * @return: The new head of reversed linked list.
      */
-    public static ListNode reverse(ListNode head) {
-        ListNode pre = null;
-        ListNode cur = null;
+    public static LinkNode reverse(LinkNode head) {
+        LinkNode pre = null;
+        LinkNode cur = null;
         while (head != null) {
             cur = head.next;
             head.next = pre;

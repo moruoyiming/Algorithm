@@ -7,12 +7,12 @@ public class Q4_链表倒数第n个节点 {
      * @param n: An integer
      * @return: Nth to last node of a singly linked list.
      */
-    public ListNode nthToLast(ListNode head, int n) {// 3  5  6  8  23
+    public LinkNode nthToLast(LinkNode head, int n) {// 3  5  6  8  23
         if (head == null || n < 1) {
             return null;
         }
-        ListNode p1 = head;
-        ListNode p2 = head;
+        LinkNode p1 = head;
+        LinkNode p2 = head;
         for (int j = 0; j < n - 1; j++) {
             if (p2 == null) {
                 return null;

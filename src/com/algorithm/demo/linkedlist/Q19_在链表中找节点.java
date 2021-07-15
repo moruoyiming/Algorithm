@@ -16,8 +16,8 @@ public class Q19_在链表中找节点 {
      * @param val: An integer.
      * @return: a linked node or null.
      */
-    public ListNode findNode(ListNode head, int val) {
-        for (ListNode node = head; node != null; node = node.next) {
+    public LinkNode findNode(LinkNode head, int val) {
+        for (LinkNode node = head; node != null; node = node.next) {
             if (node.val == val) {
                 return node;
             }

@@ -20,14 +20,14 @@ package com.algorithm.demo.linkedlist;
 public class Q9_链表求和 {
 
     public static void main(String[] args) {
-        ListNode temp3 = new ListNode(5);
-        ListNode temp2 = new ListNode(1, temp3);
-        ListNode temp1 = new ListNode(3, temp2);
+        LinkNode temp3 = new LinkNode(5);
+        LinkNode temp2 = new LinkNode(1, temp3);
+        LinkNode temp1 = new LinkNode(3, temp2);
 
-        ListNode temp33 = new ListNode(2);
-        ListNode temp22 = new ListNode(9, temp33);
-        ListNode temp11 = new ListNode(5, temp22);
-        ListNode what = addLists(temp1, temp11);
+        LinkNode temp33 = new LinkNode(2);
+        LinkNode temp22 = new LinkNode(9, temp33);
+        LinkNode temp11 = new LinkNode(5, temp22);
+        LinkNode what = addLists(temp1, temp11);
         while (what != null) {//1  2  3  4
             System.out.println(what.val);
             what = what.next;
@@ -40,16 +40,16 @@ public class Q9_链表求和 {
      * @param l2: the second list
      * @return: the sum list of l1 and l2
      */
-    public static ListNode addLists(ListNode l1, ListNode l2) {
+    public static LinkNode addLists(LinkNode l1, LinkNode l2) {
         // write your code here
-        ListNode head = new ListNode(0);
-        ListNode current = head;
+        LinkNode head = new LinkNode(0);
+        LinkNode current = head;
         int carry = 0;
         while (l1 != null || l2 != null || carry > 0) {
             int i = l1 != null ? l1.val : 0;
             int j = l2 != null ? l2.val : 0;
             int num = i + j + carry;
-            current.next = new ListNode(num % 10);
+            current.next = new LinkNode(num % 10);
             carry = num / 10;
             current = current.next;
             if (l1 != null) l1 = l1.next;

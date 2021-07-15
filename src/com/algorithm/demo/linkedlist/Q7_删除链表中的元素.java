@@ -47,10 +47,10 @@ package com.algorithm.demo.linkedlist;
 public class Q7_删除链表中的元素 {
 
     public static void main(String[] args) {
-        ListNode temp3 = new ListNode(5);
-        ListNode temp2 = new ListNode(1, temp3);
-        ListNode temp1 = new ListNode(3, temp2);
-        ListNode temp = removeElements(temp1, 1);
+        LinkNode temp3 = new LinkNode(5);
+        LinkNode temp2 = new LinkNode(1, temp3);
+        LinkNode temp1 = new LinkNode(3, temp2);
+        LinkNode temp = removeElements(temp1, 1);
         while (temp != null) {
             System.out.println(temp.val);
             temp = temp.next;
@@ -62,13 +62,13 @@ public class Q7_删除链表中的元素 {
      * @param val:  An integer
      * @return: a ListNode
      */
-    public static ListNode removeElements(ListNode head, int val) {
+    public static LinkNode removeElements(LinkNode head, int val) {
         // write your code here
-        ListNode sentinel = new ListNode(0);
+        LinkNode sentinel = new LinkNode(0);
         sentinel.next = head;
 
-        ListNode pre = sentinel;
-        ListNode curr = head;
+        LinkNode pre = sentinel;
+        LinkNode curr = head;
 
         while (curr != null) {
             if (curr.val == val) {

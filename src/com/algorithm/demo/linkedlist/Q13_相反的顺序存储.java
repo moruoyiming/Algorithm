@@ -31,7 +31,7 @@ public class Q13_相反的顺序存储 {
      * @param head: the given linked list
      * @return: the array that store the values in reverse order
      */
-    public List<Integer> reverseStore2(ListNode head) {
+    public List<Integer> reverseStore2(LinkNode head) {
         List<Integer> ls = new ArrayList<Integer>();
         while (head == null) {
             return null;
@@ -53,10 +53,10 @@ public class Q13_相反的顺序存储 {
      * @param head: the given linked list
      * @return: the array that store the values in reverse order
      */
-    public List<Integer> reverseStore(ListNode head) {
+    public List<Integer> reverseStore(LinkNode head) {
         List<Integer> integers = new ArrayList<>();
         List<Integer> temp = new ArrayList<>();
-        ListNode curr = head;
+        LinkNode curr = head;
         while (curr != null) {
             System.out.println(" " + curr.val);
             curr = curr.next;

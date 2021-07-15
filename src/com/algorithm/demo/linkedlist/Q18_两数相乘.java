@@ -30,9 +30,9 @@ public class Q18_两数相乘 {
      * @param l2: the second list
      * @return: the product list of l1 and l2
      */
-    public static long multiplyLists(ListNode l1, ListNode l2) {
+    public static long multiplyLists(LinkNode l1, LinkNode l2) {
         // write your code here
-        ListNode p = new ListNode(0);
+        LinkNode p = new LinkNode(0);
         p = l1;
         long num1 = 0;
         while (p != null) {

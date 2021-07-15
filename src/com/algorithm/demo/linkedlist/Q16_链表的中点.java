@@ -22,9 +22,9 @@ public class Q16_链表的中点 {
      * @param head: the head of linked list.
      * @return: a middle node of the linked list
      */
-    public ListNode middleNode(ListNode head) {
-        ListNode slowPointer = head;
-        ListNode fastPointer = head;
+    public LinkNode middleNode(LinkNode head) {
+        LinkNode slowPointer = head;
+        LinkNode fastPointer = head;
         while (fastPointer != null) {
             if (fastPointer.next == null || fastPointer.next.next == null) {
                 return slowPointer;

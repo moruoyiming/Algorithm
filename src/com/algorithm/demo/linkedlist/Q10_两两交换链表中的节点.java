@@ -28,13 +28,13 @@ public class Q10_两两交换链表中的节点 {
      * @param head: a ListNode
      * @return: a ListNode
      */
-    public ListNode swapPairs(ListNode head) {
-        ListNode dummy = new ListNode(0);
+    public LinkNode swapPairs(LinkNode head) {
+        LinkNode dummy = new LinkNode(0);
         dummy.next = head;
 
         head = dummy;
         while (head.next != null && head.next.next != null) {
-            ListNode n1 = head.next, n2 = head.next.next;
+            LinkNode n1 = head.next, n2 = head.next.next;
             //head->n1->n2->...
             //=> head->n2->n1->...
             head.next = n2;

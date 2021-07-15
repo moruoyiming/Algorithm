@@ -1,6 +1,6 @@
 package com.algorithm.demo.tree;
 
-import com.algorithm.demo.linkedlist.ListNode;
+import com.algorithm.demo.linkedlist.LinkNode;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -34,23 +34,23 @@ public class 将二叉树按照层级转化为链表 {
      * @param root the root of binary tree
      * @return a lists of linked list
      */
-    public List<ListNode> binaryTreeToLists(TreeNode root) {
+    public List<LinkNode> binaryTreeToLists(TreeNode root) {
         // Write your code here
-        List<ListNode> result = new ArrayList<>();
+        List<LinkNode> result = new ArrayList<>();
         if (root == null) {
             return result;
         }
         Queue<TreeNode> queue = new LinkedList<>();
         queue.offer(root);
-        ListNode dummy = new ListNode(0);
-        ListNode lastNode = null;
+        LinkNode dummy = new LinkNode(0);
+        LinkNode lastNode = null;
         while (!queue.isEmpty()) {
             dummy.next = null;
             lastNode = dummy;
             int size = queue.size();
             for (int i = 0; i < size; i++) {
                 TreeNode head = queue.poll();
-                lastNode.next = new ListNode(head.val);
+                lastNode.next = new LinkNode(head.val);
                 lastNode = lastNode.next;
                 if (head.left != null) {
                     queue.offer(head.left);
