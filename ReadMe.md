@@ -169,7 +169,12 @@
 - [数值的整数次方](src/com/algorithm/demo/剑指Offer/Q16_数值的整数次方.java)
 - [打印从1到最大的n位数](src/com/algorithm/demo/剑指Offer/Q17_打印从1到最大的n位数.java)
 - [调整数组顺序使奇数位于偶数前面](src/com/algorithm/demo/剑指Offer/Q21_调整数组顺序使奇数位于偶数前面.java)
+- [链表中倒数第k个节点](src/com/algorithm/demo/剑指Offer/Q22_链表中倒数第k个节点.java)
+- [链表中环的入口节点](src/com/algorithm/demo/剑指Offer/Q23_链表中环的入口节点.java)
+- [合并两个排序的链表](src/com/algorithm/demo/剑指Offer/Q25_合并两个排序的链表.java)
+- [树的子结构](src/com/algorithm/demo/剑指Offer/Q26_树的子结构.java)  
 - [二叉树的镜像](src/com/algorithm/demo/剑指Offer/Q27_二叉树的镜像.java)
+- [对称的二叉树](src/com/algorithm/demo/剑指Offer/Q28_对称的二叉树.java)  
 - [不修改数组找出重复的数字](src/com/algorithm/demo/剑指Offer/不修改数组找出重复的数字.java)
 - [二维数组中的查找](src/com/algorithm/demo/剑指Offer/二维数组中的查找.java)
 - [数组中重复的数字](src/com/algorithm/demo/剑指Offer/数组中重复的数字.java)
@@ -178,10 +183,10 @@
 - [链表尾节点增加元素](src/com/algorithm/demo/剑指Offer/链表尾节点增加元素.java)
 
 ### 解题思路
-- [位运算](src/com/algorithm/demo/剑指Offer/位运算)
-- [动态规划和贪婪算法](src/com/algorithm/demo/剑指Offer/动态规划和贪婪算法)
-
-
+- [位运算](src/com/algorithm/demo/位运算.md)
+- [动态规划和贪婪算法](src/com/algorithm/demo/动态规划和贪婪算法.md)
+- [链表](src/com/algorithm/demo/链表.md)
+- [总结](src/com/algorithm/demo/总结.md)
 
 
 

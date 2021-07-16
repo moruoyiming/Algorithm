@@ -24,15 +24,17 @@ public class Q23_链表中环的入口节点 {
         }
         LinkNode fast = slow.next;
         while (fast != null && slow != null) {
-            if (fast == slow)
+            if (fast == slow) {
                 return fast;
+            }
             slow = slow.next;
             fast = fast.next;
-            if(fast != null){
+            if (fast != null) {
                 fast = fast.next;
             }
         }
         return null;
+
     }
 
 }
