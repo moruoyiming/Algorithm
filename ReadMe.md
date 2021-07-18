@@ -175,12 +175,24 @@
 - [树的子结构](src/com/algorithm/demo/剑指Offer/Q26_树的子结构.java)  
 - [二叉树的镜像](src/com/algorithm/demo/剑指Offer/Q27_二叉树的镜像.java)
 - [对称的二叉树](src/com/algorithm/demo/剑指Offer/Q28_对称的二叉树.java)  
+- [顺时针打印矩阵](src/com/algorithm/demo/剑指Offer/Q29_顺时针打印矩阵.java)
+- [包含min函数的栈](src/com/algorithm/demo/剑指Offer/Q30_包含min函数的栈.java)
+- [栈的压入弹出序列](src/com/algorithm/demo/剑指Offer/Q31_栈的压入弹出序列.java)
+- [从上到下打印二叉树](src/com/algorithm/demo/剑指Offer/Q32_从上到下打印二叉树.java)
+- [二叉搜索树的后序遍历序列](src/com/algorithm/demo/剑指Offer/Q33_二叉搜索树的后序遍历序列.java)
+- [二叉树中和为某一值的路径](src/com/algorithm/demo/剑指Offer/Q34_二叉树中和为某一值的路径.java)
+- [复杂链表的复制](src/com/algorithm/demo/剑指Offer/Q35_复杂链表的复制.java)
+- [二叉搜索树与双向链表](src/com/algorithm/demo/剑指Offer/Q36_二叉搜索树与双向链表.java)
+- [序列化二叉树](src/com/algorithm/demo/剑指Offer/Q37_序列化二叉树.java)
 - [不修改数组找出重复的数字](src/com/algorithm/demo/剑指Offer/不修改数组找出重复的数字.java)
 - [二维数组中的查找](src/com/algorithm/demo/剑指Offer/二维数组中的查找.java)
 - [数组中重复的数字](src/com/algorithm/demo/剑指Offer/数组中重复的数字.java)
 - [替换空格](src/com/algorithm/demo/剑指Offer/替换空格.java)
 - [链表中找到第一个含有某值的节点并删除](src/com/algorithm/demo/剑指Offer/链表中找到第一个含有某值的节点并删除.java)
 - [链表尾节点增加元素](src/com/algorithm/demo/剑指Offer/链表尾节点增加元素.java)
+- [判断一个整数是不是2的整数次方](src/com/algorithm/demo/剑指Offer/判断一个整数是不是2的整数次方.java)
+
+
 
 ### 解题思路
 - [位运算](src/com/algorithm/demo/位运算.md)
