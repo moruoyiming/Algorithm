@@ -12,9 +12,9 @@ public class Q47_礼物的最大价值 {
                 {5, 7, 4, 11},
                 {3, 7, 16, 5}
         };
-        getMaxValue(arr);
-        getMaxValue2(arr);
-        //1,12,4,7,7,16,5
+        System.out.println(getMaxValue(arr));
+        System.out.println(getMaxValue2(arr));
+        //1,12,5,7,7,16,5
     }
 
     /**
