@@ -193,6 +193,8 @@
 - [把数字翻译成字符串](src/com/algorithm/demo/剑指Offer/Q46_把数字翻译成字符串.java)
 - [礼物的最大价值](src/com/algorithm/demo/剑指Offer/Q47_礼物的最大价值.java)
 - [最长不含重复字符的子字符串](src/com/algorithm/demo/剑指Offer/Q48_最长不含重复字符的子字符串.java)
+- [丑数](src/com/algorithm/demo/剑指Offer/Q49_丑数.java)
+- [第一次只出现一次的字符](src/com/algorithm/demo/剑指Offer/Q50_第一次只出现一次的字符.java)
 - [不修改数组找出重复的数字](src/com/algorithm/demo/剑指Offer/不修改数组找出重复的数字.java)
 - [二维数组中的查找](src/com/algorithm/demo/剑指Offer/二维数组中的查找.java)
 - [数组中重复的数字](src/com/algorithm/demo/剑指Offer/数组中重复的数字.java)
@@ -204,10 +206,13 @@
 
 
 ### 解题思路
-- [位运算](src/com/algorithm/demo/位运算.md)
-- [动态规划和贪婪算法](src/com/algorithm/demo/动态规划和贪婪算法.md)
-- [链表](src/com/algorithm/demo/链表.md)
-- [总结](src/com/algorithm/demo/总结.md)
+- [位运算](src/com/algorithm/demo/总结/位运算.md)
+- [动态规划和贪婪算法](src/com/algorithm/demo/总结/动态规划和贪婪算法.md)
+- [链表](src/com/algorithm/demo/总结/链表.md)
+- [树](src/com/algorithm/demo/总结/树.md)
+- [广度优先遍历](src/com/algorithm/demo/总结/广度优先遍历.md)
+- [排序算法分类](src/com/algorithm/demo/总结/排序算法分类.md)
+- [总结](src/com/algorithm/demo/总结/总结.md)
 
 
 
@@ -228,12 +233,9 @@
 - [小老鼠试毒药](src/com/algorithm/demo/iq/Q1_小老鼠试毒药.java)
 - [赛马排名](src/com/algorithm/demo/iq/Q2_赛马排名.java)
 - [拿苹果](src/com/algorithm/demo/iq/Q3_拿苹果.java)
-
-
-### 其他
-- [BigNumber](src/com/algorithm/demo/other/BigNumber.java)
-- [丢鸡蛋](src/com/algorithm/demo/other/丢鸡蛋.java)
-- [有效的数独](src/com/algorithm/demo/other/有效的数独.java)
+- [BigNumber](src/com/algorithm/demo/iq/BigNumber.java)
+- [丢鸡蛋](src/com/algorithm/demo/iq/丢鸡蛋.java)
+- [有效的数独](src/com/algorithm/demo/iq/有效的数独.java)
 
 ### 搜索
 - [二分查找](src/com/algorithm/demo/search/二分查找.java)
@@ -287,3 +289,7 @@
 - [字符串进行去重(Meta)](src/com/algorithm/demo/interview/字符串进行去重.java)
 - [顺序打印ABCABC(小米)](src/com/algorithm/demo/interview/ABCABC.java)
 - [打印斐波那契数列(小米)](src/com/algorithm/demo/interview/打印斐波那契数列.java)
+
+### 面经
+- [京东](src/com/algorithm/demo/面经/JD.md)
+- [易车](src/com/algorithm/demo/面经/易车.md)
