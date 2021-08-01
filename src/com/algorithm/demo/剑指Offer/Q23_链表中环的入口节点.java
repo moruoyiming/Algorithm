@@ -1,6 +1,6 @@
 package com.algorithm.demo.剑指Offer;
 
-import com.algorithm.demo.linkedlist.LinkNode;
+import com.algorithm.demo.linkedlist.ListNode;
 
 /**
  * 如果一个链表中包含环，如何找出环的入口节点？
@@ -14,15 +14,15 @@ import com.algorithm.demo.linkedlist.LinkNode;
  */
 public class Q23_链表中环的入口节点 {
 
-    public LinkNode meetingNode(LinkNode head) {
+    public ListNode meetingNode(ListNode head) {
         if (head == null) {
             return null;
         }
-        LinkNode slow = head.next;
+        ListNode slow = head.next;
         if (slow == null) {
             return null;
         }
-        LinkNode fast = slow.next;
+        ListNode fast = slow.next;
         while (fast != null && slow != null) {
             if (fast == slow) {
                 return fast;

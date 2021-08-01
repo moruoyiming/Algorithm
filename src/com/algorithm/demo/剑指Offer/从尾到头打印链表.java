@@ -1,6 +1,6 @@
 package com.algorithm.demo.剑指Offer;
 
-import com.algorithm.demo.linkedlist.LinkNode;
+import com.algorithm.demo.linkedlist.ListNode;
 
 import java.util.Stack;
 
@@ -14,15 +14,15 @@ public class 从尾到头打印链表 {
      *
      * @param head
      */
-    public void printListNode(LinkNode head) {
-        Stack<LinkNode> stack = new Stack<>();
-        LinkNode node = head;
+    public void printListNode(ListNode head) {
+        Stack<ListNode> stack = new Stack<>();
+        ListNode node = head;
         while (node != null) {
             stack.push(node);
             node = node.next;
         }
         while (!stack.empty()) {
-            LinkNode temp = stack.peek();
+            ListNode temp = stack.peek();
             System.out.println("node" + temp.val);
         }
     }
@@ -34,8 +34,8 @@ public class 从尾到头打印链表 {
      *
      * @param head
      */
-    public void printListNode2(LinkNode head) {
-        LinkNode node = head;
+    public void printListNode2(ListNode head) {
+        ListNode node = head;
         if (node != null) {
             if (node.next != null) {
                 printListNode2(node.next);

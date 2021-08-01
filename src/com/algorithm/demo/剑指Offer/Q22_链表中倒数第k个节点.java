@@ -1,6 +1,6 @@
 package com.algorithm.demo.剑指Offer;
 
-import com.algorithm.demo.linkedlist.LinkNode;
+import com.algorithm.demo.linkedlist.ListNode;
 
 /**
  * 输入一个链表，输出该链表中倒数第k个节点。
@@ -13,12 +13,12 @@ import com.algorithm.demo.linkedlist.LinkNode;
  */
 public class Q22_链表中倒数第k个节点 {
 
-    public LinkNode findKthToTail(LinkNode head, int k) {
+    public ListNode findKthToTail(ListNode head, int k) {
         if (head == null || k < 1) {
             return null;
         }
-        LinkNode p1 = head;
-        LinkNode p2 = head;
+        ListNode p1 = head;
+        ListNode p2 = head;
         for (int i = 0; i < k - 1; i++) {
             if (p2 == null) {
                 return null;

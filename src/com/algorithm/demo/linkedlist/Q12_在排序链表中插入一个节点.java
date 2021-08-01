@@ -25,16 +25,16 @@ public class Q12_在排序链表中插入一个节点 {
      * @param val:  An integer.
      * @return: The head of new linked list.
      */
-    public LinkNode insertNode(LinkNode head, int val) {
-        LinkNode sentinel = new LinkNode(0);
+    public ListNode insertNode(ListNode head, int val) {
+        ListNode sentinel = new ListNode(0);
         sentinel.next = head;
-        LinkNode pre = sentinel;
+        ListNode pre = sentinel;
         while (pre != null) {
-            LinkNode curr = pre.next;
+            ListNode curr = pre.next;
             if (curr != null && curr.val < val) {
                 pre = pre.next;
             } else {
-                LinkNode newNode = new LinkNode(val);
+                ListNode newNode = new ListNode(val);
                 newNode.next = curr;
                 pre.next = newNode;
                 break;

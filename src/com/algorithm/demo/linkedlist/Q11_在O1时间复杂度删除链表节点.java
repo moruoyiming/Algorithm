@@ -30,18 +30,18 @@ public class Q11_在O1时间复杂度删除链表节点 {
      * @param node: the node in the list should be deleted
      * @return: nothing
      */
-    public static LinkNode deleteNode(LinkNode head, LinkNode tobeDelete) {
+    public static ListNode deleteNode(ListNode head, ListNode tobeDelete) {
         if (head == null || tobeDelete == null){
             return null;
         }
         if (tobeDelete.next != null){   // 要删除的节点不是尾节点
-            LinkNode next = tobeDelete.next;
+            ListNode next = tobeDelete.next;
             tobeDelete.val = next.val;
             tobeDelete.next = next.next;
         } else if (head == tobeDelete){   // 删除的节点只有一个节点，此节点为头节点
             head = null;
         } else {   // 删除的节点为尾节点
-            LinkNode cur = head;
+            ListNode cur = head;
             while (cur.next != tobeDelete){
                 cur = cur.next;
             }

@@ -21,9 +21,9 @@ package com.algorithm.demo.linkedlist;
 public class Q5_删除排序链表中的重复元素 {
 
     public static void main(String[] args) {
-        LinkNode temp3 = new LinkNode(2);
-        LinkNode temp2 = new LinkNode(1, temp3);
-        LinkNode temp1 = new LinkNode(1, temp2);
+        ListNode temp3 = new ListNode(2);
+        ListNode temp2 = new ListNode(1, temp3);
+        ListNode temp1 = new ListNode(1, temp2);
         deleteDuplicates(temp1);
     }
 
@@ -41,11 +41,11 @@ public class Q5_删除排序链表中的重复元素 {
      * @param head: head is the head of the linked list
      * @return: head of linked list
      */
-    public static LinkNode deleteDuplicates(LinkNode head) {
+    public static ListNode deleteDuplicates(ListNode head) {
         if (head == null) {
             return null;
         }
-        LinkNode node = head;
+        ListNode node = head;
         while (node.next != null) {
             if (node.val == node.next.val) {
                 node.next = node.next.next;

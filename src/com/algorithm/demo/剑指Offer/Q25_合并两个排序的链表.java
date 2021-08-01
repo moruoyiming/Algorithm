@@ -1,6 +1,6 @@
 package com.algorithm.demo.剑指Offer;
 
-import com.algorithm.demo.linkedlist.LinkNode;
+import com.algorithm.demo.linkedlist.ListNode;
 
 /**
  * 输入两个递增排序的链表，合并这两个链表并使新链表中的节点仍然是递增排序的。
@@ -22,13 +22,13 @@ public class Q25_合并两个排序的链表 {
      * @param pHead2
      * @return
      */
-    public LinkNode merge(LinkNode pHead1, LinkNode pHead2) {
+    public ListNode merge(ListNode pHead1, ListNode pHead2) {
         if (pHead1 == null) {
             return pHead2;
         } else if (pHead2 == null) {
             return pHead1;
         }
-        LinkNode pMergeHead = null;
+        ListNode pMergeHead = null;
         if (pHead1.val < pHead2.val) {
             pMergeHead = pHead1;
             pMergeHead.next = merge(pHead1.next, pHead2);

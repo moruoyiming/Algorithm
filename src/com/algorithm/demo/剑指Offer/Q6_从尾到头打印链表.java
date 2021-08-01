@@ -1,6 +1,6 @@
 package com.algorithm.demo.剑指Offer;
 
-import com.algorithm.demo.linkedlist.LinkNode;
+import com.algorithm.demo.linkedlist.ListNode;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
@@ -34,9 +34,9 @@ public class Q6_从尾到头打印链表 {
      * @param head
      * @return
      */
-    public int[] reversePrint(LinkNode head) {
+    public int[] reversePrint(ListNode head) {
         Deque<Integer> stack = new ArrayDeque<>();
-        LinkNode curNode = head;
+        ListNode curNode = head;
         while (curNode != null) {
             stack.add(curNode.val);
             curNode = curNode.next;

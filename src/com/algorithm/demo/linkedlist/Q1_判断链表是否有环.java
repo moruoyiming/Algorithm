@@ -6,12 +6,12 @@ public class Q1_判断链表是否有环 {
 
     }
 
-    public static Boolean hasCycle(LinkNode head) {
+    public static Boolean hasCycle(ListNode head) {
         if (head == null || head.next == null) {
             return false;
         }
-        LinkNode fast = head.next;
-        LinkNode slow = head;
+        ListNode fast = head.next;
+        ListNode slow = head;
         while (fast != slow) {
             if(fast==null || fast.next==null)
                 return false;

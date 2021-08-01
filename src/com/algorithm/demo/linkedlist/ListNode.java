@@ -1,19 +1,19 @@
 package com.algorithm.demo.linkedlist;
 
-public class LinkNode {
+public class ListNode {
     public int val;
-    public LinkNode next;
+    public ListNode next;
 
-    public LinkNode(int val, LinkNode next) {
+    public ListNode(int val, ListNode next) {
         this.val = val;
         this.next = next;
     }
 
-    public LinkNode(int x) {
+    public ListNode(int x) {
         val = x;
         next = null;
     }
 
-    public LinkNode() {}
+    public ListNode() {}
 
 }

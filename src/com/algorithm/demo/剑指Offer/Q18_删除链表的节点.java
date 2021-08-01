@@ -1,6 +1,6 @@
 package com.algorithm.demo.剑指Offer;
 
-import com.algorithm.demo.linkedlist.LinkNode;
+import com.algorithm.demo.linkedlist.ListNode;
 
 /**
  * 在O(1)时间内删除链表节点
@@ -17,13 +17,13 @@ import com.algorithm.demo.linkedlist.LinkNode;
  */
 public class Q18_删除链表的节点 {
 
-    public void deleteNode(LinkNode head, LinkNode deleted) {
+    public void deleteNode(ListNode head, ListNode deleted) {
         if (head == null || deleted == null) {
             return;
         }
         //要删除的节点不是尾节点
         if (deleted.next != null) {
-            LinkNode next = deleted.next;
+            ListNode next = deleted.next;
             deleted.val = next.val;
             deleted.next = next.next;
             next = null;
@@ -35,7 +35,7 @@ public class Q18_删除链表的节点 {
         }
         //链表中有多个节点，删除尾节点
         else {
-            LinkNode node = head;
+            ListNode node = head;
             while (node.next != deleted) {
                 node = node.next;
             }

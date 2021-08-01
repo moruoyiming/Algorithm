@@ -26,7 +26,7 @@ public class Q6_合并两个排序链表 {
      * @param l2: ListNode l2 is the head of the linked list
      * @return: ListNode head of linked list
      */
-    public LinkNode mergeTwoLists(LinkNode l1, LinkNode l2) {
+    public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         // write your code here
         if (l1 == null) {
             return l2;
@@ -34,8 +34,8 @@ public class Q6_合并两个排序链表 {
         if (l2 == null) {
             return l1;
         }
-        LinkNode head = new LinkNode(0);
-        LinkNode current = head;
+        ListNode head = new ListNode(0);
+        ListNode current = head;
         while (l1 != null && l2 != null) {
             //比较一下，哪个小就把哪个放到新的链表中
             if (l1.val <= l2.val) {

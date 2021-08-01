@@ -6,12 +6,12 @@ public class Q2_链表相交找出交点 {
      * @param headB: the second list
      * @return: a ListNode
      */
-    public LinkNode getIntersectionNode(LinkNode headA, LinkNode headB) {
+    public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         if (headA == null || headB == null) {
             return null;
         }
-        LinkNode a = headA;
-        LinkNode b = headB;
+        ListNode a = headA;
+        ListNode b = headB;
         while (a != b) {
             a = a == null ? headB : a.next;
             b = b == null ? headA : b.next;

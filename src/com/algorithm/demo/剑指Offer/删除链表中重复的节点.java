@@ -1,6 +1,6 @@
 package com.algorithm.demo.剑指Offer;
 
-import com.algorithm.demo.linkedlist.LinkNode;
+import com.algorithm.demo.linkedlist.ListNode;
 
 /**
  * 在一个排序的链表中，如何删除重复的节点？在链表中重复的节点被删除之后下
@@ -14,21 +14,21 @@ import com.algorithm.demo.linkedlist.LinkNode;
 public class 删除链表中重复的节点 {
 
     public static void main(String[] args) {
-        LinkNode n1 = new LinkNode(1);
-        LinkNode n2 = new LinkNode(2, n1);
-        LinkNode n3 = new LinkNode(2, n2);
-        LinkNode n4 = new LinkNode(3, n3);
-        LinkNode n5 = new LinkNode(4, n4);
-        LinkNode n6 = new LinkNode(4, n5);
-        LinkNode n7 = new LinkNode(5, n6);
-        LinkNode node = n1;
+        ListNode n1 = new ListNode(1);
+        ListNode n2 = new ListNode(2, n1);
+        ListNode n3 = new ListNode(2, n2);
+        ListNode n4 = new ListNode(3, n3);
+        ListNode n5 = new ListNode(4, n4);
+        ListNode n6 = new ListNode(4, n5);
+        ListNode n7 = new ListNode(5, n6);
+        ListNode node = n1;
         System.out.println("删除前：");
         while (node != null) {
             System.out.print(node.val + " ");
             node = node.next;
         }
         System.out.println();
-        LinkNode nodeafterdelete = delete(n1);
+        ListNode nodeafterdelete = delete(n1);
         System.out.println("删除后:");
         while (nodeafterdelete != null) {
             System.out.print(nodeafterdelete.val + " ");
@@ -44,14 +44,14 @@ public class 删除链表中重复的节点 {
      *
      * @param pHead
      */
-    public static void deleteDuplication(LinkNode pHead) {
+    public static void deleteDuplication(ListNode pHead) {
         if (pHead == null) {
             return;
         }
-        LinkNode mPreNode = null;
-        LinkNode pNode = pHead;
+        ListNode mPreNode = null;
+        ListNode pNode = pHead;
         while (pNode != null) {
-            LinkNode pNext = pNode.next;
+            ListNode pNext = pNode.next;
             boolean needDelete = false;
             if (pNext != null && pNext.val == pNode.val) {
                 needDelete = true;
@@ -62,7 +62,7 @@ public class 删除链表中重复的节点 {
                 System.out.println("pNode " + pNode.val);
             } else {
                 int value = pNode.val;
-                LinkNode pToBeDel = pNode;
+                ListNode pToBeDel = pNode;
                 while (pToBeDel != null && pToBeDel.val == value) {
                     pNext = pToBeDel.next;
                     pToBeDel = null;
@@ -79,11 +79,11 @@ public class 删除链表中重复的节点 {
         }
     }
 
-    public static LinkNode delete(LinkNode node) {
+    public static ListNode delete(ListNode node) {
         if(node==null) return null;
         if(node.next!=null) {
-            LinkNode first=node;
-            LinkNode pre=node;
+            ListNode first=node;
+            ListNode pre=node;
             node=node.next;
             if(first.val!=first.next.val) {
                 while(node.next!=null) {

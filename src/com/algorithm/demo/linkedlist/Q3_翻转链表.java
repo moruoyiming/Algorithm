@@ -19,10 +19,10 @@ package com.algorithm.demo.linkedlist;
 public class Q3_翻转链表 {
 
     public static void main(String[] args) {
-        LinkNode cur = null;
-        LinkNode next = null;
+        ListNode cur = null;
+        ListNode next = null;
         for (int i = 0; i < 10; i++) {
-            cur = new LinkNode(i, next);
+            cur = new ListNode(i, next);
             next = cur;
             System.out.println(cur.val);
         }
@@ -37,9 +37,9 @@ public class Q3_翻转链表 {
      * @param head: n
      * @return: The new head of reversed linked list.
      */
-    public static LinkNode reverse(LinkNode head) {
-        LinkNode pre = null;
-        LinkNode cur = null;
+    public static ListNode reverse(ListNode head) {
+        ListNode pre = null;
+        ListNode cur = null;
         while (head != null) {//1  2  3  4
             cur = head.next;
             head.next = pre;
