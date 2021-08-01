@@ -1,4 +1,4 @@
-package com.algorithm.demo.other;
+package com.algorithm.demo.iq;
 
 /**
  * 254 · 丢鸡蛋

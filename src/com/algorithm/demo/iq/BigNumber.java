@@ -1,4 +1,4 @@
-package com.algorithm.demo.other;
+package com.algorithm.demo.iq;
 
 /**
  * 编写用数组实现大整数的类，提供大整数的加、减、乘等运算。

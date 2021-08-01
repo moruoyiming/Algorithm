@@ -1,4 +1,4 @@
-package com.algorithm.demo.other;
+package com.algorithm.demo.iq;
 
 /**
  * 根据：Sudoku Puzzles - The Rules，来确定数独是否有效。
