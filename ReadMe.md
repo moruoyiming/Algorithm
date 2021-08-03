@@ -155,6 +155,7 @@
 
 
 ### 剑指Offer
+- [数组中重复的数字](src/com/algorithm/demo/剑指Offer/Q3_数组中重复的数字.java)
 - [从尾到头打印链表](src/com/algorithm/demo/剑指Offer/Q6_从尾到头打印链表.java)
 - [重建二叉树](src/com/algorithm/demo/剑指Offer/Q7_重建二叉树.java)
 - [二叉树的下一个节点](src/com/algorithm/demo/剑指Offer/Q8_二叉树的下一个节点.java)
@@ -195,15 +196,30 @@
 - [最长不含重复字符的子字符串](src/com/algorithm/demo/剑指Offer/Q48_最长不含重复字符的子字符串.java)
 - [丑数](src/com/algorithm/demo/剑指Offer/Q49_丑数.java)
 - [第一次只出现一次的字符](src/com/algorithm/demo/剑指Offer/Q50_第一次只出现一次的字符.java)
+- [数组中的逆序对](src/com/algorithm/demo/剑指Offer/Q51_数组中的逆序对.java)
+- [两个链表的第一个公共节点](src/com/algorithm/demo/剑指Offer/Q52_两个链表的第一个公共节点.java)
+- [排序数组中查找数字](src/com/algorithm/demo/剑指Offer/Q53_排序数组中查找数字.java)
+  
 - [不修改数组找出重复的数字](src/com/algorithm/demo/剑指Offer/不修改数组找出重复的数字.java)
+- [两个队列实现一个栈](src/com/algorithm/demo/剑指Offer/两个队列实现一个栈.java)
+- [之字形打印二叉树](src/com/algorithm/demo/剑指Offer/之字形打印二叉树.java)
 - [二维数组中的查找](src/com/algorithm/demo/剑指Offer/二维数组中的查找.java)
+- [从尾到头打印链表](src/com/algorithm/demo/剑指Offer/从尾到头打印链表.java)
+- [从第一个字符串中删除在第二个字符串中出现过的所有字符](src/com/algorithm/demo/剑指Offer/从第一个字符串中删除在第二个字符串中出现过的所有字符.java)
+- [分行从上到下打印二叉树](src/com/algorithm/demo/剑指Offer/分行从上到下打印二叉树.java) 
+- [删除字符串中所有重复出现的字符](src/com/algorithm/demo/剑指Offer/删除字符串中所有重复出现的字符.java)
+- [删除链表中重复的节点](src/com/algorithm/demo/剑指Offer/删除链表中重复的节点.java)
+- [判断一个整数是不是2的整数次方](src/com/algorithm/demo/剑指Offer/判断一个整数是不是2的整数次方.java)
+- [变位词](src/com/algorithm/demo/剑指Offer/变位词.java)
+- [字符流中第一个只出现一次的字符](src/com/algorithm/demo/剑指Offer/字符流中第一个只出现一次的字符.java)
 - [数组中重复的数字](src/com/algorithm/demo/剑指Offer/数组中重复的数字.java)
 - [替换空格](src/com/algorithm/demo/剑指Offer/替换空格.java)
+- [请实现一个排序算法要求时间效率为On](src/com/algorithm/demo/剑指Offer/请实现一个排序算法要求时间效率为On.java)
+- [判断一个整数是不是2的整数次方](src/com/algorithm/demo/剑指Offer/判断一个整数是不是2的整数次方.java) 
 - [链表中找到第一个含有某值的节点并删除](src/com/algorithm/demo/剑指Offer/链表中找到第一个含有某值的节点并删除.java)
 - [链表尾节点增加元素](src/com/algorithm/demo/剑指Offer/链表尾节点增加元素.java)
-- [判断一个整数是不是2的整数次方](src/com/algorithm/demo/剑指Offer/判断一个整数是不是2的整数次方.java)
-
-
+- [零至n减1中缺失的数字](src/com/algorithm/demo/剑指Offer/零至n减1中缺失的数字.java)
+- [青蛙跳台阶问题](src/com/algorithm/demo/剑指Offer/青蛙跳台阶问题.java)
 
 ### 解题思路
 - [位运算](src/com/algorithm/demo/总结/位运算.md)
