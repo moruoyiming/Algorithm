@@ -199,7 +199,22 @@
 - [数组中的逆序对](src/com/algorithm/demo/剑指Offer/Q51_数组中的逆序对.java)
 - [两个链表的第一个公共节点](src/com/algorithm/demo/剑指Offer/Q52_两个链表的第一个公共节点.java)
 - [排序数组中查找数字](src/com/algorithm/demo/剑指Offer/Q53_排序数组中查找数字.java)
-  
+- [叉搜索树第k大节点](src/com/algorithm/demo/剑指Offer/Q54_二叉搜索树第k大节点.java)
+- [二叉树的深度](src/com/algorithm/demo/剑指Offer/Q55_二叉树的深度.java)
+- [数组中数字出现的次数](src/com/algorithm/demo/剑指Offer/Q56_数组中数字出现的次数.java)
+- [和为s的数字](src/com/algorithm/demo/剑指Offer/Q57_和为s的数字.java)
+- [翻转字符串](src/com/algorithm/demo/剑指Offer/Q58_翻转字符串.java)
+- [队列的最大值](src/com/algorithm/demo/剑指Offer/Q59_队列的最大值.java)
+- [n个骰子的点数](src/com/algorithm/demo/剑指Offer/Q60_n个骰子的点数.java)
+- [扑克牌的顺子](src/com/algorithm/demo/剑指Offer/Q61_扑克牌的顺子.java)
+- [圆圈中最后剩下的数字](src/com/algorithm/demo/剑指Offer/Q62_圆圈中最后剩下的数字.java)
+- [股票的最大利润](src/com/algorithm/demo/剑指Offer/Q63_股票的最大利润.java)
+- [求1加2加n](src/com/algorithm/demo/剑指Offer/Q64_求1加2加n.java)
+- [不用加减乘除做加法](src/com/algorithm/demo/剑指Offer/Q65_不用加减乘除做加法.java)
+- [构建乘积数组](src/com/algorithm/demo/剑指Offer/Q66_构建乘积数组.java)
+- [把字符串转换成整数](src/com/algorithm/demo/剑指Offer/Q67_把字符串转换成整数.java)
+- [树中两个节点的最低公共祖先](src/com/algorithm/demo/剑指Offer/Q68_树中两个节点的最低公共祖先.java)
+ 
 - [不修改数组找出重复的数字](src/com/algorithm/demo/剑指Offer/不修改数组找出重复的数字.java)
 - [两个队列实现一个栈](src/com/algorithm/demo/剑指Offer/两个队列实现一个栈.java)
 - [之字形打印二叉树](src/com/algorithm/demo/剑指Offer/之字形打印二叉树.java)
@@ -228,6 +243,8 @@
 - [树](src/com/algorithm/demo/总结/树.md)
 - [广度优先遍历](src/com/algorithm/demo/总结/广度优先遍历.md)
 - [排序算法分类](src/com/algorithm/demo/总结/排序算法分类.md)
+- [交换变量值](src/com/algorithm/demo/总结/交换变量值.md)
+- [13道数据结构和算法题总结](src/com/algorithm/demo/总结/13道数据结构和算法题总结.md)
 - [总结](src/com/algorithm/demo/总结/总结.md)
 
 

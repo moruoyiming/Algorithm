@@ -11,14 +11,33 @@ public class 左旋转字符串 {
     public static void main(String[] args) {
         String str = "abcdefg";
         String result = leftRotateString(str, 2);
-        System.out.println("result=" + result);
+//        System.out.println("result=" + result);
     }
 
     public static String leftRotateString(String str, int n) {
-        if (str != null && !"".equals(str)) {
-
+        if (str != null && !"".equals(str) && n >= 0) {
+            char[] array = str.toCharArray();
+            //翻转字符串的前面n个字符
+            reverse(array, 0, n - 1);
+            System.out.println("result1=" + new String(array));
+            //翻转字符串的后面部分
+            reverse(array, n, array.length - 1);
+            System.out.println("result2=" + new String(array));
+            //翻转整个字符串
+            reverse(array, 0, array.length - 1);
+            System.out.println("result=" + new String(array));
         }
         return str;
+    }
+
+    public static void reverse(char[] chars, int start, int end) {
+        while (start <= end) {
+            char temp = chars[start];
+            chars[start] = chars[end];
+            chars[end] = temp;
+            start++;
+            end--;
+        }
     }
 
 }
