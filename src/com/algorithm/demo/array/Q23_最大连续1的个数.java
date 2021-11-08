@@ -38,7 +38,7 @@ public class Q23_最大连续1的个数 {
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] == 1) {
                 count++;
-                maxcount = count > maxcount ? count : maxcount;
+                maxcount = Math.max(count, maxcount);
             } else {
                 count = 0;
             }

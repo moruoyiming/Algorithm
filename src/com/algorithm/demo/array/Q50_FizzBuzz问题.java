@@ -43,7 +43,7 @@ public class Q50_FizzBuzz问题 {
         // write your code here
         List<String> result = new ArrayList<String>();
         for (int i = 1; i <= n; i++) {
-            if (i % 3 == 0 && i % 5 == 0) {
+            if (i % 3 == 0 && i % 5 == 0) { 
                 result.add("fizz buzz");
             } else if (i % 3 == 0) {
                 result.add("fizz");
