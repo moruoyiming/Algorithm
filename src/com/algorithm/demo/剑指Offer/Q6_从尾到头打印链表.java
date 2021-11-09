@@ -49,4 +49,19 @@ public class Q6_从尾到头打印链表 {
         return res;
     }
 
+    public int[] reversePrint2(ListNode head){
+        Deque<Integer> stack = new ArrayDeque<>();
+        ListNode curNode = head;
+        while (curNode != null){
+            stack.add(curNode.val);
+            curNode = curNode.next;
+        }
+        int size = stack.size();
+        int[] res = new int[size];
+        for(int i = 0 ; i < size ; i++){
+            res[i] = stack.removeLast();
+        }
+        return res;
+    }
+
 }

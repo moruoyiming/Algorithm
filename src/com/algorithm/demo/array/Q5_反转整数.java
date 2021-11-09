@@ -38,9 +38,22 @@ public class Q5_反转整数 {
                 return 0;
             }
             sum = y + sum * 10; // 4  3  3   6   5  6
-            System.out.println(" sum= "+sum);
+            System.out.println(" sum= " + sum);
             x = x / 10;// 65633  6563  656  65  6
-            System.out.println(" x= "+x);
+            System.out.println(" x= " + x);
+        }
+        return sum;
+    }
+
+    public static int reverse2(int x) {
+        int sum = 0;
+        while (x != 0) {
+            int y = x % 10;
+            if (sum < Integer.MIN_VALUE / 10 || sum > Integer.MAX_VALUE / 10) {
+                return 0;
+            }
+            sum = y + sum * 10;
+            x = x / 10;
         }
         return sum;
     }

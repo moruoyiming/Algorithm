@@ -99,4 +99,20 @@ public class Q1_两数之和 {
         return new int[0];
     }
 
+
+    public static int[] sum3(int[] numbers, int target) {
+        if (numbers == null || numbers.length == 0) {
+            return null;
+        }
+        HashMap<Integer, Integer> hashMap = new HashMap<>();
+        for (int i = 0; i < numbers.length; i++) {
+            if (hashMap.containsKey(target - numbers[i])) {
+                return new int[]{hashMap.get(target - numbers[i]), i};
+            } else {
+                hashMap.put(numbers[i], i);
+            }
+        }
+        return new int[0];
+    }
+
 }
