@@ -37,4 +37,17 @@ public class Q7_获取第n个斐波那契数 {
         return array[n - 1];
     }
 
+    private static int getFibo2(int n) {
+        if (n == 0 || n == 1) {
+            return 0;
+        }
+        int[] array = new int[n];
+        array[0] = 0;
+        array[1] = 0;
+        for (int i = 2; i < array.length; i++) {
+            array[i] = array[i - 1] + array[i - 2];
+        }
+        return array[n - 1];
+    }
+
 }

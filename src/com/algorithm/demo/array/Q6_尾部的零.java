@@ -31,9 +31,18 @@ public class Q6_尾部的零 {
         long sum = 0;
         while (n != 0) {
             sum += n / 5;
-            System.out.println("sum="+sum);
+            System.out.println("sum=" + sum);
             n /= 5;
-            System.out.println("sum="+sum+", n="+n);
+            System.out.println("sum=" + sum + ", n=" + n);
+        }
+        return sum;
+    }
+
+    public static long trailingZeros2(long n) {
+        long sum = 0;
+        while (n != 0) {
+            sum += n / 5;
+            n /= 5;
         }
         return sum;
     }

@@ -35,4 +35,13 @@ public class Q9_交叉数组 {
         return temp;
     }
 
+    public int[] interleavedArray2(int[] A, int[] B){
+        int[] temp = new int[A.length + B.length];
+        for(int i = 0 ; i < A.length; i++){
+            temp[i * 2] = A[i];
+            temp[i * 2 + 1] = B[i];
+        }
+        return temp;
+    }
+
 }
