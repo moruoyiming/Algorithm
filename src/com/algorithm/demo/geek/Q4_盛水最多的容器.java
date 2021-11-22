@@ -18,7 +18,7 @@ public class Q4_盛水最多的容器 {
      * 一维数组的坐标变换！i , j
      * 1.枚举：left bar x ， right bar y (x - y) * height_diff
      * 时间复杂度 O(n^2)
-     * 2.左右边界i，j，向中间收敛
+     * 2.左右边界i，j，向中间收敛.左右夹逼。
      * O(n)
      */
     public static int maxArea(int[] heights) {

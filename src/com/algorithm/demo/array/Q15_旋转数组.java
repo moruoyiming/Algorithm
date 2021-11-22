@@ -60,4 +60,23 @@ public class Q15_旋转数组 {
         return temp;
     }
 
+    public static int[] rotate2(int[] nums, int k) {
+        if (nums == null || nums.length == 0) {
+            return nums;
+        }
+        int length = nums.length;
+        if (k % nums.length == 0) {
+            return nums;
+        }
+        int[] temp = new int[nums.length];
+        k %= nums.length;
+        for(int i = 0 ; i < nums.length ; i++){
+            if(i < k ){
+                temp[i] = nums[length - k + i];
+            }else{
+                temp[i] = nums[i - k];
+            }
+        }
+        return temp;
+    }
 }

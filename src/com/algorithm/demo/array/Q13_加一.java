@@ -54,4 +54,21 @@ public class Q13_加一 {
         return temp;
     }
 
+    public static int[] plusOne2(int[] digits) {
+        if (digits.length == 0) {
+            return digits;
+        }
+        int n = digits.length;
+        for (int i = digits.length - 1; i >= 0; --i) {
+            if (digits[i] < 9) {
+                digits[i]++;
+                return digits;
+            }
+            digits[i] = 0;
+        }
+        int[] temp = new int[n + 1];
+        temp[0] = 1;
+        return temp;
+    }
+
 }
