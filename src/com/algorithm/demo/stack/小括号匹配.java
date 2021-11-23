@@ -1,5 +1,7 @@
 package com.algorithm.demo.stack;
 
+import java.util.Stack;
+
 public class 小括号匹配 {
 
     public static void main(String[] args) {
@@ -26,4 +28,23 @@ public class 小括号匹配 {
         }
         return matched == 0;
     }
+
+    public static boolean matchParentheses2(String string) {
+        if (string.length() % 2 == 1) return false;
+        Stack<Character> stack = new Stack<>();
+        for (char c : string.toCharArray()) {
+            if (c == '(' || c == '{' || c == '[') {
+                stack.push(c);
+            } else {
+                if (stack.isEmpty()) return false;
+                char top = stack.pop();
+                if (c == ')' && top != '(') return false;
+                if (c == '}' && top != '{') return false;
+                if (c == ']' && top != '[') return false;
+            }
+        }
+        return stack.isEmpty();
+    }
+
+
 }
