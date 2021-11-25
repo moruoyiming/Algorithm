@@ -62,4 +62,20 @@ public class Q10_有效的括号 {
         return stack.isEmpty();
     }
 
+    public boolean isValid2(String s) {
+        ArrayDeque<Character> stack = new ArrayDeque<>();
+        for (char c : s.toCharArray()) {
+            if (c == '(') {
+                stack.push(')');
+            } else if (c == '{') {
+                stack.push('}');
+            } else if (c == '[') {
+                stack.push(']');
+            } else if (stack.isEmpty() || stack.pop() != c) {
+                return false;
+            }
+        }
+        return stack.isEmpty();
+    }
+
 }

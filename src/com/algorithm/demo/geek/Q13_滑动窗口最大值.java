@@ -37,6 +37,9 @@ package com.algorithm.demo.geek;
  *
  * 输入：nums = [4,-2], k = 2
  * 输出：[4]
+ *
+ *  遇到滑动窗口类似的题，优先考虑 队列解题。
+ *
  */
 public class Q13_滑动窗口最大值 {
 }
