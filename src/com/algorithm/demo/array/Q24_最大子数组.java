@@ -61,4 +61,20 @@ public class Q24_最大子数组 {
         return greatsetsum;
     }
 
+    public static int maxSubArray2(int[] nums) {
+        int maxSum = nums[0];
+        int currentSum = nums[0];
+        for(int i = 1; i < nums.length; i++){
+            if(currentSum > 0){
+                currentSum += nums[i];
+            }else{
+                currentSum = nums[i];
+            }
+            if(maxSum < currentSum){
+                currentSum = maxSum;
+            }
+        }
+        return maxSum;
+    }
+
 }
