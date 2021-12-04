@@ -1,5 +1,6 @@
 package com.algorithm.demo.array;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Set;
@@ -41,6 +42,17 @@ public class Q33_包含重复值 {
             }
             data.add(nums[left]);
             left++;
+        }
+        return false;
+    }
+
+    public boolean containsDuplicate2(int[] nums) {
+        Arrays.sort(nums);
+        int n = nums.length;
+        for(int i = 0 ; i < n - 1; i++){
+            if(nums[i] == nums[i + 1]){
+                return true;
+            }
         }
         return false;
     }
