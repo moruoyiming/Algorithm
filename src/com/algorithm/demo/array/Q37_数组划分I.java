@@ -30,6 +30,9 @@ public class Q37_数组划分I {
     }
 
     /**
+     *
+     * 时间复杂度：O(n\log n)O(nlogn)，即为对数组 \textit{nums}nums 进行排序的时间复杂度。
+     * 空间复杂度：O(\log n)O(logn)，即为排序需要使用的栈空间。
      * @param nums: an array
      * @return: the sum of min(ai, bi) for all i from 1 to n
      */

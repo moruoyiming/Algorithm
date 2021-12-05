@@ -100,6 +100,21 @@ public class Q7_删除链表中的元素 {
         return head.val == val ? head.next : head;
     }
 
+    /**
+     * 方法二：迭代
+     * 也可以用迭代的方法删除链表中所有节点值等于特定值的节点。
+     * 用 \textit{temp}temp 表示当前节点。如果 \textit{temp}temp 的下一个节点不为空且下一个节点的节点值等于给定的 \textit{val}val，则需要删除下一个节点。删除下一个节点可以通过以下做法实现：
+     * \textit{temp}.\textit{next} = \textit{temp}.\textit{next}.\textit{next}
+     * temp.next=temp.next.next
+     * 如果 \textit{temp}temp 的下一个节点的节点值不等于给定的 \textit{val}val，则保留下一个节点，将 \textit{temp}temp 移动到下一个节点即可。
+     * 当 \textit{temp}temp 的下一个节点为空时，链表遍历结束，此时所有节点值等于 \textit{val}val 的节点都被删除。
+     * 具体实现方面，由于链表的头节点 \textit{head}head 有可能需要被删除，因此创建哑节点 \textit{dummyHead}dummyHead，令 \textit{dummyHead}.\textit{next} = \textit{head}dummyHead.next=head，初始化 \textit{temp}=\textit{dummyHead}temp=dummyHead，然后遍历链表进行删除操作。最终返回 \textit{dummyHead}.\textit{next}dummyHead.next 即为删除操作后的头节点。
+     * 时间复杂度：O(n)O(n)，其中 nn 是链表的长度。需要遍历链表一次。
+     * 空间复杂度：O(1)O(1)。
+     * @param head
+     * @param val
+     * @return
+     */
     public ListNode removeElements3(ListNode head, int val) {
         ListNode dummyHead = new ListNode(0);
         dummyHead.next = head;
