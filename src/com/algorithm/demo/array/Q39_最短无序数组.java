@@ -6,7 +6,6 @@ package com.algorithm.demo.array;
  * <p>
  * 样例
  * 样例 1:
- * <p>
  * 输入：[1,2,3,4,5,6]
  * 输出：0
  * 解释：一个递增数组。
