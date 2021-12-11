@@ -66,6 +66,12 @@
 - [只出现一次的数字](src/com/algorithm/demo/array/Q59_通用子数组个数.java)
 - [去除重复元素](src/com/algorithm/demo/array/Q60_去除重复元素.java)
 - [两数之和_数据结构设计](src/com/algorithm/demo/array/Q61_两数之和_数据结构设计.java)
+- [盛水最多的容器](src/com/algorithm/demo/array/Q62_盛水最多的容器.java)
+- [回文数验证](src/com/algorithm/demo/array/Q63_回文数验证.java)
+- [只出现一次的数字](src/com/algorithm/demo/array/Q64_只出现一次的数字.java)
+- [将有序数组转换为二叉搜索树](src/com/algorithm/demo/array/Q65_将有序数组转换为二叉搜索树.java)
+  
+
 
 ### 链表
 
