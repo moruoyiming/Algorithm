@@ -267,6 +267,8 @@
 - [数字变形](src/com/algorithm/demo/math/Q9_数字变形.java)
 - [二进制求和](src/com/algorithm/demo/math/Q10_二进制求和.java)
 - [重构回文](src/com/algorithm/demo/math/Q11_重构回文.java)
+- [杨辉三角](src/com/algorithm/demo/math/Q12_杨辉三角.java)
+- [快乐数](src/com/algorithm/demo/math/Q13_快乐数.java)
 
 ### 智力题
 - [小老鼠试毒药](src/com/algorithm/demo/iq/Q1_小老鼠试毒药.java)

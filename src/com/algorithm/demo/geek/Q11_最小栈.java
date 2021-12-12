@@ -46,6 +46,7 @@ public class Q11_最小栈 {
     public Q11_最小栈() {
         stack = new LinkedList<Integer>();
         minStack = new LinkedList<Integer>();
+        minStack.push(Integer.MAX_VALUE);
     }
 
     public void push(int val) {
