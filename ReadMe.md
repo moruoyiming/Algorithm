@@ -99,8 +99,8 @@
 - [简化链表](src/com/algorithm/demo/linkedlist/Q21_简化链表.java)
 - [无序链表的重复项删除](src/com/algorithm/demo/linkedlist/Q22_无序链表的重复项删除.java)
 - [链表化数组](src/com/algorithm/demo/linkedlist/Q23_链表化数组.java)
-
-
+- [删除链表中的节点](src/com/algorithm/demo/linkedlist/Q24_删除链表中的节点.java)
+  
 ### 树
 - [AVLTree](src/com/algorithm/demo/tree/AVLTree.java)
 - [HuffmanTree](src/com/algorithm/demo/tree/HuffmanTree.java)
@@ -137,6 +137,9 @@
 - [大整数相加](src/com/algorithm/demo/string/Q9_大整数相加.java)
 - [两字符串和](src/com/algorithm/demo/string/Q10_两字符串和.java)
 - [翻转字符串](src/com/algorithm/demo/string/Q11_翻转字符串.java)
+- [最后一个单词的长度](src/com/algorithm/demo/string/Q12_最后一个单词的长度.java)
+- [最长公共前缀](src/com/algorithm/demo/string/Q13_最长公共前缀.java)
+- [罗马数字转整数](src/com/algorithm/demo/string/Q14_罗马数字转整数.java)
 - [反转字符串中的单词](src/com/algorithm/demo/string/反转字符串中的单词.java)
 - [最长单词](src/com/algorithm/demo/string/最长单词.java)
 - [比较字符串](src/com/algorithm/demo/string/比较字符串.java)
