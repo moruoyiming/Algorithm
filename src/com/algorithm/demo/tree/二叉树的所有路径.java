@@ -60,4 +60,24 @@ public class 二叉树的所有路径 {
         }
         return paths;
     }
+    
+    public List<String> binaryTreePaths2(TreeNode root){
+        List<String> paths = new ArrayList<>();
+        constructPaths(root,"",paths);
+        return paths;
+    }
+
+    private void constructPaths(TreeNode root, String path, List<String> paths) {
+        if(root != null){
+            StringBuffer sb = new StringBuffer(path);
+            sb.append(Integer.valueOf(root.val));
+            if(root.left == null && root.right == null){
+                paths.add(sb.toString());
+            }else{
+               sb.append("->");
+               constructPaths(root.left,sb.toString(),paths);
+               constructPaths(root.right,sb.toString(),paths);
+            }
+        }
+    }
 }
