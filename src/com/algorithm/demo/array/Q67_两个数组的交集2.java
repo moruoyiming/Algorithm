@@ -68,9 +68,9 @@ public class Q67_两个数组的交集2 {
         int i = 0;
         int j = 0;
         while (i < nums1.length && j < nums2.length) {
-            if (nums1[i] < nums1[j]) {
+            if (nums1[i] < nums2[j]) {
                 i++;
-            } else if (nums1[i] > nums1[j]) {
+            } else if (nums1[i] > nums2[j]) {
                 j++;
             } else {
                 list.add(nums1[i]);
