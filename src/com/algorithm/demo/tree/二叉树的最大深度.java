@@ -1,5 +1,8 @@
 package com.algorithm.demo.tree;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 /**
  * 97 · 二叉树的最大深度
  * 描述
@@ -36,6 +39,9 @@ public class 二叉树的最大深度 {
     /**
      * @param root: The root of binary tree.
      * @return: An integer
+     * 时间复杂度：O(n)O(n)，其中 nn 为二叉树节点的个数。每个节点在递归中只被遍历一次。
+     * 空间复杂度：O(\textit{height})O(height)，其中 \textit{height}height 表示二叉树的高度。递归函数需要栈空间，
+     * 而栈空间取决于递归的深度，因此空间复杂度等价于二叉树的高度。
      */
     public static int maxDepth(TreeNode root) {
         // write your code here
@@ -45,6 +51,37 @@ public class 二叉树的最大深度 {
         int left = maxDepth(root.left);
         int right = maxDepth(root.right);
         return Math.max(left, right) + 1;
+    }
+
+    /**
+     * 时间复杂度：O(n)O(n)，其中 nn 为二叉树的节点个数。与方法一同样的分析，每个节点只会被访问一次。
+     * 空间复杂度：此方法空间的消耗取决于队列存储的元素数量，其在最坏情况下会达到 O(n)O(n)。
+     *
+     * @param root
+     * @return
+     */
+    public static int maxDepth2(TreeNode root) {
+        if (root == null) {
+            return 0;
+        }
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.offer(root);
+        int ans = 0;
+        while (!queue.isEmpty()) {
+            int size = queue.size();
+            while (size > 0) {
+                TreeNode temp = queue.poll();
+                if (temp.left == null) {
+                    queue.offer(temp.left);
+                }
+                if (temp.right == null) {
+                    queue.offer(temp.right);
+                }
+                size--;
+            }
+            ans++;
+        }
+        return ans;
     }
 
 }

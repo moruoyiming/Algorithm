@@ -10,7 +10,7 @@ package com.algorithm.demo.tree;
 public class 路径总和 {
 
     public boolean hasPathSum(TreeNode root, int targetSum) {
-
+        return false;
     }
 
 
