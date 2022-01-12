@@ -1,5 +1,6 @@
 package com.algorithm.demo.tree;
 
+import java.util.LinkedList;
 import java.util.Queue;
 
 /**
@@ -61,7 +62,7 @@ public class 二叉树的最大深度 {
      */
     public static int maxDepth2(TreeNode root) {
         if (root == null) {
-            return 0
+            return 0;
         }
         Queue<TreeNode> queue = new LinkedList<>();
         queue.offer(root);
