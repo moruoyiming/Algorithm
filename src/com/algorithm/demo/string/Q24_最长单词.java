@@ -3,7 +3,7 @@ package com.algorithm.demo.string;
 import java.util.ArrayList;
 import java.util.List;
 
-public class 最长单词 {
+public class Q24_最长单词 {
 
     public static void main(String[] args) {
 //        String[] dictionary = {"dog", "google", "facebook", "internationalization", "blabla"};

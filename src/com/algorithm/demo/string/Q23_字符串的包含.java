@@ -4,7 +4,7 @@ package com.algorithm.demo.string;
  * 给定一长字符串a和一短字符串b。请问，如何最快的判断出短字符串b中的所有字符是否都在长字符串a中？
  *
  */
-public class 字符串的包含 {
+public class Q23_字符串的包含 {
 
     public static void main(String[] args) {
 

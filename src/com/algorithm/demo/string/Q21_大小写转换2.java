@@ -11,7 +11,7 @@ package com.algorithm.demo.string;
  * 输入: str = "abc"
  * 输出: "ABC"
  */
-public class 大小写转换2 {
+public class Q21_大小写转换2 {
 
     public static void main(String[] args) {
 

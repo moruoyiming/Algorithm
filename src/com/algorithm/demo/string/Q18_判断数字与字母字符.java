@@ -13,7 +13,7 @@ package com.algorithm.demo.string;
  * 注意事项
  * 如果您使用的是Python语言，那么输入将是一个长度为1的字符串。
  */
-public class 判断数字与字母字符 {
+public class Q18_判断数字与字母字符 {
 
     public static void main(String[] args) {
         char c = 'c';

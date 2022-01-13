@@ -16,7 +16,7 @@ package com.algorithm.demo.string;
  * 注意事项
  * 你可以假设输入一定在小写字母 a ~ z 之间
  */
-public class 大小写转换 {
+public class Q20_大小写转换 {
 
     public static void main(String[] args) {
 

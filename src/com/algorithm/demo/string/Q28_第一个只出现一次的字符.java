@@ -23,7 +23,7 @@ import java.util.Map;
  * 解释:
  * 'b' 是第一个出现一次的字符
  */
-public class 第一个只出现一次的字符 {
+public class Q28_第一个只出现一次的字符 {
 
     public static void main(String[] args) {
 

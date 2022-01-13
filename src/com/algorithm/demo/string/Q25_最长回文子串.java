@@ -1,4 +1,4 @@
 package com.algorithm.demo.string;
 
-public class 最长回文子串 {
+public class Q25_最长回文子串 {
 }

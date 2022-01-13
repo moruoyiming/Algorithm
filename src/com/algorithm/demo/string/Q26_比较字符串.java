@@ -12,7 +12,7 @@ package com.algorithm.demo.string;
  * 注意事项
  * The characters of B in A are not necessary continuous or ordered.
  */
-public class 比较字符串 {
+public class Q26_比较字符串 {
 
     public static void main(String[] args) {
         String a = "ABCD";
