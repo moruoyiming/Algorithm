@@ -18,19 +18,7 @@ public class Q68_丢失的数字 {
 
     /**
      * 将从 00 到 nn 的全部整数之和记为 \textit{total}total，根据高斯求和公式，有：
-     * <p>
-     * \textit{total} = \sum_{i=1}^n = \dfrac{n(n+1)}{2}
-     * total=
-     * i=1
-     * ∑
-     * n
-     * ​
-     * =
-     * 2
-     * n(n+1)
-     * ​
-     * <p>
-     * <p>
+     * total = n * ( n + 1) / 2;
      * 将数组 \textit{nums}nums 的元素之和记为 \textit{arrSum}arrSum，则 \textit{arrSum}arrSum 比
      * \textit{total}total 少了丢失的一个数字，因此丢失的数字即为 \textit{total}total 与 \textit{arrSum}arrSum 之差。
      * 时间复杂度：O(n)O(n)，其中 nn 是数组 \textit{nums}nums 的长度。需要 O(1)O(1) 的时间计算从 00 到 nn 的全部整数之和以及需要 O(n)O(n) 的时间计算数组 \textit{nums}nums 的元素之和。
