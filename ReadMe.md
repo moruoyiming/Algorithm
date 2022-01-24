@@ -70,7 +70,10 @@
 - [回文数验证](src/com/algorithm/demo/array/Q63_回文数验证.java)
 - [只出现一次的数字](src/com/algorithm/demo/array/Q64_只出现一次的数字.java)
 - [将有序数组转换为二叉搜索树](src/com/algorithm/demo/array/Q65_将有序数组转换为二叉搜索树.java)
-  
+- [存在重复元素](src/com/algorithm/demo/array/Q66_存在重复元素.java)  
+- [两个数组的交集2](src/com/algorithm/demo/array/Q67_两个数组的交集2.java)
+- [丢失的数字](src/com/algorithm/demo/array/Q68_丢失的数字.java)
+- [第一个错误的版本](src/com/algorithm/demo/array/Q69_第一个错误的版本.java)
 
 
 ### 链表

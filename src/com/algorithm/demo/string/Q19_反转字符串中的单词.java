@@ -30,7 +30,7 @@ package com.algorithm.demo.string;
  * 创建StringBuilder对象，将分割出来的单词依次按照要求添加到StringBuilder中
  * 输出字符串
  */
-public class 反转字符串中的单词 {
+public class Q19_反转字符串中的单词 {
 
     public static void main(String[] args) {
         String str = "  Life  doesn't  always    give     us  the       joys we want.";

@@ -1,7 +1,26 @@
-package com.algorithm.demo.geek;
+package com.algorithm.demo.string;
 
-
-public class Q15_有效的字母异位词 {
+/**
+ * @Date: 2022/1/13
+ * @Time: 11:22 上午
+ * @Author: Jian
+ * 242. 有效的字母异位词
+ * 给定两个字符串 s 和 t ，编写一个函数来判断 t 是否是 s 的字母异位词。
+ * <p>
+ * 注意：若 s 和 t 中每个字符出现的次数都相同，则称 s 和 t 互为字母异位词。
+ * <p>
+ * <p>
+ * <p>
+ * 示例 1:
+ * <p>
+ * 输入: s = "anagram", t = "nagaram"
+ * 输出: true
+ * 示例 2:
+ * <p>
+ * 输入: s = "rat", t = "car"
+ * 输出: false
+ */
+public class Q16_有效的字母异位词 {
 
     /**
      * 从另一个角度考虑，tt 是 ss 的异位词等价于「两个字符串中字符出现的种类和次数均相等」。由于字符串只包含 2626 个小写字母，
@@ -27,5 +46,6 @@ public class Q15_有效的字母异位词 {
         }
         return true;
     }
+
 
 }

@@ -22,7 +22,7 @@ package com.algorithm.demo.string;
  * 挑战
  * 在原字符串(字符数组)中完成替换，不适用额外空间
  */
-public class 空格替换 {
+public class Q27_空格替换 {
     /*
      * @param string: An array of Char
      * @param length: The true length of the string

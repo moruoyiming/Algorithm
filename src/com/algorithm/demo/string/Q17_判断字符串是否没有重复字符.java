@@ -16,7 +16,7 @@ package com.algorithm.demo.string;
  * 挑战
  * 如果不使用额外的存储空间，你的算法该如何改变？
  */
-public class 判断字符串是否没有重复字符 {
+public class Q17_判断字符串是否没有重复字符 {
     public static void main(String[] args) {
         String abc = "abcc____";
 //        String abc = "abc";
