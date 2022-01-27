@@ -127,6 +127,11 @@
 
 ### 栈
 - [小括号匹配](src/com/algorithm/demo/stack/小括号匹配.java)
+- [有效的括号](src/com/algorithm/demo/stack/有效的括号.java)
+- [用栈实现队列](src/com/algorithm/demo/stack/用栈实现队列.java)
+
+### 队列
+- [用队列实现栈](src/com/algorithm/demo/queue/用队列实现栈.java)
 
 ### 字符串
 - [字符串反转](src/com/algorithm/demo/string/Q1_字符串反转.java)
@@ -155,7 +160,13 @@
 - [最长单词](src/com/algorithm/demo/string/Q24_最长单词.java)  
 - [比较字符串](src/com/algorithm/demo/string/Q26_比较字符串.java)  
 - [第一个只出现一次的字符](src/com/algorithm/demo/string/Q28_第一个只出现一次的字符.java)
+- [赎金信](src/com/algorithm/demo/string/Q29_赎金信.java)
+- [判断子序列](src/com/algorithm/demo/string/Q30_判断子序列.java)
+- [字符串的单词数](src/com/algorithm/demo/string/Q31_字符串的单词数.java)
 
+### 哈希表
+- [哈希函数](src/com/algorithm/demo/hash/哈希函数.java)
+- [最高频率的IP](src/com/algorithm/demo/hash/最高频率的IP.java)
 
 ### 矩阵
 - [矩阵斜线上元素相同](src/com/algorithm/demo/matrix/矩阵斜线上元素相同.java)
@@ -164,12 +175,6 @@
 - [最大数和最小数](src/com/algorithm/demo/matrix/最大数和最小数.java)
 - [IntArrayTest](src/com/algorithm/demo/matrix/IntArrayTest.java)
 - [不同的路径](src/com/algorithm/demo/matrix/不同的路径.java)
-
-
-### 哈希表
-- [哈希函数](src/com/algorithm/demo/hash/哈希函数.java)
-- [最高频率的IP](src/com/algorithm/demo/hash/最高频率的IP.java)
-
 
 ### 剑指Offer
 - [数组中重复的数字](src/com/algorithm/demo/剑指Offer/Q3_数组中重复的数字.java)
@@ -231,7 +236,6 @@
 - [构建乘积数组](src/com/algorithm/demo/剑指Offer/Q66_构建乘积数组.java)
 - [把字符串转换成整数](src/com/algorithm/demo/剑指Offer/Q67_把字符串转换成整数.java)
 - [树中两个节点的最低公共祖先](src/com/algorithm/demo/剑指Offer/Q68_树中两个节点的最低公共祖先.java)
- 
 - [不修改数组找出重复的数字](src/com/algorithm/demo/剑指Offer/不修改数组找出重复的数字.java)
 - [两个队列实现一个栈](src/com/algorithm/demo/剑指Offer/两个队列实现一个栈.java)
 - [之字形打印二叉树](src/com/algorithm/demo/剑指Offer/之字形打印二叉树.java)
@@ -253,18 +257,18 @@
 - [零至n减1中缺失的数字](src/com/algorithm/demo/剑指Offer/零至n减1中缺失的数字.java)
 - [青蛙跳台阶问题](src/com/algorithm/demo/剑指Offer/青蛙跳台阶问题.java)
 
-### 解题思路
-- [位运算](src/com/algorithm/demo/总结/位运算.md)
-- [动态规划和贪婪算法](src/com/algorithm/demo/总结/动态规划和贪婪算法.md)
-- [链表](src/com/algorithm/demo/总结/链表.md)
-- [树](src/com/algorithm/demo/总结/树.md)
-- [广度优先遍历](src/com/algorithm/demo/总结/广度优先遍历.md)
-- [排序算法分类](src/com/algorithm/demo/总结/排序算法分类.md)
-- [交换变量值](src/com/algorithm/demo/总结/交换变量值.md)
-- [13道数据结构和算法题总结](src/com/algorithm/demo/总结/13道数据结构和算法题总结.md)
-- [总结](src/com/algorithm/demo/总结/总结.md)
 
-
+### 十大排序
+- [冒泡排序](src/com/algorithm/demo/sort/Q1_冒泡排序.java)
+- [选择排序](src/com/algorithm/demo/sort/Q2_选择排序.java)
+- [插入排序](src/com/algorithm/demo/sort/Q3_插入排序.java)
+- [希尔排序](src/com/algorithm/demo/sort/Q4_希尔排序.java)
+- [快速排序](src/com/algorithm/demo/sort/Q5_快速排序.java)
+- [基数排序](src/com/algorithm/demo/sort/Q6_基数排序.java)
+- [计数排序](src/com/algorithm/demo/sort/Q7_计数排序.java)
+- [归并排序](src/com/algorithm/demo/sort/Q8_归并排序.java)
+- [堆排序](src/com/algorithm/demo/sort/Q9_堆排序.java)
+- [桶排序](src/com/algorithm/demo/sort/Q10_桶排序.java)
 
 ### 数学题
 - [反转一个三位整数](src/com/algorithm/demo/math/Q1_反转一个三位整数.java)
@@ -292,18 +296,16 @@
 ### 搜索
 - [二分查找](src/com/algorithm/demo/search/二分查找.java)
 
-### 十大排序
-- [冒泡排序](src/com/algorithm/demo/sort/Q1_冒泡排序.java)
-- [选择排序](src/com/algorithm/demo/sort/Q2_选择排序.java)
-- [插入排序](src/com/algorithm/demo/sort/Q3_插入排序.java)
-- [希尔排序](src/com/algorithm/demo/sort/Q4_希尔排序.java)
-- [快速排序](src/com/algorithm/demo/sort/Q5_快速排序.java)
-- [基数排序](src/com/algorithm/demo/sort/Q6_基数排序.java)
-- [计数排序](src/com/algorithm/demo/sort/Q7_计数排序.java)
-- [归并排序](src/com/algorithm/demo/sort/Q8_归并排序.java)
-- [堆排序](src/com/algorithm/demo/sort/Q9_堆排序.java)
-- [桶排序](src/com/algorithm/demo/sort/Q10_桶排序.java)
-
+### 解题思路
+- [位运算](src/com/algorithm/demo/总结/位运算.md)
+- [动态规划和贪婪算法](src/com/algorithm/demo/总结/动态规划和贪婪算法.md)
+- [链表](src/com/algorithm/demo/总结/链表.md)
+- [树](src/com/algorithm/demo/总结/树.md)
+- [广度优先遍历](src/com/algorithm/demo/总结/广度优先遍历.md)
+- [排序算法分类](src/com/algorithm/demo/总结/排序算法分类.md)
+- [交换变量值](src/com/algorithm/demo/总结/交换变量值.md)
+- [13道数据结构和算法题总结](src/com/algorithm/demo/总结/13道数据结构和算法题总结.md)
+- [总结](src/com/algorithm/demo/总结/总结.md)
 
 ### 线程
 - [顺序打印  A 1 B 2 C 3 ... Z 26](src/com/algorithm/demo/thread/A1B2C3.java)
@@ -331,7 +333,6 @@
 
 
 ### 大厂面试算法题
-
 - [随机从数组中取出不重复的元素(百度1面)](src/com/algorithm/demo/interview/数组随机打印不重复.java)
 - [如何根据年龄给100万用户数据排序(百度1面)](src/com/algorithm/demo/interview/给100万用户数据排序.java)
 - [x的n次幂(百度2面)](src/com/algorithm/demo/interview/x的n次幂.java)
