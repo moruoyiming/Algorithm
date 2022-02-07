@@ -178,6 +178,14 @@
 - [IntArrayTest](src/com/algorithm/demo/matrix/IntArrayTest.java)
 - [不同的路径](src/com/algorithm/demo/matrix/不同的路径.java)
 
+### 极客
+- [回文验证](src/com/algorithm/demo/geek/Q1_回文验证.java)
+- [斐波那契数列](src/com/algorithm/demo/geek/Q2_斐波那契数列.java)
+- [移动零](src/com/algorithm/demo/geek/Q3_移动零.java)
+- [盛水最多的容器](src/com/algorithm/demo/geek/Q4_盛水最多的容器.java)
+- [三数之和](src/com/algorithm/demo/geek/Q5_三数之和.java)
+- [环形链表](src/com/algorithm/demo/geek/Q6_环形链表.java)
+
 ### 剑指Offer
 - [数组中重复的数字](src/com/algorithm/demo/剑指Offer/Q3_数组中重复的数字.java)
 - [从尾到头打印链表](src/com/algorithm/demo/剑指Offer/Q6_从尾到头打印链表.java)
