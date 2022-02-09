@@ -185,6 +185,11 @@
 - [盛水最多的容器](src/com/algorithm/demo/geek/Q4_盛水最多的容器.java)
 - [三数之和](src/com/algorithm/demo/geek/Q5_三数之和.java)
 - [环形链表](src/com/algorithm/demo/geek/Q6_环形链表.java)
+- [爬楼梯](src/com/algorithm/demo/geek/Q7_爬楼梯.java)
+- [翻转链表](src/com/algorithm/demo/geek/Q8_翻转链表.java)
+- [旋转数组](src/com/algorithm/demo/geek/Q9_旋转数组.java)
+- [有效的括号](src/com/algorithm/demo/geek/Q10_有效的括号.java)
+- [最小栈](src/com/algorithm/demo/geek/Q11_最小栈.java)
 
 ### 剑指Offer
 - [数组中重复的数字](src/com/algorithm/demo/剑指Offer/Q3_数组中重复的数字.java)
