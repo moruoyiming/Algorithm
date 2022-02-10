@@ -190,6 +190,12 @@
 - [旋转数组](src/com/algorithm/demo/geek/Q9_旋转数组.java)
 - [有效的括号](src/com/algorithm/demo/geek/Q10_有效的括号.java)
 - [最小栈](src/com/algorithm/demo/geek/Q11_最小栈.java)
+- [柱状图中最大的矩形](src/com/algorithm/demo/geek/Q12_柱状图中最大的矩形.java)
+- [滑动窗口最大值](src/com/algorithm/demo/geek/Q13_滑动窗口最大值.java)
+- [接雨水](src/com/algorithm/demo/geek/Q14_接雨水.java)
+- [有效的字母异位词](src/com/algorithm/demo/geek/Q15_有效的字母异位词.java)
+
+
 
 ### 剑指Offer
 - [数组中重复的数字](src/com/algorithm/demo/剑指Offer/Q3_数组中重复的数字.java)
