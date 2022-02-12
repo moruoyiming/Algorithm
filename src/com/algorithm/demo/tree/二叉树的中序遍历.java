@@ -1,6 +1,8 @@
 package com.algorithm.demo.tree;
 
 import java.util.ArrayList;
+import java.util.Deque;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Stack;
 
@@ -33,58 +35,23 @@ import java.util.Stack;
  */
 public class 二叉树的中序遍历 {
 
-
-    /**
-     * @param root: A Tree
-     * @return: Inorder in ArrayList which contains node values.
-     */
-    public List<Integer> inorderTraversal(TreeNode root) {
-        Stack<TreeNode> stack = new Stack<>();
-        ArrayList<Integer> result = new ArrayList<>();
-
-        while (root != null) {
-            stack.push(root);
-            root = root.left;
-        }
-
-        while (!stack.isEmpty()) {
-            TreeNode node = stack.peek();
-            result.add(node.val);
-
-            if (node.right == null) {
-                node = stack.pop();
-                while (!stack.isEmpty() && stack.peek().right == node) {
-                    node = stack.pop();
-                }
-            } else {
-                node = node.right;
-                while (node != null) {
-                    stack.push(node);
-                    node = node.left;
-                }
-            }
-        }
-        return result;
-    }
-
     /**
      * @param root: A Tree
      * @return: Inorder in ArrayList which contains node values.
      */
     public List<Integer> inorderTraversal2(TreeNode root) {
-        Stack<TreeNode> stack = new Stack<TreeNode>();
-        ArrayList<Integer> result = new ArrayList<>();
-        TreeNode curt = root;
-        while (curt != null || !stack.empty()) {
-            while (curt != null) {
-                stack.add(curt);
-                curt = curt.left;
+        List<Integer> ans = new ArrayList<>();
+        Deque<TreeNode> stack = new LinkedList<>();
+        while(root != null || !stack.isEmpty()){
+            while(root != null){
+                stack.push(root);
+                root = root.left;
             }
-            curt = stack.pop();
-            result.add(curt.val);
-            curt = curt.right;
+            root = stack.pop();
+            ans.add(root.val);
+            root = root.right;
         }
-        return result;
+        return ans;
     }
 
     /**

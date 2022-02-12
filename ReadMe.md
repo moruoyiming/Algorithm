@@ -127,6 +127,11 @@
 
 ### 栈
 - [小括号匹配](src/com/algorithm/demo/stack/小括号匹配.java)
+- [有效的括号](src/com/algorithm/demo/stack/有效的括号.java)
+- [用栈实现队列](src/com/algorithm/demo/stack/用栈实现队列.java)
+
+### 队列
+- [用队列实现栈](src/com/algorithm/demo/queue/用队列实现栈.java)
 
 ### 字符串
 - [字符串反转](src/com/algorithm/demo/string/Q1_字符串反转.java)
@@ -143,14 +148,27 @@
 - [最后一个单词的长度](src/com/algorithm/demo/string/Q12_最后一个单词的长度.java)
 - [最长公共前缀](src/com/algorithm/demo/string/Q13_最长公共前缀.java)
 - [罗马数字转整数](src/com/algorithm/demo/string/Q14_罗马数字转整数.java)
-- [反转字符串中的单词](src/com/algorithm/demo/string/反转字符串中的单词.java)
-- [最长单词](src/com/algorithm/demo/string/最长单词.java)
-- [比较字符串](src/com/algorithm/demo/string/比较字符串.java)
-- [第一个只出现一次的字符](src/com/algorithm/demo/string/第一个只出现一次的字符.java)
-- [大小写转换](src/com/algorithm/demo/string/大小写转换.java)
-- [判断字符串是否没有重复字符](src/com/algorithm/demo/string/判断字符串是否没有重复字符.java)
-- [大小写转换2](src/com/algorithm/demo/string/大小写转换2.java)
+- [找不同](src/com/algorithm/demo/string/Q15_找不同.java)  
+- [同构字符串](src/com/algorithm/demo/string/Q16_同构字符串.java)
+- [判断字符串是否没有重复字符](src/com/algorithm/demo/string/Q17_判断字符串是否没有重复字符.java)
+- [判断数字与字母字符](src/com/algorithm/demo/string/Q18_判断数字与字母字符.java)
+- [反转字符串中的单词](src/com/algorithm/demo/string/Q19_反转字符串中的单词.java)
+- [大小写转换](src/com/algorithm/demo/string/Q20_大小写转换.java)
+- [大小写转换2](src/com/algorithm/demo/string/Q21_大小写转换2.java)
+- [字符串的全排列](src/com/algorithm/demo/string/Q22_字符串的全排列.java)
+- [字符串的包含](src/com/algorithm/demo/string/Q23_字符串的包含.java)
+- [最长单词](src/com/algorithm/demo/string/Q24_最长单词.java)  
+- [最长回文子串](src/com/algorithm/demo/string/Q25_最长回文子串.java)  
+- [比较字符串](src/com/algorithm/demo/string/Q26_比较字符串.java)  
+- [空格替换](src/com/algorithm/demo/string/Q27_空格替换.java)
+- [第一个只出现一次的字符](src/com/algorithm/demo/string/Q28_第一个只出现一次的字符.java)
+- [赎金信](src/com/algorithm/demo/string/Q29_赎金信.java)
+- [判断子序列](src/com/algorithm/demo/string/Q30_判断子序列.java)
+- [字符串的单词数](src/com/algorithm/demo/string/Q31_字符串的单词数.java)
 
+### 哈希表
+- [哈希函数](src/com/algorithm/demo/hash/哈希函数.java)
+- [最高频率的IP](src/com/algorithm/demo/hash/最高频率的IP.java)
 
 ### 矩阵
 - [矩阵斜线上元素相同](src/com/algorithm/demo/matrix/矩阵斜线上元素相同.java)
@@ -160,10 +178,23 @@
 - [IntArrayTest](src/com/algorithm/demo/matrix/IntArrayTest.java)
 - [不同的路径](src/com/algorithm/demo/matrix/不同的路径.java)
 
+### 极客
+- [回文验证](src/com/algorithm/demo/geek/Q1_回文验证.java)
+- [斐波那契数列](src/com/algorithm/demo/geek/Q2_斐波那契数列.java)
+- [移动零](src/com/algorithm/demo/geek/Q3_移动零.java)
+- [盛水最多的容器](src/com/algorithm/demo/geek/Q4_盛水最多的容器.java)
+- [三数之和](src/com/algorithm/demo/geek/Q5_三数之和.java)
+- [环形链表](src/com/algorithm/demo/geek/Q6_环形链表.java)
+- [爬楼梯](src/com/algorithm/demo/geek/Q7_爬楼梯.java)
+- [翻转链表](src/com/algorithm/demo/geek/Q8_翻转链表.java)
+- [旋转数组](src/com/algorithm/demo/geek/Q9_旋转数组.java)
+- [有效的括号](src/com/algorithm/demo/geek/Q10_有效的括号.java)
+- [最小栈](src/com/algorithm/demo/geek/Q11_最小栈.java)
+- [柱状图中最大的矩形](src/com/algorithm/demo/geek/Q12_柱状图中最大的矩形.java)
+- [滑动窗口最大值](src/com/algorithm/demo/geek/Q13_滑动窗口最大值.java)
+- [接雨水](src/com/algorithm/demo/geek/Q14_接雨水.java)
+- [有效的字母异位词](src/com/algorithm/demo/geek/Q15_有效的字母异位词.java)
 
-### 哈希表
-- [哈希函数](src/com/algorithm/demo/hash/哈希函数.java)
-- [最高频率的IP](src/com/algorithm/demo/hash/最高频率的IP.java)
 
 
 ### 剑指Offer
@@ -226,7 +257,6 @@
 - [构建乘积数组](src/com/algorithm/demo/剑指Offer/Q66_构建乘积数组.java)
 - [把字符串转换成整数](src/com/algorithm/demo/剑指Offer/Q67_把字符串转换成整数.java)
 - [树中两个节点的最低公共祖先](src/com/algorithm/demo/剑指Offer/Q68_树中两个节点的最低公共祖先.java)
- 
 - [不修改数组找出重复的数字](src/com/algorithm/demo/剑指Offer/不修改数组找出重复的数字.java)
 - [两个队列实现一个栈](src/com/algorithm/demo/剑指Offer/两个队列实现一个栈.java)
 - [之字形打印二叉树](src/com/algorithm/demo/剑指Offer/之字形打印二叉树.java)
@@ -248,18 +278,18 @@
 - [零至n减1中缺失的数字](src/com/algorithm/demo/剑指Offer/零至n减1中缺失的数字.java)
 - [青蛙跳台阶问题](src/com/algorithm/demo/剑指Offer/青蛙跳台阶问题.java)
 
-### 解题思路
-- [位运算](src/com/algorithm/demo/总结/位运算.md)
-- [动态规划和贪婪算法](src/com/algorithm/demo/总结/动态规划和贪婪算法.md)
-- [链表](src/com/algorithm/demo/总结/链表.md)
-- [树](src/com/algorithm/demo/总结/树.md)
-- [广度优先遍历](src/com/algorithm/demo/总结/广度优先遍历.md)
-- [排序算法分类](src/com/algorithm/demo/总结/排序算法分类.md)
-- [交换变量值](src/com/algorithm/demo/总结/交换变量值.md)
-- [13道数据结构和算法题总结](src/com/algorithm/demo/总结/13道数据结构和算法题总结.md)
-- [总结](src/com/algorithm/demo/总结/总结.md)
 
-
+### 十大排序
+- [冒泡排序](src/com/algorithm/demo/sort/Q1_冒泡排序.java)
+- [选择排序](src/com/algorithm/demo/sort/Q2_选择排序.java)
+- [插入排序](src/com/algorithm/demo/sort/Q3_插入排序.java)
+- [希尔排序](src/com/algorithm/demo/sort/Q4_希尔排序.java)
+- [快速排序](src/com/algorithm/demo/sort/Q5_快速排序.java)
+- [基数排序](src/com/algorithm/demo/sort/Q6_基数排序.java)
+- [计数排序](src/com/algorithm/demo/sort/Q7_计数排序.java)
+- [归并排序](src/com/algorithm/demo/sort/Q8_归并排序.java)
+- [堆排序](src/com/algorithm/demo/sort/Q9_堆排序.java)
+- [桶排序](src/com/algorithm/demo/sort/Q10_桶排序.java)
 
 ### 数学题
 - [反转一个三位整数](src/com/algorithm/demo/math/Q1_反转一个三位整数.java)
@@ -287,18 +317,16 @@
 ### 搜索
 - [二分查找](src/com/algorithm/demo/search/二分查找.java)
 
-### 十大排序
-- [冒泡排序](src/com/algorithm/demo/sort/Q1_冒泡排序.java)
-- [选择排序](src/com/algorithm/demo/sort/Q2_选择排序.java)
-- [插入排序](src/com/algorithm/demo/sort/Q3_插入排序.java)
-- [希尔排序](src/com/algorithm/demo/sort/Q4_希尔排序.java)
-- [快速排序](src/com/algorithm/demo/sort/Q5_快速排序.java)
-- [基数排序](src/com/algorithm/demo/sort/Q6_基数排序.java)
-- [计数排序](src/com/algorithm/demo/sort/Q7_计数排序.java)
-- [归并排序](src/com/algorithm/demo/sort/Q8_归并排序.java)
-- [堆排序](src/com/algorithm/demo/sort/Q9_堆排序.java)
-- [桶排序](src/com/algorithm/demo/sort/Q10_桶排序.java)
-
+### 解题思路
+- [位运算](src/com/algorithm/demo/总结/位运算.md)
+- [动态规划和贪婪算法](src/com/algorithm/demo/总结/动态规划和贪婪算法.md)
+- [链表](src/com/algorithm/demo/总结/链表.md)
+- [树](src/com/algorithm/demo/总结/树.md)
+- [广度优先遍历](src/com/algorithm/demo/总结/广度优先遍历.md)
+- [排序算法分类](src/com/algorithm/demo/总结/排序算法分类.md)
+- [交换变量值](src/com/algorithm/demo/总结/交换变量值.md)
+- [13道数据结构和算法题总结](src/com/algorithm/demo/总结/13道数据结构和算法题总结.md)
+- [总结](src/com/algorithm/demo/总结/总结.md)
 
 ### 线程
 - [顺序打印  A 1 B 2 C 3 ... Z 26](src/com/algorithm/demo/thread/A1B2C3.java)
@@ -326,7 +354,6 @@
 
 
 ### 大厂面试算法题
-
 - [随机从数组中取出不重复的元素(百度1面)](src/com/algorithm/demo/interview/数组随机打印不重复.java)
 - [如何根据年龄给100万用户数据排序(百度1面)](src/com/algorithm/demo/interview/给100万用户数据排序.java)
 - [x的n次幂(百度2面)](src/com/algorithm/demo/interview/x的n次幂.java)

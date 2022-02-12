@@ -1,36 +1,25 @@
 package com.algorithm.demo.tree;
 
 import java.util.ArrayList;
+import java.util.Deque;
 import java.util.LinkedList;
 import java.util.List;
 
 public class 二叉树的前序遍历 {
 
     public List<Integer> preorderTraversal(TreeNode root) {
-        List<Integer> list = new ArrayList<>();
-        if (root == null) {
-            return list;
-        }
-        LinkedList<TreeNode> stack = new LinkedList<>();
-        TreeNode pNode = root;
-        TreeNode prev = null;
-        while (pNode != null || !stack.isEmpty()) {
-            if(pNode != null) {
-                stack.push(pNode);
-                pNode = pNode.left;
-            } else {
-                pNode = stack.pop();
-                if (pNode.right == null || pNode.right == prev) {
-                    list.add(pNode.val);
-                    prev = pNode;
-                    pNode = null;
-                } else {
-                    stack.push(pNode);
-                    pNode = pNode.right;
-                }
+        List<Integer> ans = new ArrayList<>();
+        Deque<TreeNode> stack = new LinkedList<>();
+        while(root != null || !stack.isEmpty()){
+            while(root != null){
+                stack.push(root);
+                ans.add(root.val);
+                root = root.left;
             }
+            root = stack.pop();
+            root = root.right;
         }
-        return list;
+        return ans;
     }
 
 }

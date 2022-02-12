@@ -65,6 +65,12 @@ public class ExecutorsTest {
 
                 }
             });
+            ex.execute(new Runnable() {
+                @Override
+                public void run() {
+
+                }
+            });
         }
         Task task = new Task();
         Future future = ex.submit(task);
