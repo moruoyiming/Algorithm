@@ -7,7 +7,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * 三个线程 ，顺序打印ABC、ABC
  * 可重入锁实现方案
  */
-public class ABCABC {
+public class ABC_Condition {
     public static void main(String[] args) throws InterruptedException {
 
         ReentrantLock lock = new ReentrantLock();
