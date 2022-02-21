@@ -18,6 +18,7 @@ public class JoinTest {
             @Override
             public void run() {
                 try {
+                    System.out.println("t2 join before");
                     //引用t1线程，等待t1线程执行完
                     t1.join();
                 } catch (InterruptedException e) {
@@ -31,6 +32,7 @@ public class JoinTest {
             @Override
             public void run() {
                 try {
+                    System.out.println("t3 join before");
                     //引用t2线程，等待t2线程执行完
                     t2.join();
                 } catch (InterruptedException e) {
@@ -40,9 +42,10 @@ public class JoinTest {
             }
         });
 
+
+        t3.start();
         t1.start();
         t2.start();
-        t3.start();
     }
 }
 
