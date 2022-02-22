@@ -74,7 +74,7 @@
 - [两个数组的交集2](src/com/algorithm/demo/array/Q67_两个数组的交集2.java)
 - [丢失的数字](src/com/algorithm/demo/array/Q68_丢失的数字.java)
 - [第一个错误的版本](src/com/algorithm/demo/array/Q69_第一个错误的版本.java)
-
+- [找到所有数组中消失的数字](src/com/algorithm/demo/array/Q70_找到所有数组中消失的数字.java)
 
 ### 链表
 
@@ -124,6 +124,7 @@
 - [等价二叉树](src/com/algorithm/demo/tree/等价二叉树.java)
 - [二叉树的所有路径](src/com/algorithm/demo/tree/二叉树的所有路径.java)
 - [将二叉树拆成链表](src/com/algorithm/demo/tree/将二叉树拆成链表.java)
+- [左叶子之和](src/com/algorithm/demo/tree/左叶子之和.java)
 
 ### 栈
 - [小括号匹配](src/com/algorithm/demo/stack/小括号匹配.java)
@@ -316,6 +317,8 @@
 
 ### 搜索
 - [二分查找](src/com/algorithm/demo/search/二分查找.java)
+- [排列硬币](src/com/algorithm/demo/search/排列硬币.java)
+- [猜数字的大小](src/com/algorithm/demo/search/猜数字的大小.java)
 
 ### 解题思路
 - [位运算](src/com/algorithm/demo/总结/位运算.md)
