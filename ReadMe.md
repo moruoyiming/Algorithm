@@ -75,6 +75,8 @@
 - [丢失的数字](src/com/algorithm/demo/array/Q68_丢失的数字.java)
 - [第一个错误的版本](src/com/algorithm/demo/array/Q69_第一个错误的版本.java)
 - [找到所有数组中消失的数字](src/com/algorithm/demo/array/Q70_找到所有数组中消失的数字.java)
+- [最小操作次数使数组元素相等](src/com/algorithm/demo/array/Q71_最小操作次数使数组元素相等.java)
+- [分发饼干](src/com/algorithm/demo/array/Q72_分发饼干.java)
 
 ### 链表
 
