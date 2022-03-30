@@ -168,6 +168,8 @@
 - [赎金信](src/com/algorithm/demo/string/Q29_赎金信.java)
 - [判断子序列](src/com/algorithm/demo/string/Q30_判断子序列.java)
 - [字符串的单词数](src/com/algorithm/demo/string/Q31_字符串的单词数.java)
+- [重复的子字符串](src/com/algorithm/demo/string/Q32_重复的子字符串.java)
+- [字符串相加](src/com/algorithm/demo/string/Q33_字符串相加.java)
 
 ### 哈希表
 - [哈希函数](src/com/algorithm/demo/hash/哈希函数.java)
