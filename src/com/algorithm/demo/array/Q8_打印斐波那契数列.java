@@ -20,18 +20,4 @@ public class Q8_打印斐波那契数列 {
         }
     }
 
-    public static void what2(int n) {
-        int nums[] = new int[n];
-        for (int i = 0; i < n; i++) {
-            if(i == 0){
-                nums[i]= 0;
-            }else if( i <= 2){
-                nums[i] = 1;
-            }else{
-                nums[i] = nums[i - 1] + nums[n - 2];
-            }
-        }
-    }
-
-
 }

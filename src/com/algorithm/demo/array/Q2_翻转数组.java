@@ -39,36 +39,4 @@ public class Q2_翻转数组 {
         }
         PrintArray.printAfter(nums);
     }
-
-    public static void reverseArray2(int[] nums) {
-        if (nums == null || nums.length == 0) {
-            return;
-        }
-        int left = 0;
-        int right = nums.length - 1;
-        while (left < right) {
-            int temp = nums[left];
-            nums[left] = nums[right];
-            nums[right] = temp;
-            left++;
-            right--;
-        }
-    }
-
-    public static void reverseArray3(int[] nums) {
-        if (nums == null || nums.length == 0) {
-            return;
-        }
-        int left = 0;
-        int right = nums.length - 1;
-        while(left < right){
-            int temp = nums[left];
-            nums[left] = nums[right];
-            nums[right] = temp;
-            left++;
-            right--;
-        }
-    }
-
-
 }
