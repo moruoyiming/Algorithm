@@ -23,8 +23,24 @@ public class Q4_移动零 {
 
     public static void main(String[] args) {
         int[] what = {0, 1, 0, 3, 12};
-        moveZeroes(what);
+        moveZeroes2(what);
     }
+
+    public static void moveZeroes2(int[] nums){
+        int position = 0;
+        for(int i = 0; i < nums.length; i++){
+            if(nums[i] != 0){
+                nums[position] = nums[i];
+                if(position != i){
+                    nums[i] = 0;
+                }
+                position++;
+            }
+        }
+        PrintArray.print(nums);
+    }
+
+
 
     /**
      * @param nums: an integer array
