@@ -1,4 +1,4 @@
-# Java 版 LintCode刷题记录
+# Java 版 LeetCode刷题记录
 
 
 ## 算法
