@@ -42,14 +42,4 @@ public class Q10_交换数组两个元素 {
         PrintArray.print(A);
     }
 
-    public static void swapIntegers2(int[] A, int index1 , int index2){
-        if(A==null || A.length == 0){
-            return ;
-        }
-        int temp = A[index1];
-        A[index1] = A[index2];
-        A[index2] = temp;
-    }
-
-
 }
