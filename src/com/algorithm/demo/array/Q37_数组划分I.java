@@ -38,7 +38,6 @@ public class Q37_数组划分I {
      */
     public static int arrayPairSum(int[] nums) {
         // 将数组排序后，取出所有奇数位（下标为偶数）求和即可。
-        // Write your code here
         Arrays.sort(nums);
         int ans = 0;
         for (int i = 0; i < nums.length; i += 2) {

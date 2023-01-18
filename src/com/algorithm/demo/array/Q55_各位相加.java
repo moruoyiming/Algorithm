@@ -28,7 +28,6 @@ public class Q55_各位相加 {
      * @return: one digit
      */
     public static int addDigits(int num) {
-        // write your code here
         while (num >= 10) {
             int sum = 0;
             while (num > 0) {

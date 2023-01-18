@@ -32,7 +32,6 @@ public class Q61_两数之和_数据结构设计 {
      * @return: nothing
      */
     public void add(int number) {
-        // write your code here'
         if (map.containsKey(number)) {
             map.put(number, map.get(number) + 1);
         } else {
@@ -46,7 +45,6 @@ public class Q61_两数之和_数据结构设计 {
      * @return: Find if there exists any pair of numbers which sum is equal to the value.
      */
     public boolean find(int value) {
-        // write your code here
         for (int i = 0; i < list.size(); i++) {
             int num1 = list.get(i),num2 = value - num1;
             if((num1 == num2 && map.get(num1) > 1) ||

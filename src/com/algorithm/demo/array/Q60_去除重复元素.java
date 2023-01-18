@@ -30,7 +30,6 @@ public class Q60_去除重复元素 {
      * @return: the number of unique integers
      */
     public int deduplication(int[] nums) {
-        // write your code here
         Set<Integer> set = new HashSet<>();
         for (int i = 0; i < nums.length; ++i) {
             set.add(nums[i]);
