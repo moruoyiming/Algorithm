@@ -31,7 +31,6 @@ public class Q18_两数相乘 {
      * @return: the product list of l1 and l2
      */
     public static long multiplyLists(ListNode l1, ListNode l2) {
-        // write your code here
         ListNode p = new ListNode(0);
         p = l1;
         long num1 = 0;

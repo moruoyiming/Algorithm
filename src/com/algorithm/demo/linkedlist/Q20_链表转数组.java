@@ -24,7 +24,6 @@ public class Q20_链表转数组 {
      * @return: An integer list
      */
     public List<Integer> toArrayList(ListNode head) {
-        // write your code here
         List<Integer> result = new ArrayList<>();
         while (head != null) {
             result.add(head.val);

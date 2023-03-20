@@ -35,7 +35,6 @@ public class Q21_简化链表 {
      * @return: return the linked list after simplifiction.
      */
     public ListNode simplify(ListNode head) {
-        // write your code here
         ListNode last = head;
         int count = -1;
         while (last.next != null) {

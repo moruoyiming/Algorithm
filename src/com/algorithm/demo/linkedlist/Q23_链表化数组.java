@@ -25,7 +25,6 @@ public class Q23_链表化数组 {
      * @return: the first node of linked list
      */
     public ListNode toLinkedList(List<Integer> nums) {
-        // write your code here
         if (nums.size() == 0) {
             return null;
         }

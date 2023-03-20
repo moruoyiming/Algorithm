@@ -25,9 +25,7 @@ public class Q22_无序链表的重复项删除 {
      * @return: Head node.
      */
     public ListNode removeDuplicates(ListNode head) {
-        // write your code here
         HashSet<Integer> hash = new HashSet<>();
-
         ListNode dummy = new ListNode(0);
         dummy.next = head;
         head = dummy;
