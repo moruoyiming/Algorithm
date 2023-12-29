@@ -1,5 +1,7 @@
 package com.algorithm.demo.array;
 
+import com.algorithm.demo.PrintArray;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -32,6 +34,7 @@ public class Q16_恢复旋转排序数组 {
         nums.add(1);
         nums.add(2);
         nums.add(3);
+        PrintArray.printObject(nums);
         recoverRotatedSortedArray(nums);
     }
 
@@ -53,10 +56,7 @@ public class Q16_恢复旋转排序数组 {
                 nums.add(nums.get(j));// 将4,5追加到数组后 4,5,1,2,3,4,5
             }
             nums.subList(0, i).clear();// 清除4,5  剩余 1,2,3,4,5
-            for (int m = 0; m < nums.size(); m++) {
-                System.out.print(nums.get(m) + " ");
-            }
-
+            PrintArray.printObject(nums);
         }
 
     }
