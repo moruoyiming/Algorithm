@@ -34,7 +34,7 @@ public class Q20_奇偶分割数组 {
      * @return: nothing
      */
     public static void partitionArray(int[] nums) {
-        // write your code h是是是ere
+        // write your code here
         int left = 0;
         int right = nums.length - 1;
         while (left < right) {
