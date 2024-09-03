@@ -39,4 +39,5 @@ public class Q55_各位相加 {
         return num;
     }
 
+
 }

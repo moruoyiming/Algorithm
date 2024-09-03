@@ -26,7 +26,6 @@ public class Q53_接雨水 {
     public static int getS(int[] height) {
         int sum = 0;
         int[] a = new int[height.length];
-        int[] b = new int[height.length];
         int leftmax = 0;
         int rightmax = 0;
         for (int i = 0; i < height.length; i++) {

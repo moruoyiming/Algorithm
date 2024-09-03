@@ -36,7 +36,6 @@ public class Q58_水仙花数 {
                 result.add(i);
             return result;
         }
-
         if (n == 6) {
             result.add(548834);
             return result;
@@ -48,8 +47,7 @@ public class Q58_水仙花数 {
                 s += pow((j % 10), n);
                 j = j / 10;
             }
-            if (s == i)
-                result.add(i);
+            if (s == i) result.add(i);
         }
 
         return result;

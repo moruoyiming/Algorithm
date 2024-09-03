@@ -13,7 +13,7 @@ public class Q1_判断链表是否有环 {
         ListNode fast = head.next;
         ListNode slow = head;
         while (fast != slow) {
-            if(fast==null || fast.next==null)
+            if (fast == null || fast.next == null)
                 return false;
             fast = fast.next.next;
             slow = slow.next;

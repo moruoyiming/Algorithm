@@ -5,6 +5,7 @@ public class Q2_链表相交找出交点 {
      * @param headA: the first list
      * @param headB: the second list
      * @return: a ListNode
+     * 本
      */
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         if (headA == null || headB == null) {

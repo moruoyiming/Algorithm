@@ -52,7 +52,6 @@ public class Q5_删除排序链表中的重复元素 {
             } else {
                 node = node.next;
             }
-            System.out.println("sdfasdf="+node.val);
         }
         return head;
     }
