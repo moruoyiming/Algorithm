@@ -26,8 +26,8 @@ public class Q7_获取第n个斐波那契数 {
         if (n == 0 || n == 1)
             return 0;
         int[] array = new int[n];
-        array[0] = 0; // 第0个斐波那契数是0
-        array[1] = 1; // 第1个斐波那契数是1
+        array[0] = 0; // 第0个斐波那契数是 0
+        array[1] = 1; // 第1个斐波那契数是 1
         System.out.println(" " + array[0]);
         System.out.println(" " + array[1]);
         for (int i = 2; i < array.length; i++) {
